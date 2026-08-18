@@ -1,0 +1,1543 @@
+Incident_SK,Incident_ID,Date_Key,Operation_Key,Limit_Key,Vendor_Key,Downtime_Minutes,MTTR_Minutes,Impacted_Txns_Count,Financial_Loss_AUD,Is_Peak_Hour,Incident_Classification,Is_Invalid_Column,Data_Quality_Case
+1,INC-000001,20240826,3,3,4.0,47.2,54.6,3631,53452.25,True,Third-Party/Vendor Outage,False,successful
+2,INC-000002,20250728,2,2,6.0,39.5,41.6,3218,118933.71,True,Network/Telco Failure,False,successful
+3,INC-000003,20251027,10,10,,77.2,90.4,1581,32256.58,True,Internal Infrastructure Failure,True,missing_data
+4,INC-000004,20251219,4,4,5.0,36.8,41.6,2069,85994.69,False,Third-Party/Vendor Outage,False,successful
+5,INC-000005,20240813,3,3,3.0,22.4,49.3,1163,13247.27,False,Third-Party/Vendor Outage,False,successful
+6,INC-000006,20250826,1,1,6.0,4.7,2.4,217,3125.95,False,Software Deployment Bug,True,logging_error
+7,INC-000007,20240107,3,3,4.0,81.4,96.5,4110,45811.0,False,Network/Telco Failure,False,successful
+8,INC-000008,20251215,6,6,1.0,18.6,37.7,1055,41084.88,False,Internal Infrastructure Failure,False,successful
+9,INC-000009,20250308,1,1,7.0,16.4,18.4,2178,24595.69,True,Software Deployment Bug,False,successful
+10,INC-000010,20241011,3,3,4.0,0.0,8.6,0,0.0,False,Network/Telco Failure,True,false_alert
+11,INC-000011,20240808,3,3,,9.4,14.9,491,,False,Internal Infrastructure Failure,True,missing_data
+12,INC-000012,20241210,5,5,8.0,17.8,51.8,2120,82337.62,True,Third-Party/Vendor Outage,False,successful
+13,INC-000013,20240404,6,6,3.0,6.6,4.0,442,17840.31,False,Third-Party/Vendor Outage,True,logging_error
+14,INC-000014,20240409,2,2,1.0,19.0,33.5,1300,40747.29,False,Internal Infrastructure Failure,False,successful
+15,INC-000015,20250102,6,6,,21.0,38.1,1092,44284.33,False,Internal Infrastructure Failure,True,missing_data
+16,INC-000016,20241218,3,3,5.0,28.2,34.6,1886,24588.78,False,Software Deployment Bug,False,successful
+17,INC-000017,20240214,6,6,2.0,5.2,8.9,264,11117.35,False,Third-Party/Vendor Outage,False,successful
+18,INC-000018,20250703,8,8,7.0,0.0,8.5,0,0.0,False,Third-Party/Vendor Outage,True,false_alert
+19,INC-000019,20250122,10,10,1.0,15.3,895.0,528,12393.24,True,Internal Infrastructure Failure,True,extended_mttr_outlier
+20,INC-000020,20240321,3,3,6.0,4.6,6.5,252,,False,Software Deployment Bug,True,missing_data
+21,INC-000021,20251005,3,3,5.0,15.0,17.4,674,6947.63,False,Software Deployment Bug,False,successful
+22,INC-000022,20250814,2,2,2.0,22.0,22.3,1353,43966.62,False,Network/Telco Failure,False,successful
+23,INC-000023,20251222,1,1,7.0,76.9,81.8,3767,46099.45,False,Third-Party/Vendor Outage,False,successful
+24,INC-000024,20240216,2,2,3.0,39.3,53.8,2635,89626.04,False,Network/Telco Failure,False,successful
+25,INC-000025,20241023,2,2,8.0,26.5,31.1,1158,42103.2,False,Third-Party/Vendor Outage,False,successful
+26,INC-000026,20240826,1,1,7.0,17.1,0.0,778,9763.6,False,Third-Party/Vendor Outage,False,self_resolved
+27,INC-000027,20250124,2,2,3.0,24.6,30.2,2909,88500.07,True,Software Deployment Bug,False,successful
+28,INC-000028,20250409,5,5,6.0,20.4,43.1,1562,63940.06,False,Software Deployment Bug,False,successful
+29,INC-000029,20240615,1,1,4.0,13.7,0.0,1640,18720.18,True,Software Deployment Bug,False,self_resolved
+30,INC-000030,20241229,4,4,4.0,-10.3,11.9,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+31,INC-000031,20251117,4,4,8.0,5.4,4.5,325,12984.59,False,Software Deployment Bug,True,logging_error
+32,INC-000032,20251219,8,8,,27.8,33.1,312,,False,Internal Infrastructure Failure,True,missing_data
+33,INC-000033,20251130,5,5,6.0,18.0,18.5,1042,42553.74,False,Third-Party/Vendor Outage,False,successful
+34,INC-000034,20250915,1,1,5.0,8.5,12.5,401,5014.71,False,Network/Telco Failure,False,successful
+35,INC-000035,20250630,5,5,2.0,13.4,4.7,937,33904.26,False,Network/Telco Failure,True,logging_error
+36,INC-000036,20240616,8,8,4.0,35.1,27.9,603,13668.25,False,Third-Party/Vendor Outage,True,logging_error
+37,INC-000037,20250123,3,3,3.0,20.9,24.0,910,13568.58,False,Software Deployment Bug,True,duplicate_source
+38,INC-000037,20250123,3,3,3.0,20.9,23.0,910,13568.58,False,Software Deployment Bug,True,duplicate_source
+39,INC-000038,20251017,6,6,4.0,13.7,0.0,938,38816.98,False,Network/Telco Failure,False,self_resolved
+40,INC-000039,20251202,1,1,1.0,8.7,11.2,446,5389.43,False,Internal Infrastructure Failure,False,successful
+41,INC-000040,20241128,3,3,2.0,0.0,0.0,264,3064.4,False,Third-Party/Vendor Outage,True,ghost_impact
+42,INC-000041,20240822,8,8,4.0,14.0,11.2,218,3821.65,False,Third-Party/Vendor Outage,True,logging_error
+43,INC-000042,20241119,1,1,2.0,22.4,1067.9,1551,18173.63,False,Third-Party/Vendor Outage,True,extended_mttr_outlier
+44,INC-000043,20241001,2,2,7.0,12.8,13.8,777,30515.73,False,Third-Party/Vendor Outage,False,successful
+45,INC-000044,20240804,7,7,8.0,36.8,45.0,653,16285.94,False,Software Deployment Bug,False,successful
+46,INC-000045,20240805,10,10,1.0,36.7,40.7,1063,25763.23,True,Internal Infrastructure Failure,False,successful
+47,INC-000046,20251102,2,2,3.0,8.2,15.1,503,17567.04,False,Third-Party/Vendor Outage,False,successful
+48,INC-000047,20250209,3,3,2.0,7.7,8.0,400,4312.44,False,Third-Party/Vendor Outage,False,successful
+49,INC-000048,20240526,1,1,7.0,52.5,72.8,2320,27200.95,False,Software Deployment Bug,False,successful
+50,INC-000049,20240522,6,6,1.0,3.8,1.7,257,10522.56,False,Internal Infrastructure Failure,True,logging_error
+51,INC-000050,20240909,4,4,1.0,3.4,6.5,329,9890.32,True,Internal Infrastructure Failure,False,successful
+52,INC-000051,20250728,5,5,6.0,20.9,0.0,1319,47866.7,False,Software Deployment Bug,False,self_resolved
+53,INC-000052,20250821,3,3,,3.2,5.2,343,3549.97,True,Internal Infrastructure Failure,True,missing_data
+54,INC-000053,20250314,1,1,4.0,3104.1,21.9,239333,2964028.26,False,Data/Logging Anomaly,True,outlier_downtime
+55,INC-000054,20250105,7,7,4.0,30.3,32.1,832,18942.96,True,Network/Telco Failure,True,missing_data
+56,INC-000055,20240521,4,4,8.0,4.4,41.2,563,17912.04,True,Third-Party/Vendor Outage,False,successful
+57,INC-000056,20240403,6,6,4.0,14.6,12.6,1134,35364.03,False,Third-Party/Vendor Outage,True,logging_error
+58,INC-000057,20240422,9,9,2.0,41.4,17.1,522,8159.79,False,Network/Telco Failure,True,logging_error
+59,INC-000058,20251004,3,3,5.0,8.8,27.2,541,7816.86,False,Network/Telco Failure,False,successful
+60,INC-000059,20251127,1,1,5.0,52.4,64.8,2788,31850.75,False,Third-Party/Vendor Outage,False,successful
+61,INC-000060,20250902,1,1,4.0,13.5,18.4,1460,18165.99,True,Third-Party/Vendor Outage,False,successful
+62,INC-000061,20250129,3,3,4.0,0.0,0.0,129,1500.69,False,Third-Party/Vendor Outage,True,ghost_impact
+63,INC-000062,20250902,5,5,7.0,5.4,25.5,231,8759.64,False,Third-Party/Vendor Outage,False,successful
+64,INC-000063,20250625,3,3,7.0,8.9,10.3,642,7389.54,False,Software Deployment Bug,False,successful
+65,INC-000064,20250720,2,2,4.0,5.7,10.0,428,14928.49,False,Third-Party/Vendor Outage,False,successful
+66,INC-000065,20251127,9,9,1.0,14.9,34.6,369,5029.76,True,Internal Infrastructure Failure,False,successful
+67,INC-000066,20240427,1,1,3.0,129.9,135.5,5769,78779.87,False,Software Deployment Bug,False,successful
+68,INC-000067,20251018,8,8,3.0,10.7,20.7,163,3594.12,False,Software Deployment Bug,False,successful
+69,INC-000068,20240424,4,4,2.0,9.9,18.2,424,13124.62,False,Software Deployment Bug,False,successful
+70,INC-000069,20250321,5,5,4.0,7.3,5.0,664,19670.29,True,Network/Telco Failure,True,logging_error
+71,INC-000070,20250409,6,6,7.0,39.2,39.4,3424,124821.68,True,Third-Party/Vendor Outage,False,successful
+72,INC-000071,20240926,8,8,1.0,42.1,45.5,735,15430.79,False,Internal Infrastructure Failure,False,successful
+73,INC-000072,20250527,2,2,5.0,7.4,12.7,508,19379.66,False,Network/Telco Failure,False,successful
+74,INC-000073,20250603,2,2,7.0,3.4,23.1,384,12323.43,True,Third-Party/Vendor Outage,False,successful
+75,INC-000074,20251002,5,5,7.0,0.0,9.8,0,0.0,False,Software Deployment Bug,True,false_alert
+76,INC-000075,20251016,4,4,3.0,35.4,36.0,3679,151336.0,True,Network/Telco Failure,False,successful
+77,INC-000076,20240605,5,5,3.0,22.9,23.3,2616,86274.2,True,Software Deployment Bug,False,successful
+78,INC-000077,20240614,1,1,4.0,40.6,53.5,2102,27109.78,False,Third-Party/Vendor Outage,False,successful
+79,INC-000078,20250905,1,1,4.0,72.8,84.2,5046,68231.72,False,Software Deployment Bug,False,successful
+80,INC-000079,20250515,10,10,6.0,22.5,81.3,348,7398.9,False,Third-Party/Vendor Outage,False,successful
+81,INC-000080,20240424,1,1,5.0,0.0,6.1,0,0.0,False,Software Deployment Bug,True,false_alert
+82,INC-000081,20241110,2,2,8.0,21.7,34.7,1428,55342.9,False,Network/Telco Failure,False,successful
+83,INC-000082,20240229,4,4,1.0,20.2,20.6,1643,47414.09,True,Internal Infrastructure Failure,False,successful
+84,INC-000083,20240903,5,5,8.0,9.0,0.0,413,13814.05,False,Third-Party/Vendor Outage,False,self_resolved
+85,INC-000084,20240328,3,3,3.0,28.0,30.0,1968,20449.72,False,Third-Party/Vendor Outage,False,successful
+86,INC-000085,20240311,8,8,4.0,65.9,74.3,1052,22515.32,False,Network/Telco Failure,False,successful
+87,INC-000086,20240511,2,2,4.0,50.4,71.4,4378,,True,Third-Party/Vendor Outage,True,missing_data
+88,INC-000087,20250716,6,6,5.0,52.6,68.3,2949,95257.23,False,Network/Telco Failure,False,successful
+89,INC-000088,20240928,1,1,6.0,9.4,9.4,411,5363.42,False,Third-Party/Vendor Outage,False,successful
+90,INC-000089,20240804,1,1,3.0,21.6,967.6,1330,19007.23,False,Network/Telco Failure,True,extended_mttr_outlier
+91,INC-000090,20251231,4,4,2.0,28.1,0.0,1805,70094.07,False,Software Deployment Bug,False,self_resolved
+92,INC-000091,20250212,8,8,4.0,40.5,54.8,610,10689.29,False,Software Deployment Bug,False,successful
+93,INC-000092,20250324,5,5,5.0,3.4,7.9,343,10581.01,True,Third-Party/Vendor Outage,False,successful
+94,INC-000093,20240503,6,6,5.0,52.4,81.4,7251,280084.57,True,Network/Telco Failure,False,successful
+95,INC-000094,20240818,6,6,4.0,3.0,4.4,227,6789.84,False,Third-Party/Vendor Outage,False,successful
+96,INC-000095,20241212,4,4,6.0,10.0,0.0,762,23205.57,False,Third-Party/Vendor Outage,False,self_resolved
+97,INC-000096,20250825,9,9,7.0,11.5,21.8,197,2502.74,False,Network/Telco Failure,False,successful
+98,INC-000097,20250825,6,6,5.0,35.4,28.6,2456,90947.11,False,Network/Telco Failure,True,logging_error
+99,INC-000098,20240108,1,1,5.0,23.6,25.9,2129,22820.3,True,Third-Party/Vendor Outage,False,successful
+100,INC-000099,20251225,3,3,7.0,83.9,94.1,5810,85506.11,False,Third-Party/Vendor Outage,False,successful
+101,INC-000100,20240822,6,6,5.0,8.2,11.6,1120,32728.01,True,Third-Party/Vendor Outage,False,successful
+102,INC-000101,20240202,8,8,3.0,28.7,41.6,635,11516.34,True,Software Deployment Bug,False,successful
+103,INC-000102,20240313,5,5,4.0,63.2,86.8,4436,163945.02,False,Network/Telco Failure,False,successful
+104,INC-000103,20241012,5,5,3.0,39.9,41.3,2928,92541.95,False,Third-Party/Vendor Outage,False,successful
+105,INC-000104,20240807,3,3,1.0,126.4,155.8,6216,82093.58,False,Internal Infrastructure Failure,False,successful
+106,INC-000105,20250706,1,1,6.0,0.0,0.0,318,3823.4,False,Network/Telco Failure,True,ghost_impact
+107,INC-000106,20250807,4,4,3.0,10.1,17.3,500,18671.74,False,Third-Party/Vendor Outage,False,successful
+108,INC-000107,20240905,6,6,1.0,43.1,50.3,2709,101731.72,False,Internal Infrastructure Failure,False,successful
+109,INC-000108,20250429,5,5,5.0,6.1,5.4,640,20137.72,True,Third-Party/Vendor Outage,True,logging_error
+110,INC-000109,20240713,2,2,7.0,68.3,70.6,3801,140284.73,False,Third-Party/Vendor Outage,False,successful
+111,INC-000110,20240409,4,4,7.0,9.9,10.4,1349,38693.76,True,Third-Party/Vendor Outage,False,successful
+112,INC-000111,20241228,4,4,4.0,26.5,55.4,1666,53320.68,False,Third-Party/Vendor Outage,False,successful
+113,INC-000112,20250224,3,3,1.0,7.6,18.1,383,5610.33,False,Internal Infrastructure Failure,False,successful
+114,INC-000113,20250423,5,5,1.0,0.0,2.4,0,0.0,False,Internal Infrastructure Failure,True,false_alert
+115,INC-000114,20240225,2,2,4.0,4.1,34.3,232,9465.9,False,Third-Party/Vendor Outage,True,duplicate_source
+116,INC-000114,20240225,2,2,4.0,4.1,34.6,232,9465.9,False,Third-Party/Vendor Outage,True,duplicate_source
+117,INC-000115,20240303,6,6,1.0,0.0,13.3,0,0.0,False,Internal Infrastructure Failure,True,false_alert
+118,INC-000116,20250216,3,3,6.0,15.9,16.0,764,10231.19,False,Software Deployment Bug,False,successful
+119,INC-000117,20240421,4,4,3.0,19.5,21.8,1972,71040.83,True,Network/Telco Failure,False,successful
+120,INC-000118,20240715,6,6,2.0,60.6,61.1,3312,99083.78,False,Network/Telco Failure,False,successful
+121,INC-000119,20250703,2,2,1.0,30.7,33.2,2563,79247.26,True,Internal Infrastructure Failure,False,successful
+122,INC-000120,20250404,2,2,4.0,32.7,56.9,2081,83347.59,False,Network/Telco Failure,False,successful
+123,INC-000121,20250308,2,2,3.0,8.9,21.0,637,21896.93,False,Network/Telco Failure,False,successful
+124,INC-000122,20241012,1,1,5.0,0.0,3.2,0,0.0,False,Third-Party/Vendor Outage,True,false_alert
+125,INC-000123,20240912,5,5,3.0,23.0,32.0,2403,92012.29,True,Third-Party/Vendor Outage,False,successful
+126,INC-000124,20250329,3,3,1.0,5.0,23.0,482,5270.97,True,Internal Infrastructure Failure,False,successful
+127,INC-000125,20250717,1,1,5.0,2706.3,29.3,146107,1980002.99,False,Data/Logging Anomaly,True,outlier_downtime
+128,INC-000126,20240221,5,5,,25.2,36.4,2573,,True,Internal Infrastructure Failure,True,missing_data
+129,INC-000127,20251029,7,7,5.0,3.4,14.1,106,2010.7,True,Third-Party/Vendor Outage,True,duplicate_source
+130,INC-000127,20251029,7,7,5.0,3.4,12.5,106,2010.7,True,Third-Party/Vendor Outage,True,duplicate_source
+131,INC-000128,20240405,2,2,6.0,10.9,13.3,492,20544.18,False,Network/Telco Failure,False,successful
+132,INC-000129,20240619,3,3,1.0,109.7,125.0,8282,88020.54,False,Internal Infrastructure Failure,False,successful
+133,INC-000130,20250220,3,3,1.0,3.5,4.8,267,3431.72,False,Internal Infrastructure Failure,False,successful
+134,INC-000131,20250512,5,5,8.0,7.2,4.3,405,12344.1,False,Third-Party/Vendor Outage,True,logging_error
+135,INC-000132,20240806,1,1,8.0,5.5,13.7,353,4593.9,False,Third-Party/Vendor Outage,False,successful
+136,INC-000133,20240301,1,1,8.0,10.8,15.3,482,6671.7,False,Network/Telco Failure,False,successful
+137,INC-000134,20250123,2,2,6.0,11.0,18.8,630,19201.68,False,Third-Party/Vendor Outage,False,successful
+138,INC-000135,20250203,4,4,6.0,3.2,1.8,189,5411.57,False,Software Deployment Bug,True,logging_error
+139,INC-000136,20250410,6,6,3.0,38.6,64.3,4138,123329.02,True,Software Deployment Bug,True,duplicate_source
+140,INC-000136,20250410,6,6,3.0,38.6,64.1,4138,123329.02,True,Software Deployment Bug,True,duplicate_source
+141,INC-000137,20250309,7,7,1.0,46.2,50.2,882,15862.45,False,Internal Infrastructure Failure,False,successful
+142,INC-000138,20251214,5,5,6.0,54.0,59.0,3549,145516.32,False,Third-Party/Vendor Outage,False,successful
+143,INC-000139,20240607,5,5,2.0,36.4,36.5,2782,107487.93,False,Network/Telco Failure,False,successful
+144,INC-000140,20241030,3,3,2.0,42.1,42.7,1893,24426.78,False,Network/Telco Failure,False,successful
+145,INC-000141,20240229,6,6,4.0,35.8,44.1,2803,117741.29,True,Third-Party/Vendor Outage,False,successful
+146,INC-000142,20241117,3,3,4.0,6.0,0.0,325,4691.5,False,Third-Party/Vendor Outage,False,self_resolved
+147,INC-000143,20240221,3,3,7.0,27.8,1037.6,2124,31391.93,True,Third-Party/Vendor Outage,True,extended_mttr_outlier
+148,INC-000144,20250529,3,3,6.0,43.6,54.0,2861,31150.27,False,Network/Telco Failure,False,successful
+149,INC-000145,20240228,10,10,3.0,76.8,82.2,910,18998.31,False,Third-Party/Vendor Outage,False,successful
+150,INC-000146,20240709,6,6,4.0,34.5,0.0,1647,57284.14,False,Third-Party/Vendor Outage,False,self_resolved
+151,INC-000147,20250901,2,2,6.0,11.2,0.0,769,30647.76,False,Third-Party/Vendor Outage,False,self_resolved
+152,INC-000148,20251122,6,6,6.0,33.1,34.9,1828,60170.54,False,Network/Telco Failure,False,successful
+153,INC-000149,20250217,3,3,6.0,8.4,3.2,553,5477.25,False,Third-Party/Vendor Outage,True,logging_error
+154,INC-000150,20250806,1,1,2.0,31.3,32.2,2106,21601.65,False,Network/Telco Failure,False,successful
+155,INC-000151,20250815,5,5,2.0,12.0,24.3,1520,53879.55,True,Third-Party/Vendor Outage,False,successful
+156,INC-000152,20250926,2,2,5.0,32.1,15.4,1548,58040.73,False,Third-Party/Vendor Outage,True,logging_error
+157,INC-000153,20250305,2,2,2.0,21.3,52.5,1431,52435.92,False,Software Deployment Bug,False,successful
+158,INC-000154,20240924,6,6,4.0,0.0,4.4,0,0.0,False,Network/Telco Failure,True,false_alert
+159,INC-000155,20251116,1,1,5.0,23.7,24.9,1555,22464.53,False,Software Deployment Bug,False,successful
+160,INC-000156,20240901,1,1,1.0,15.3,30.2,728,10217.12,False,Internal Infrastructure Failure,False,successful
+161,INC-000157,20240928,5,5,6.0,407.3,30.0,45576,1880522.3,True,Data/Logging Anomaly,True,outlier_downtime
+162,INC-000158,20240514,4,4,3.0,7.7,0.0,750,24539.14,True,Software Deployment Bug,False,self_resolved
+163,INC-000159,20250413,10,10,4.0,20.3,0.0,706,13089.93,True,Software Deployment Bug,False,self_resolved
+164,INC-000160,20240315,4,4,5.0,7.0,30.3,462,16103.19,False,Third-Party/Vendor Outage,False,successful
+165,INC-000161,20250414,5,5,5.0,7.9,3.6,681,22484.23,True,Third-Party/Vendor Outage,True,logging_error
+166,INC-000162,20240316,4,4,3.0,33.6,40.1,1525,50778.45,False,Network/Telco Failure,False,successful
+167,INC-000163,20250602,3,3,,8.0,13.9,564,7411.92,False,Internal Infrastructure Failure,True,missing_data
+168,INC-000164,20240928,3,3,1.0,12.9,31.1,1399,17651.11,True,Internal Infrastructure Failure,False,successful
+169,INC-000165,20240515,3,3,1.0,0.0,11.6,0,0.0,False,Internal Infrastructure Failure,True,false_alert
+170,INC-000166,20241223,1,1,1.0,3.3,9.9,224,3163.66,False,Internal Infrastructure Failure,False,successful
+171,INC-000167,20240311,6,6,6.0,100.4,84.4,11829,385366.7,True,Network/Telco Failure,True,logging_error
+172,INC-000168,20250113,7,7,3.0,9.0,10.2,122,2695.03,False,Software Deployment Bug,False,successful
+173,INC-000169,20240610,5,5,7.0,6.0,0.0,398,13148.43,False,Third-Party/Vendor Outage,False,self_resolved
+174,INC-000170,20250710,1,1,3.0,12.2,28.3,1207,12399.86,True,Software Deployment Bug,False,successful
+175,INC-000171,20250918,3,3,2.0,9.6,0.0,716,9457.28,False,Third-Party/Vendor Outage,False,self_resolved
+176,INC-000172,20251114,1,1,3.0,-17.3,17.4,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+177,INC-000173,20251110,1,1,4.0,75.4,85.8,5418,62110.29,False,Third-Party/Vendor Outage,False,successful
+178,INC-000174,20240517,1,1,3.0,39.5,50.0,4518,46230.16,True,Software Deployment Bug,False,successful
+179,INC-000175,20240428,8,8,2.0,37.8,38.1,1071,27040.54,True,Third-Party/Vendor Outage,False,successful
+180,INC-000176,20250720,4,4,2.0,27.3,1428.3,3618,131028.07,True,Network/Telco Failure,True,extended_mttr_outlier
+181,INC-000177,20241005,4,4,5.0,25.0,32.2,1263,44863.76,False,Software Deployment Bug,False,successful
+182,INC-000178,20250911,3,3,7.0,25.1,25.7,1381,16794.81,False,Network/Telco Failure,False,successful
+183,INC-000179,20241217,2,2,7.0,16.1,21.2,987,39699.87,False,Network/Telco Failure,False,successful
+184,INC-000180,20251204,7,7,5.0,10.6,32.1,149,2810.34,False,Software Deployment Bug,False,successful
+185,INC-000181,20250601,1,1,6.0,10.1,14.1,573,8328.89,False,Third-Party/Vendor Outage,False,successful
+186,INC-000182,20240914,5,5,4.0,4.2,0.0,387,11284.9,True,Third-Party/Vendor Outage,False,self_resolved
+187,INC-000183,20240404,6,6,7.0,42.1,64.8,5006,188744.33,True,Third-Party/Vendor Outage,False,successful
+188,INC-000184,20241010,5,5,4.0,25.3,36.1,3271,137880.07,True,Third-Party/Vendor Outage,False,successful
+189,INC-000185,20240104,6,6,2.0,21.0,24.4,2475,99278.75,True,Software Deployment Bug,False,successful
+190,INC-000186,20240513,4,4,6.0,41.0,33.4,3074,105561.72,False,Software Deployment Bug,True,logging_error
+191,INC-000187,20240614,5,5,7.0,15.4,16.6,838,25516.92,False,Third-Party/Vendor Outage,False,successful
+192,INC-000188,20250718,5,5,8.0,0.0,0.0,253,9066.42,True,Third-Party/Vendor Outage,True,ghost_impact
+193,INC-000189,20250728,2,2,8.0,3.7,7.6,158,6194.66,False,Third-Party/Vendor Outage,False,successful
+194,INC-000190,20240424,3,3,4.0,41.6,74.7,3186,37566.8,False,Third-Party/Vendor Outage,False,successful
+195,INC-000191,20251208,3,3,3.0,43.1,46.6,5238,55932.58,True,Network/Telco Failure,False,successful
+196,INC-000192,20250712,5,5,8.0,6.6,20.2,326,12919.03,False,Third-Party/Vendor Outage,True,duplicate_source
+197,INC-000192,20250712,5,5,8.0,6.6,19.4,326,12919.03,False,Third-Party/Vendor Outage,True,duplicate_source
+198,INC-000193,20250113,3,3,4.0,20.2,22.3,2717,36073.46,True,Network/Telco Failure,False,successful
+199,INC-000194,20250316,8,8,7.0,0.0,3.9,0,0.0,True,Network/Telco Failure,True,false_alert
+200,INC-000195,20240212,7,7,5.0,23.5,43.6,323,7921.24,False,Software Deployment Bug,False,successful
+201,INC-000196,20250108,4,4,2.0,25.5,28.3,2443,77563.47,True,Third-Party/Vendor Outage,False,successful
+202,INC-000197,20250101,10,10,4.0,10.8,14.4,191,3700.84,False,Network/Telco Failure,False,successful
+203,INC-000198,20251129,10,10,6.0,4.0,7.3,116,1980.63,True,Network/Telco Failure,False,successful
+204,INC-000199,20251113,9,9,5.0,4.8,9.0,122,1323.71,True,Third-Party/Vendor Outage,False,successful
+205,INC-000200,20241228,1,1,6.0,4.8,10.4,323,3259.42,False,Third-Party/Vendor Outage,False,successful
+206,INC-000201,20250927,3,3,1.0,9.8,10.0,1275,15800.48,True,Internal Infrastructure Failure,False,successful
+207,INC-000202,20240607,1,1,6.0,16.1,23.2,717,9571.37,False,Network/Telco Failure,False,successful
+208,INC-000203,20240615,6,6,2.0,6.8,23.9,462,14862.78,False,Network/Telco Failure,False,successful
+209,INC-000204,20250226,1,1,8.0,16.8,20.1,755,11220.76,False,Third-Party/Vendor Outage,False,successful
+210,INC-000205,20240702,1,1,7.0,13.4,35.4,618,6448.4,False,Software Deployment Bug,False,successful
+211,INC-000206,20250225,9,9,6.0,6.1,15.1,208,2429.34,True,Network/Telco Failure,False,successful
+212,INC-000207,20240930,5,5,6.0,5.6,13.7,235,9516.01,False,Network/Telco Failure,False,successful
+213,INC-000208,20251219,5,5,3.0,38.0,0.0,2627,75822.75,False,Third-Party/Vendor Outage,False,self_resolved
+214,INC-000209,20250126,9,9,6.0,51.6,54.3,712,7951.59,False,Third-Party/Vendor Outage,False,successful
+215,INC-000210,20250426,4,4,8.0,0.0,0.0,60,2298.41,False,Network/Telco Failure,True,ghost_impact
+216,INC-000211,20240723,8,8,7.0,16.4,7.5,204,4076.06,False,Third-Party/Vendor Outage,True,logging_error
+217,INC-000212,20241224,5,5,7.0,12.2,22.9,794,28931.61,False,Software Deployment Bug,False,successful
+218,INC-000213,20240821,5,5,6.0,16.5,8.9,872,25559.65,False,Network/Telco Failure,True,logging_error
+219,INC-000214,20240125,2,2,1.0,107.4,67.3,8233,241831.24,False,Internal Infrastructure Failure,True,logging_error
+220,INC-000215,20251106,2,2,3.0,91.0,97.0,7845,293468.23,True,Network/Telco Failure,False,successful
+221,INC-000216,20250212,9,9,2.0,61.7,0.0,924,10885.85,False,Software Deployment Bug,False,self_resolved
+222,INC-000217,20241012,4,4,7.0,39.2,44.1,4062,116982.94,True,Third-Party/Vendor Outage,False,successful
+223,INC-000218,20241012,4,4,6.0,13.9,22.5,902,31897.54,False,Software Deployment Bug,False,successful
+224,INC-000219,20251018,9,9,5.0,24.4,56.2,297,4900.94,False,Third-Party/Vendor Outage,False,successful
+225,INC-000220,20251126,9,9,1.0,30.9,33.2,904,12160.1,True,Internal Infrastructure Failure,False,successful
+226,INC-000221,20250703,5,5,3.0,51.2,52.8,3099,122932.73,False,Software Deployment Bug,False,successful
+227,INC-000222,20240129,2,2,6.0,35.2,38.9,3556,138454.54,True,Third-Party/Vendor Outage,False,successful
+228,INC-000223,20240924,9,9,8.0,14.8,29.8,275,4380.63,False,Network/Telco Failure,False,successful
+229,INC-000224,20250817,1,1,7.0,0.0,14.4,0,0.0,True,Software Deployment Bug,True,false_alert
+230,INC-000225,20240209,4,4,8.0,0.0,0.0,338,13670.22,False,Third-Party/Vendor Outage,True,ghost_impact
+231,INC-000226,20250902,2,2,5.0,18.6,22.8,2413,,True,Third-Party/Vendor Outage,True,missing_data
+232,INC-000227,20241219,6,6,6.0,15.2,15.5,1057,29982.47,False,Software Deployment Bug,False,successful
+233,INC-000228,20250322,4,4,4.0,77.9,0.0,7021,264374.9,True,Third-Party/Vendor Outage,False,self_resolved
+234,INC-000229,20250129,7,7,6.0,54.1,67.2,1885,42877.36,True,Network/Telco Failure,False,successful
+235,INC-000230,20240917,5,5,8.0,69.9,70.2,4449,145340.49,False,Third-Party/Vendor Outage,False,successful
+236,INC-000231,20251226,6,6,2.0,7.4,8.2,343,10473.19,False,Third-Party/Vendor Outage,False,successful
+237,INC-000232,20240102,3,3,7.0,45.7,55.4,5607,70722.15,True,Network/Telco Failure,True,duplicate_source
+238,INC-000232,20240102,3,3,7.0,45.7,55.4,5607,70722.15,True,Network/Telco Failure,True,duplicate_source
+239,INC-000233,20250107,3,3,5.0,29.8,57.9,1503,20569.78,False,Third-Party/Vendor Outage,False,successful
+240,INC-000234,20240312,5,5,4.0,38.4,44.8,1794,72691.75,False,Software Deployment Bug,False,successful
+241,INC-000235,20250930,3,3,5.0,21.7,0.0,2811,39543.35,True,Software Deployment Bug,False,self_resolved
+242,INC-000236,20251110,5,5,5.0,63.1,67.6,7246,229465.87,True,Third-Party/Vendor Outage,False,successful
+243,INC-000237,20241103,1,1,8.0,25.6,34.5,1258,,False,Software Deployment Bug,True,missing_data
+244,INC-000238,20251113,6,6,7.0,19.1,20.7,880,30251.2,False,Third-Party/Vendor Outage,False,successful
+245,INC-000239,20241130,6,6,2.0,32.6,40.6,2178,66347.29,False,Third-Party/Vendor Outage,False,successful
+246,INC-000240,20251214,2,2,8.0,26.0,0.0,1342,38877.16,False,Software Deployment Bug,False,self_resolved
+247,INC-000241,20250721,2,2,5.0,5.7,10.5,509,21030.17,True,Network/Telco Failure,False,successful
+248,INC-000242,20240715,6,6,,20.2,42.7,1376,53183.37,False,Internal Infrastructure Failure,True,missing_data
+249,INC-000243,20250306,5,5,5.0,9.6,14.2,406,15009.65,False,Third-Party/Vendor Outage,False,successful
+250,INC-000244,20251124,5,5,7.0,56.3,56.5,2396,71802.73,False,Network/Telco Failure,False,successful
+251,INC-000245,20250922,3,3,4.0,43.1,56.2,5863,63232.3,True,Software Deployment Bug,True,missing_data
+252,INC-000246,20250219,6,6,5.0,20.0,22.5,1484,56092.13,False,Third-Party/Vendor Outage,False,successful
+253,INC-000247,20241107,4,4,1.0,6.4,18.7,384,15164.5,False,Internal Infrastructure Failure,False,successful
+254,INC-000248,20241020,2,2,4.0,26.4,28.8,1261,37070.99,False,Network/Telco Failure,False,successful
+255,INC-000249,20250316,5,5,1.0,9.3,15.1,918,30583.04,True,Internal Infrastructure Failure,False,successful
+256,INC-000250,20250816,6,6,,49.0,49.9,3034,94973.58,False,Internal Infrastructure Failure,True,missing_data
+257,INC-000251,20250913,5,5,7.0,7.3,0.0,880,27599.6,True,Software Deployment Bug,False,self_resolved
+258,INC-000252,20250421,2,2,1.0,3.4,4.8,310,10277.49,True,Internal Infrastructure Failure,False,successful
+259,INC-000253,20250328,2,2,6.0,12.0,23.1,1674,56997.91,True,Third-Party/Vendor Outage,False,successful
+260,INC-000254,20251122,8,8,4.0,0.0,8.9,0,0.0,False,Network/Telco Failure,True,false_alert
+261,INC-000255,20250607,3,3,3.0,69.5,53.2,4448,63216.95,False,Third-Party/Vendor Outage,True,logging_error
+262,INC-000256,20240622,3,3,6.0,42.8,56.6,2545,29996.57,False,Third-Party/Vendor Outage,False,successful
+263,INC-000257,20241017,4,4,6.0,26.0,26.1,2315,66882.27,True,Software Deployment Bug,False,successful
+264,INC-000258,20240405,2,2,2.0,102.7,104.8,4471,154849.38,False,Network/Telco Failure,False,successful
+265,INC-000259,20251119,6,6,1.0,13.5,707.6,1757,58792.78,True,Internal Infrastructure Failure,True,extended_mttr_outlier
+266,INC-000260,20241113,1,1,3.0,12.5,21.6,531,6036.21,False,Network/Telco Failure,False,successful
+267,INC-000261,20240722,3,3,3.0,26.4,44.0,1709,18398.8,False,Network/Telco Failure,False,successful
+268,INC-000262,20240126,6,6,8.0,33.1,0.0,2055,74968.0,False,Third-Party/Vendor Outage,False,self_resolved
+269,INC-000263,20240907,4,4,5.0,33.3,0.0,1668,60237.85,False,Third-Party/Vendor Outage,False,self_resolved
+270,INC-000264,20250917,4,4,1.0,-36.1,47.5,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+271,INC-000265,20240315,3,3,2.0,27.2,30.3,2012,23477.38,False,Third-Party/Vendor Outage,False,successful
+272,INC-000266,20250228,10,10,5.0,152.7,155.9,4736,111904.93,True,Network/Telco Failure,False,successful
+273,INC-000267,20251214,10,10,4.0,0.0,0.0,78,1442.81,False,Third-Party/Vendor Outage,True,ghost_impact
+274,INC-000268,20250521,1,1,7.0,64.3,68.6,3604,37788.33,False,Third-Party/Vendor Outage,False,successful
+275,INC-000269,20240906,6,6,7.0,12.2,472.7,605,25855.24,False,Network/Telco Failure,True,extended_mttr_outlier
+276,INC-000270,20251102,5,5,5.0,27.9,0.0,1546,64205.21,False,Third-Party/Vendor Outage,False,self_resolved
+277,INC-000271,20240419,4,4,5.0,23.1,0.0,2014,76883.47,True,Third-Party/Vendor Outage,False,self_resolved
+278,INC-000272,20240812,5,5,1.0,16.3,21.2,2193,81656.63,True,Internal Infrastructure Failure,False,successful
+279,INC-000273,20240629,8,8,6.0,22.8,32.5,253,5379.06,False,Third-Party/Vendor Outage,False,successful
+280,INC-000274,20240221,5,5,2.0,32.4,35.1,2523,72917.44,False,Network/Telco Failure,False,successful
+281,INC-000275,20240504,5,5,2.0,-45.1,67.3,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+282,INC-000276,20240516,2,2,1.0,82.5,93.9,8587,276784.88,True,Internal Infrastructure Failure,False,successful
+283,INC-000277,20250420,3,3,1.0,4.4,0.0,218,3021.52,False,Internal Infrastructure Failure,False,self_resolved
+284,INC-000278,20251114,3,3,5.0,-6.2,13.2,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+285,INC-000279,20250329,3,3,2.0,10.3,0.0,567,6206.15,False,Third-Party/Vendor Outage,False,self_resolved
+286,INC-000280,20250715,5,5,3.0,17.8,28.6,1057,42427.96,False,Third-Party/Vendor Outage,False,successful
+287,INC-000281,20240611,7,7,6.0,7.2,13.9,193,3650.33,True,Third-Party/Vendor Outage,True,missing_data
+288,INC-000282,20250405,3,3,7.0,41.4,44.1,5731,71501.3,True,Software Deployment Bug,False,successful
+289,INC-000283,20240910,3,3,7.0,7.2,5.1,359,4087.75,False,Software Deployment Bug,True,logging_error
+290,INC-000284,20250617,2,2,1.0,8.8,11.3,779,25201.97,True,Internal Infrastructure Failure,False,successful
+291,INC-000285,20250511,9,9,5.0,34.4,35.7,512,7001.27,False,Network/Telco Failure,False,successful
+292,INC-000286,20241008,10,10,6.0,25.9,28.0,428,9340.94,False,Third-Party/Vendor Outage,False,successful
+293,INC-000287,20240320,1,1,3.0,33.8,14.5,1828,22795.39,False,Software Deployment Bug,True,logging_error
+294,INC-000288,20240828,9,9,5.0,21.5,29.9,479,6660.67,True,Software Deployment Bug,False,successful
+295,INC-000289,20241209,7,7,4.0,35.8,37.9,487,9306.82,False,Software Deployment Bug,False,successful
+296,INC-000290,20250707,5,5,5.0,24.3,31.6,2388,97956.02,True,Third-Party/Vendor Outage,False,successful
+297,INC-000291,20240521,4,4,5.0,4.8,9.5,469,18796.06,True,Network/Telco Failure,False,successful
+298,INC-000292,20240824,2,2,7.0,6.6,34.2,713,22602.85,True,Third-Party/Vendor Outage,False,successful
+299,INC-000293,20251211,5,5,6.0,3.2,5.1,181,6206.46,False,Network/Telco Failure,False,successful
+300,INC-000294,20251224,8,8,3.0,42.1,43.1,1296,27180.69,True,Network/Telco Failure,False,successful
+301,INC-000295,20240306,4,4,3.0,12.3,590.2,808,33598.7,False,Third-Party/Vendor Outage,True,extended_mttr_outlier
+302,INC-000296,20250221,5,5,8.0,-5.4,12.3,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+303,INC-000297,20250709,2,2,5.0,48.4,60.9,3010,95895.22,False,Third-Party/Vendor Outage,False,successful
+304,INC-000298,20250301,6,6,1.0,28.9,33.8,3334,106005.24,True,Internal Infrastructure Failure,False,successful
+305,INC-000299,20240304,3,3,8.0,6.7,21.1,902,11239.5,True,Network/Telco Failure,False,successful
+306,INC-000300,20250306,2,2,2.0,5.8,27.5,638,,True,Third-Party/Vendor Outage,True,missing_data
+307,INC-000301,20250821,4,4,1.0,44.0,1103.5,4008,142481.13,True,Internal Infrastructure Failure,True,extended_mttr_outlier
+308,INC-000302,20251213,1,1,7.0,11.5,16.1,881,10723.81,False,Third-Party/Vendor Outage,False,successful
+309,INC-000303,20250812,4,4,1.0,15.0,16.5,930,29465.99,False,Internal Infrastructure Failure,False,successful
+310,INC-000304,20250124,6,6,8.0,41.3,41.7,2895,98278.0,False,Third-Party/Vendor Outage,False,successful
+311,INC-000305,20240107,8,8,4.0,9.4,498.1,139,3009.16,False,Software Deployment Bug,True,extended_mttr_outlier
+312,INC-000306,20241101,5,5,5.0,8.9,10.8,636,21893.83,False,Third-Party/Vendor Outage,False,successful
+313,INC-000307,20250305,3,3,4.0,28.6,0.0,1325,19247.6,False,Network/Telco Failure,False,self_resolved
+314,INC-000308,20250514,5,5,3.0,38.1,48.4,2067,81791.44,False,Network/Telco Failure,False,successful
+315,INC-000309,20241006,2,2,6.0,6.2,8.3,454,18758.65,False,Third-Party/Vendor Outage,True,duplicate_source
+316,INC-000309,20241006,2,2,6.0,6.2,6.5,454,18758.65,False,Third-Party/Vendor Outage,True,duplicate_source
+317,INC-000310,20250512,1,1,4.0,11.3,5.1,758,8931.04,False,Third-Party/Vendor Outage,True,logging_error
+318,INC-000311,20250202,1,1,1.0,20.6,21.0,1482,20382.79,False,Internal Infrastructure Failure,False,successful
+319,INC-000312,20241210,2,2,3.0,10.2,13.4,748,29231.68,False,Third-Party/Vendor Outage,False,successful
+320,INC-000313,20240618,4,4,5.0,6.7,2.6,346,11605.96,False,Third-Party/Vendor Outage,True,logging_error
+321,INC-000314,20240510,5,5,1.0,9.6,0.0,1276,51943.95,True,Internal Infrastructure Failure,False,self_resolved
+322,INC-000315,20250929,2,2,2.0,5.5,5.9,606,17751.19,True,Third-Party/Vendor Outage,False,successful
+323,INC-000316,20250207,10,10,6.0,26.7,17.3,488,9650.65,False,Third-Party/Vendor Outage,True,logging_error
+324,INC-000317,20240326,5,5,3.0,62.9,72.2,3901,152769.5,False,Third-Party/Vendor Outage,False,successful
+325,INC-000318,20240518,7,7,2.0,9.4,7.7,193,3653.58,True,Third-Party/Vendor Outage,True,logging_error
+326,INC-000319,20240705,5,5,6.0,3.1,0.9,172,5209.22,False,Third-Party/Vendor Outage,True,logging_error
+327,INC-000320,20240923,4,4,3.0,34.7,38.0,3699,152482.41,True,Third-Party/Vendor Outage,False,successful
+328,INC-000321,20241201,4,4,6.0,31.3,0.0,1869,70005.68,False,Network/Telco Failure,False,self_resolved
+329,INC-000322,20250410,3,3,2.0,5.1,12.4,382,4507.49,False,Software Deployment Bug,False,successful
+330,INC-000323,20241211,6,6,3.0,67.2,0.0,3538,100583.97,False,Third-Party/Vendor Outage,False,self_resolved
+331,INC-000324,20241011,2,2,2.0,6.0,19.4,351,12417.68,False,Third-Party/Vendor Outage,False,successful
+332,INC-000325,20240915,8,8,2.0,6.5,7.3,208,5047.62,True,Third-Party/Vendor Outage,False,successful
+333,INC-000326,20250426,8,8,3.0,17.4,18.6,351,8631.77,True,Third-Party/Vendor Outage,False,successful
+334,INC-000327,20250706,3,3,5.0,11.4,16.8,1299,17076.64,True,Third-Party/Vendor Outage,False,successful
+335,INC-000328,20241224,6,6,7.0,0.0,11.5,0,0.0,False,Network/Telco Failure,True,false_alert
+336,INC-000329,20251027,3,3,8.0,19.3,22.0,1806,24629.73,True,Third-Party/Vendor Outage,False,successful
+337,INC-000330,20251029,7,7,5.0,10.0,14.1,158,3541.81,False,Third-Party/Vendor Outage,False,successful
+338,INC-000331,20240201,10,10,6.0,20.9,0.0,516,12342.45,True,Network/Telco Failure,False,self_resolved
+339,INC-000332,20240723,3,3,3.0,61.7,0.0,4093,46825.2,False,Third-Party/Vendor Outage,False,self_resolved
+340,INC-000333,20250928,5,5,6.0,12.1,17.7,794,33641.13,False,Network/Telco Failure,False,successful
+341,INC-000334,20240901,3,3,7.0,16.5,20.5,939,12610.21,False,Network/Telco Failure,False,successful
+342,INC-000335,20250429,2,2,3.0,13.9,15.3,1238,36079.5,True,Third-Party/Vendor Outage,False,successful
+343,INC-000336,20250731,5,5,8.0,21.4,40.5,1127,34221.68,False,Network/Telco Failure,False,successful
+344,INC-000337,20250421,4,4,7.0,17.3,25.3,1214,39367.5,False,Software Deployment Bug,False,successful
+345,INC-000338,20250112,1,1,1.0,19.0,26.0,2264,27634.14,True,Internal Infrastructure Failure,False,successful
+346,INC-000339,20240620,9,9,2.0,15.8,24.1,396,4379.11,True,Third-Party/Vendor Outage,False,successful
+347,INC-000340,20240616,8,8,7.0,0.0,0.0,329,6723.94,False,Software Deployment Bug,True,ghost_impact
+348,INC-000341,20240420,5,5,6.0,14.8,14.9,632,25475.1,False,Third-Party/Vendor Outage,False,successful
+349,INC-000342,20241115,6,6,4.0,6.4,17.2,406,13789.69,False,Third-Party/Vendor Outage,False,successful
+350,INC-000343,20250210,9,9,6.0,19.2,60.9,425,4949.03,True,Network/Telco Failure,False,successful
+351,INC-000344,20240318,9,9,4.0,22.6,27.4,329,5532.97,False,Network/Telco Failure,False,successful
+352,INC-000345,20240414,6,6,2.0,4.1,0.0,309,9137.08,False,Software Deployment Bug,False,self_resolved
+353,INC-000346,20251201,5,5,8.0,3.5,6.8,159,6686.6,False,Third-Party/Vendor Outage,False,successful
+354,INC-000347,20250802,6,6,2.0,8.1,15.2,786,30819.09,True,Third-Party/Vendor Outage,False,successful
+355,INC-000348,20241221,5,5,4.0,0.0,0.0,193,8047.15,False,Third-Party/Vendor Outage,True,ghost_impact
+356,INC-000349,20251108,6,6,8.0,-47.3,47.8,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+357,INC-000350,20240311,5,5,1.0,31.8,38.6,1481,50708.7,False,Internal Infrastructure Failure,False,successful
+358,INC-000351,20250602,3,3,4.0,7.9,0.0,758,8226.15,True,Software Deployment Bug,False,self_resolved
+359,INC-000352,20240113,7,7,5.0,38.0,48.6,607,12779.11,False,Third-Party/Vendor Outage,False,successful
+360,INC-000353,20250516,2,2,3.0,26.4,27.3,2215,80251.3,True,Third-Party/Vendor Outage,False,successful
+361,INC-000354,20250319,1,1,2.0,3.5,19.3,259,3351.91,False,Software Deployment Bug,False,successful
+362,INC-000355,20251012,4,4,7.0,37.4,41.3,4267,155324.72,True,Third-Party/Vendor Outage,False,successful
+363,INC-000356,20251225,7,7,8.0,12.8,20.2,179,4391.32,False,Network/Telco Failure,False,successful
+364,INC-000357,20250321,3,3,2.0,-50.8,64.3,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+365,INC-000358,20250618,1,1,4.0,46.1,51.6,4199,57156.26,True,Software Deployment Bug,False,successful
+366,INC-000359,20250922,3,3,3.0,28.6,55.5,1642,21692.69,False,Third-Party/Vendor Outage,False,successful
+367,INC-000360,20250421,3,3,7.0,19.3,39.7,1383,19000.41,False,Third-Party/Vendor Outage,False,successful
+368,INC-000361,20250829,6,6,5.0,9.8,505.3,440,16281.79,False,Software Deployment Bug,True,extended_mttr_outlier
+369,INC-000362,20241126,5,5,6.0,28.2,31.4,1839,55223.31,False,Network/Telco Failure,True,missing_data
+370,INC-000363,20240329,6,6,7.0,39.8,34.5,2119,85528.48,False,Software Deployment Bug,True,logging_error
+371,INC-000364,20250406,6,6,1.0,0.0,4.8,0,0.0,True,Internal Infrastructure Failure,True,false_alert
+372,INC-000365,20240906,5,5,7.0,90.5,77.8,6843,232555.98,False,Third-Party/Vendor Outage,True,logging_error
+373,INC-000366,20250806,6,6,6.0,599.2,13.2,38785,1245605.87,False,Data/Logging Anomaly,True,outlier_downtime
+374,INC-000367,20241210,9,9,7.0,19.5,21.0,421,5285.13,True,Third-Party/Vendor Outage,False,successful
+375,INC-000368,20250521,1,1,5.0,0.0,8.1,0,0.0,False,Software Deployment Bug,True,false_alert
+376,INC-000369,20240705,7,7,6.0,11.5,18.8,223,4781.71,False,Third-Party/Vendor Outage,False,successful
+377,INC-000370,20240805,3,3,3.0,43.9,2124.9,3796,39367.42,True,Software Deployment Bug,True,extended_mttr_outlier
+378,INC-000371,20240921,6,6,3.0,30.3,13.4,3762,154213.18,True,Software Deployment Bug,True,logging_error
+379,INC-000372,20241013,2,2,6.0,27.8,33.5,3661,103973.7,True,Software Deployment Bug,False,successful
+380,INC-000373,20250723,4,4,1.0,1935.3,16.7,118532,4788762.39,False,Data/Logging Anomaly,True,outlier_downtime
+381,INC-000374,20240111,9,9,,6.2,12.4,88,,False,Internal Infrastructure Failure,True,missing_data
+382,INC-000375,20250613,2,2,7.0,43.3,46.6,3367,110486.1,False,Network/Telco Failure,False,successful
+383,INC-000376,20240328,7,7,5.0,47.0,48.0,566,12785.72,False,Network/Telco Failure,False,successful
+384,INC-000377,20250220,2,2,8.0,40.7,2237.2,2001,64893.66,False,Third-Party/Vendor Outage,True,extended_mttr_outlier
+385,INC-000378,20250722,3,3,1.0,38.0,48.8,3256,40460.34,True,Internal Infrastructure Failure,False,successful
+386,INC-000379,20240903,3,3,7.0,29.5,0.0,2144,22737.5,False,Third-Party/Vendor Outage,False,self_resolved
+387,INC-000380,20251023,4,4,4.0,16.2,0.0,990,38633.15,False,Third-Party/Vendor Outage,False,self_resolved
+388,INC-000381,20250403,6,6,4.0,6.5,13.8,362,10935.8,False,Third-Party/Vendor Outage,False,successful
+389,INC-000382,20240405,2,2,5.0,16.9,29.8,776,31726.73,False,Software Deployment Bug,False,successful
+390,INC-000383,20240814,6,6,4.0,13.8,14.5,727,21790.81,False,Third-Party/Vendor Outage,False,successful
+391,INC-000384,20251209,1,1,2.0,8.1,18.9,1076,13251.57,True,Network/Telco Failure,True,missing_data
+392,INC-000385,20241109,2,2,3.0,18.3,25.3,1448,47413.18,True,Software Deployment Bug,False,successful
+393,INC-000386,20250429,2,2,,15.9,21.3,2139,83277.27,True,Internal Infrastructure Failure,True,missing_data
+394,INC-000387,20250720,3,3,5.0,39.0,31.5,2192,22559.4,False,Software Deployment Bug,True,logging_error
+395,INC-000388,20250311,5,5,8.0,42.6,43.5,4687,158498.15,True,Software Deployment Bug,False,successful
+396,INC-000389,20241226,6,6,3.0,35.8,66.1,3268,123139.79,True,Third-Party/Vendor Outage,False,successful
+397,INC-000390,20241004,5,5,1.0,52.9,53.9,2846,113774.0,False,Internal Infrastructure Failure,False,successful
+398,INC-000391,20241109,3,3,2.0,28.1,30.7,3471,46972.52,True,Software Deployment Bug,False,successful
+399,INC-000392,20240824,2,2,8.0,0.0,7.7,0,0.0,False,Third-Party/Vendor Outage,True,false_alert
+400,INC-000393,20240716,4,4,4.0,-17.5,18.0,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+401,INC-000394,20240502,8,8,6.0,27.2,35.0,433,9392.1,False,Network/Telco Failure,False,successful
+402,INC-000395,20240715,3,3,3.0,15.7,0.0,815,10379.26,False,Network/Telco Failure,False,self_resolved
+403,INC-000396,20250510,9,9,5.0,12.0,32.3,229,3208.25,True,Software Deployment Bug,False,successful
+404,INC-000397,20250826,4,4,3.0,4.7,5.6,237,7412.7,False,Software Deployment Bug,False,successful
+405,INC-000398,20240412,6,6,5.0,13.6,23.8,1033,32790.57,False,Network/Telco Failure,False,successful
+406,INC-000399,20241030,3,3,8.0,40.3,67.4,5579,77934.11,True,Network/Telco Failure,False,successful
+407,INC-000400,20250104,6,6,6.0,7.1,7.9,588,18082.83,True,Network/Telco Failure,False,successful
+408,INC-000401,20241105,2,2,1.0,5.3,5.4,294,10804.89,False,Internal Infrastructure Failure,False,successful
+409,INC-000402,20240115,6,6,7.0,30.9,33.4,2237,78534.35,False,Network/Telco Failure,False,successful
+410,INC-000403,20241007,3,3,8.0,3.9,7.1,332,4835.23,True,Third-Party/Vendor Outage,False,successful
+411,INC-000404,20240225,1,1,2.0,45.1,49.2,5264,67042.68,True,Software Deployment Bug,False,successful
+412,INC-000405,20251215,10,10,1.0,24.8,26.7,720,17830.77,True,Internal Infrastructure Failure,False,successful
+413,INC-000406,20240509,1,1,,58.2,58.6,5927,,True,Internal Infrastructure Failure,True,missing_data
+414,INC-000407,20251015,5,5,8.0,34.1,38.1,3560,137385.87,True,Third-Party/Vendor Outage,False,successful
+415,INC-000408,20240415,1,1,4.0,22.3,39.6,1416,18679.98,False,Third-Party/Vendor Outage,False,successful
+416,INC-000409,20250810,6,6,5.0,88.0,92.4,11841,453051.92,True,Software Deployment Bug,False,successful
+417,INC-000410,20250425,6,6,1.0,0.0,7.5,0,0.0,False,Internal Infrastructure Failure,True,false_alert
+418,INC-000411,20250505,8,8,8.0,10.6,15.7,193,3768.83,False,Third-Party/Vendor Outage,False,successful
+419,INC-000412,20241214,1,1,2.0,64.9,68.3,6947,75084.9,True,Network/Telco Failure,False,successful
+420,INC-000413,20240222,4,4,5.0,34.9,0.0,1565,45391.52,False,Software Deployment Bug,False,self_resolved
+421,INC-000414,20250504,2,2,1.0,23.7,30.4,1837,58545.44,False,Internal Infrastructure Failure,False,successful
+422,INC-000415,20240426,8,8,1.0,16.3,18.9,311,5812.1,False,Internal Infrastructure Failure,False,successful
+423,INC-000416,20240307,3,3,4.0,6.7,11.3,343,3928.88,False,Third-Party/Vendor Outage,False,successful
+424,INC-000417,20250518,3,3,2.0,28.2,54.1,1730,17330.52,False,Third-Party/Vendor Outage,False,successful
+425,INC-000418,20250813,4,4,8.0,22.6,23.1,1636,47652.97,False,Third-Party/Vendor Outage,False,successful
+426,INC-000419,20240604,1,1,4.0,-3.3,21.4,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+427,INC-000420,20250730,3,3,2.0,9.6,9.7,1043,12619.31,True,Software Deployment Bug,False,successful
+428,INC-000421,20240328,5,5,7.0,5.1,10.0,373,11917.9,False,Network/Telco Failure,False,successful
+429,INC-000422,20240501,10,10,8.0,28.6,31.2,881,14924.33,True,Third-Party/Vendor Outage,False,successful
+430,INC-000423,20250912,3,3,3.0,84.1,88.3,9499,137795.49,True,Network/Telco Failure,False,successful
+431,INC-000424,20250619,5,5,2.0,97.7,100.3,11736,464966.84,True,Third-Party/Vendor Outage,False,successful
+432,INC-000425,20250406,3,3,5.0,24.3,30.6,2293,25134.82,True,Third-Party/Vendor Outage,False,successful
+433,INC-000426,20241031,4,4,4.0,0.0,7.8,0,0.0,False,Third-Party/Vendor Outage,True,false_alert
+434,INC-000427,20241108,2,2,6.0,25.2,64.8,2273,70169.19,True,Third-Party/Vendor Outage,False,successful
+435,INC-000428,20250916,4,4,1.0,99.2,0.0,4970,188244.09,False,Internal Infrastructure Failure,False,self_resolved
+436,INC-000429,20240411,9,9,7.0,51.4,58.1,1497,18935.46,True,Network/Telco Failure,False,successful
+437,INC-000430,20251002,2,2,4.0,6.1,27.1,740,22030.2,True,Network/Telco Failure,False,successful
+438,INC-000431,20240927,6,6,3.0,16.5,0.0,1007,29191.72,False,Third-Party/Vendor Outage,False,self_resolved
+439,INC-000432,20240609,1,1,4.0,6.5,23.3,688,7160.26,True,Network/Telco Failure,False,successful
+440,INC-000433,20240626,8,8,6.0,6.2,8.6,155,3836.91,True,Third-Party/Vendor Outage,False,successful
+441,INC-000434,20240609,7,7,6.0,136.4,138.8,1774,43722.14,False,Third-Party/Vendor Outage,False,successful
+442,INC-000435,20250222,6,6,6.0,6.0,0.0,392,16594.64,False,Third-Party/Vendor Outage,False,self_resolved
+443,INC-000436,20251206,4,4,1.0,0.0,0.0,324,13367.05,False,Internal Infrastructure Failure,True,ghost_impact
+444,INC-000437,20250831,3,3,4.0,26.9,0.0,1822,20452.06,False,Third-Party/Vendor Outage,False,self_resolved
+445,INC-000438,20241025,1,1,2.0,18.0,34.3,1233,15329.9,False,Third-Party/Vendor Outage,True,duplicate_source
+446,INC-000438,20241025,1,1,2.0,18.0,32.8,1233,15329.9,False,Third-Party/Vendor Outage,True,duplicate_source
+447,INC-000439,20240825,9,9,7.0,4.1,3.3,59,780.88,False,Software Deployment Bug,True,logging_error
+448,INC-000440,20251224,1,1,3.0,14.1,15.2,647,,False,Software Deployment Bug,True,missing_data
+449,INC-000441,20251220,10,10,5.0,43.1,53.2,719,18030.54,False,Third-Party/Vendor Outage,False,successful
+450,INC-000442,20240313,3,3,7.0,7.5,0.0,343,4852.09,False,Network/Telco Failure,False,self_resolved
+451,INC-000443,20240927,5,5,1.0,43.6,43.9,3328,104478.43,False,Internal Infrastructure Failure,False,successful
+452,INC-000444,20251002,6,6,7.0,85.1,2127.7,7581,294078.9,True,Network/Telco Failure,True,extended_mttr_outlier
+453,INC-000445,20250311,8,8,4.0,14.4,47.5,340,6585.54,True,Third-Party/Vendor Outage,False,successful
+454,INC-000446,20250711,5,5,,8.1,15.7,898,27762.52,True,Internal Infrastructure Failure,True,missing_data
+455,INC-000447,20240818,4,4,2.0,5.5,9.9,376,15107.29,False,Network/Telco Failure,False,successful
+456,INC-000448,20240929,1,1,3.0,28.3,0.0,1829,20346.65,False,Network/Telco Failure,False,self_resolved
+457,INC-000449,20240314,4,4,7.0,27.7,0.0,3853,161940.3,True,Third-Party/Vendor Outage,False,self_resolved
+458,INC-000450,20240618,2,2,7.0,31.5,32.3,1832,76640.73,False,Software Deployment Bug,False,successful
+459,INC-000451,20250901,2,2,3.0,31.1,0.0,1594,61174.23,False,Software Deployment Bug,False,self_resolved
+460,INC-000452,20250325,3,3,5.0,47.6,49.1,2078,27529.93,False,Third-Party/Vendor Outage,True,duplicate_source
+461,INC-000452,20250325,3,3,5.0,47.6,47.8,2078,27529.93,False,Third-Party/Vendor Outage,True,duplicate_source
+462,INC-000453,20250424,1,1,7.0,18.4,934.4,862,13039.05,False,Software Deployment Bug,True,extended_mttr_outlier
+463,INC-000454,20251217,2,2,5.0,5.1,9.2,555,21240.68,True,Third-Party/Vendor Outage,False,successful
+464,INC-000455,20241005,2,2,3.0,61.1,66.6,6384,244116.8,True,Third-Party/Vendor Outage,False,successful
+465,INC-000456,20250324,2,2,4.0,0.0,7.1,0,0.0,False,Third-Party/Vendor Outage,True,false_alert
+466,INC-000457,20250904,2,2,1.0,8.2,18.9,493,15245.4,False,Internal Infrastructure Failure,False,successful
+467,INC-000458,20240210,7,7,2.0,15.6,0.0,237,4697.21,False,Third-Party/Vendor Outage,False,self_resolved
+468,INC-000459,20241126,6,6,4.0,8.2,10.4,589,20095.22,False,Software Deployment Bug,False,successful
+469,INC-000460,20240127,8,8,5.0,122.6,127.8,1823,42069.24,False,Third-Party/Vendor Outage,False,successful
+470,INC-000461,20240822,6,6,5.0,57.2,60.5,3500,130580.08,False,Third-Party/Vendor Outage,False,successful
+471,INC-000462,20251119,1,1,3.0,7.0,11.2,473,5687.45,False,Software Deployment Bug,False,successful
+472,INC-000463,20250813,1,1,5.0,26.0,28.3,1819,24131.59,False,Third-Party/Vendor Outage,False,successful
+473,INC-000464,20240628,8,8,4.0,8.2,0.0,103,2087.06,False,Third-Party/Vendor Outage,False,self_resolved
+474,INC-000465,20250615,2,2,6.0,0.0,0.0,326,11940.75,False,Third-Party/Vendor Outage,True,ghost_impact
+475,INC-000466,20241011,5,5,7.0,48.4,57.7,2627,83196.29,False,Network/Telco Failure,False,successful
+476,INC-000467,20250822,2,2,2.0,13.4,40.2,1360,57174.37,True,Third-Party/Vendor Outage,False,successful
+477,INC-000468,20251012,4,4,4.0,70.4,89.1,5030,189110.53,False,Third-Party/Vendor Outage,False,successful
+478,INC-000469,20240403,6,6,8.0,0.0,4.0,0,0.0,True,Third-Party/Vendor Outage,True,false_alert
+479,INC-000470,20241222,5,5,8.0,33.8,34.9,2084,61822.66,False,Third-Party/Vendor Outage,False,successful
+480,INC-000471,20241207,7,7,3.0,12.7,0.0,402,7577.0,True,Software Deployment Bug,False,self_resolved
+481,INC-000472,20251117,2,2,5.0,15.3,16.7,1060,31673.12,False,Third-Party/Vendor Outage,False,successful
+482,INC-000473,20240613,6,6,4.0,38.1,41.4,2064,60493.16,False,Software Deployment Bug,False,successful
+483,INC-000474,20250225,5,5,7.0,11.9,12.8,906,29466.62,False,Third-Party/Vendor Outage,False,successful
+484,INC-000475,20241022,4,4,8.0,11.8,0.0,1104,34086.4,True,Third-Party/Vendor Outage,False,self_resolved
+485,INC-000476,20250717,3,3,3.0,12.1,7.7,597,8054.78,False,Third-Party/Vendor Outage,True,logging_error
+486,INC-000477,20250410,7,7,5.0,19.1,21.2,399,7343.84,True,Third-Party/Vendor Outage,False,successful
+487,INC-000478,20241118,6,6,8.0,9.8,18.7,429,12842.52,False,Software Deployment Bug,True,duplicate_source
+488,INC-000478,20241118,6,6,8.0,9.8,20.7,429,12842.52,False,Software Deployment Bug,True,duplicate_source
+489,INC-000479,20241127,6,6,2.0,49.7,51.4,3197,119701.76,False,Third-Party/Vendor Outage,False,successful
+490,INC-000480,20250217,1,1,5.0,43.1,83.5,2081,27529.84,False,Third-Party/Vendor Outage,False,successful
+491,INC-000481,20251104,6,6,6.0,18.0,0.0,1354,38810.95,False,Third-Party/Vendor Outage,False,self_resolved
+492,INC-000482,20250227,8,8,2.0,16.6,19.2,229,4572.78,False,Third-Party/Vendor Outage,False,successful
+493,INC-000483,20240711,1,1,3.0,51.1,63.5,2692,28548.25,False,Software Deployment Bug,False,successful
+494,INC-000484,20250929,6,6,1.0,0.0,0.0,296,9956.07,True,Internal Infrastructure Failure,True,ghost_impact
+495,INC-000485,20250525,5,5,1.0,28.2,23.5,3397,107777.54,True,Internal Infrastructure Failure,True,logging_error
+496,INC-000486,20251002,1,1,3.0,13.1,14.0,607,9151.99,False,Third-Party/Vendor Outage,False,successful
+497,INC-000487,20240222,3,3,2.0,0.0,0.0,353,4903.55,False,Network/Telco Failure,True,ghost_impact
+498,INC-000488,20240930,1,1,5.0,3.2,4.0,426,4751.01,True,Network/Telco Failure,False,successful
+499,INC-000489,20241021,1,1,2.0,1743.7,18.8,102239,1453025.13,False,Data/Logging Anomaly,True,outlier_downtime
+500,INC-000490,20251216,7,7,6.0,42.7,68.8,746,16935.97,False,Third-Party/Vendor Outage,False,successful
+501,INC-000491,20240504,7,7,4.0,47.5,52.0,1641,33074.74,True,Third-Party/Vendor Outage,False,successful
+502,INC-000492,20251007,3,3,6.0,31.4,34.4,1819,22781.02,False,Network/Telco Failure,False,successful
+503,INC-000493,20251227,3,3,1.0,0.0,0.0,304,3380.17,False,Internal Infrastructure Failure,True,ghost_impact
+504,INC-000494,20240611,2,2,4.0,23.9,48.0,1355,47182.97,False,Software Deployment Bug,False,successful
+505,INC-000495,20250718,1,1,5.0,14.8,26.3,1756,18215.12,True,Third-Party/Vendor Outage,False,successful
+506,INC-000496,20250719,5,5,6.0,19.1,19.4,1435,60180.15,False,Third-Party/Vendor Outage,False,successful
+507,INC-000497,20240405,4,4,3.0,22.2,25.7,1334,53558.4,False,Network/Telco Failure,False,successful
+508,INC-000498,20240426,3,3,,4.2,5.1,280,4026.88,False,Internal Infrastructure Failure,True,missing_data
+509,INC-000499,20250417,4,4,1.0,29.0,25.9,1508,53415.68,False,Internal Infrastructure Failure,True,logging_error
+510,INC-000500,20240430,4,4,7.0,51.3,54.5,3100,128456.73,False,Network/Telco Failure,False,successful
+511,INC-000501,20250525,3,3,5.0,34.6,1305.5,2684,32330.04,False,Software Deployment Bug,True,extended_mttr_outlier
+512,INC-000502,20250605,2,2,3.0,32.2,34.5,1439,53758.56,False,Software Deployment Bug,False,successful
+513,INC-000503,20250301,3,3,1.0,36.0,50.7,2803,33527.08,False,Internal Infrastructure Failure,False,successful
+514,INC-000504,20250509,8,8,8.0,28.8,46.0,548,11839.59,False,Third-Party/Vendor Outage,True,duplicate_source
+515,INC-000504,20250509,8,8,8.0,28.8,47.4,548,11839.59,False,Third-Party/Vendor Outage,True,duplicate_source
+516,INC-000505,20240906,3,3,8.0,79.4,0.0,5375,77673.7,False,Third-Party/Vendor Outage,False,self_resolved
+517,INC-000506,20250718,1,1,7.0,7.8,13.2,435,5318.45,False,Network/Telco Failure,False,successful
+518,INC-000507,20250127,5,5,8.0,6.5,12.4,415,17567.66,False,Network/Telco Failure,False,successful
+519,INC-000508,20250905,1,1,2.0,4.2,0.0,294,4162.49,False,Network/Telco Failure,False,self_resolved
+520,INC-000509,20240312,4,4,7.0,8.2,20.8,655,27624.89,True,Software Deployment Bug,False,successful
+521,INC-000510,20250228,7,7,3.0,4.7,7.0,77,1903.72,False,Software Deployment Bug,False,successful
+522,INC-000511,20250603,5,5,3.0,29.2,38.1,1479,57794.73,False,Software Deployment Bug,True,duplicate_source
+523,INC-000511,20250603,5,5,3.0,29.2,37.4,1479,57794.73,False,Software Deployment Bug,True,duplicate_source
+524,INC-000512,20240103,4,4,6.0,33.9,58.7,1818,56579.86,False,Software Deployment Bug,False,successful
+525,INC-000513,20241101,2,2,3.0,20.6,11.8,1783,66631.34,True,Third-Party/Vendor Outage,True,logging_error
+526,INC-000514,20240601,7,7,2.0,48.5,1822.7,700,14701.59,False,Third-Party/Vendor Outage,True,extended_mttr_outlier
+527,INC-000515,20250705,3,3,2.0,55.7,55.9,4147,50298.49,False,Third-Party/Vendor Outage,False,successful
+528,INC-000516,20241219,9,9,5.0,63.7,66.6,2101,29225.49,True,Software Deployment Bug,False,successful
+529,INC-000517,20250719,1,1,7.0,11.0,16.9,770,10659.95,False,Third-Party/Vendor Outage,False,successful
+530,INC-000518,20250411,3,3,8.0,27.1,33.1,1467,21273.43,False,Software Deployment Bug,False,successful
+531,INC-000519,20240712,1,1,1.0,14.6,32.9,973,13603.98,False,Internal Infrastructure Failure,False,successful
+532,INC-000520,20251215,8,8,7.0,31.8,38.4,785,18421.99,True,Network/Telco Failure,False,successful
+533,INC-000521,20250808,6,6,3.0,48.5,0.0,3797,151891.18,True,Third-Party/Vendor Outage,False,self_resolved
+534,INC-000522,20240827,5,5,1.0,3.4,2.1,207,7034.03,False,Internal Infrastructure Failure,True,logging_error
+535,INC-000523,20250224,5,5,1.0,-21.2,32.0,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+536,INC-000524,20240214,3,3,8.0,9.8,4.4,491,5782.17,False,Software Deployment Bug,True,logging_error
+537,INC-000525,20250429,4,4,7.0,8.8,11.6,708,28253.07,True,Third-Party/Vendor Outage,False,successful
+538,INC-000526,20250130,5,5,3.0,8.6,30.3,411,15080.36,False,Network/Telco Failure,False,successful
+539,INC-000527,20250522,1,1,4.0,0.0,13.5,0,0.0,False,Third-Party/Vendor Outage,True,false_alert
+540,INC-000528,20240509,6,6,8.0,16.8,299.8,1921,70252.61,True,Software Deployment Bug,True,extended_mttr_outlier
+541,INC-000529,20240412,10,10,8.0,18.8,31.9,370,8367.26,True,Third-Party/Vendor Outage,False,successful
+542,INC-000530,20240412,2,2,1.0,23.1,25.7,1617,67427.45,False,Internal Infrastructure Failure,False,successful
+543,INC-000531,20250622,5,5,6.0,9.5,60.0,449,13472.54,False,Third-Party/Vendor Outage,False,successful
+544,INC-000532,20240116,5,5,2.0,11.9,14.9,522,15124.88,False,Network/Telco Failure,False,successful
+545,INC-000533,20250223,4,4,3.0,-38.4,59.9,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+546,INC-000534,20240317,1,1,3.0,63.2,66.8,2895,38512.89,False,Third-Party/Vendor Outage,False,successful
+547,INC-000535,20240928,5,5,7.0,14.8,19.6,659,21110.73,False,Software Deployment Bug,False,successful
+548,INC-000536,20250930,8,8,4.0,4.6,0.0,85,2089.22,False,Third-Party/Vendor Outage,False,self_resolved
+549,INC-000537,20251027,4,4,6.0,15.3,25.9,1482,47819.82,True,Third-Party/Vendor Outage,False,successful
+550,INC-000538,20241202,2,2,7.0,45.4,45.4,3744,150194.45,True,Third-Party/Vendor Outage,False,successful
+551,INC-000539,20241120,5,5,8.0,1974.3,42.3,112898,3563691.98,False,Data/Logging Anomaly,True,outlier_downtime
+552,INC-000540,20250708,1,1,5.0,-13.4,32.1,0,0.0,True,Data/Logging Anomaly,True,negative_downtime
+553,INC-000541,20250924,5,5,5.0,0.0,13.1,0,0.0,False,Third-Party/Vendor Outage,True,false_alert
+554,INC-000542,20240828,3,3,4.0,16.0,16.4,1606,21616.88,True,Software Deployment Bug,False,successful
+555,INC-000543,20240820,5,5,8.0,425.9,8.5,44528,1266320.96,True,Data/Logging Anomaly,True,outlier_downtime
+556,INC-000544,20250320,3,3,4.0,79.4,101.0,4540,61631.96,False,Third-Party/Vendor Outage,False,successful
+557,INC-000545,20251010,7,7,1.0,15.6,26.6,280,6456.72,False,Internal Infrastructure Failure,False,successful
+558,INC-000546,20251221,2,2,8.0,38.9,42.6,2757,91915.78,False,Third-Party/Vendor Outage,False,successful
+559,INC-000547,20250330,2,2,8.0,26.8,30.8,1791,60490.13,False,Network/Telco Failure,False,successful
+560,INC-000548,20251211,7,7,2.0,7.7,13.3,140,2640.93,False,Software Deployment Bug,False,successful
+561,INC-000549,20240130,3,3,3.0,14.3,0.0,639,8816.77,False,Third-Party/Vendor Outage,False,self_resolved
+562,INC-000550,20241128,1,1,8.0,0.0,15.0,0,0.0,False,Third-Party/Vendor Outage,True,false_alert
+563,INC-000551,20241027,5,5,4.0,37.9,14.5,2202,88080.92,False,Software Deployment Bug,True,logging_error
+564,INC-000552,20250118,4,4,3.0,8111.4,62.1,969115,37846058.64,True,Data/Logging Anomaly,True,outlier_downtime
+565,INC-000553,20240529,5,5,4.0,24.5,25.1,1190,43640.34,False,Network/Telco Failure,False,successful
+566,INC-000554,20250627,5,5,8.0,54.9,60.2,6839,235682.01,True,Third-Party/Vendor Outage,False,successful
+567,INC-000555,20250802,3,3,4.0,7.9,33.5,406,4152.22,False,Network/Telco Failure,False,successful
+568,INC-000556,20240623,2,2,1.0,37.1,40.1,1572,60105.41,False,Internal Infrastructure Failure,False,successful
+569,INC-000557,20240628,6,6,1.0,17.3,18.8,1294,46758.04,False,Internal Infrastructure Failure,False,successful
+570,INC-000558,20240321,6,6,7.0,67.1,68.2,3457,144194.27,False,Third-Party/Vendor Outage,False,successful
+571,INC-000559,20250926,6,6,2.0,40.8,47.8,3926,151008.2,True,Network/Telco Failure,False,successful
+572,INC-000560,20250524,6,6,8.0,46.2,51.1,2342,83130.36,False,Network/Telco Failure,False,successful
+573,INC-000561,20240825,3,3,4.0,11.6,43.5,618,7685.6,False,Third-Party/Vendor Outage,False,successful
+574,INC-000562,20251015,4,4,5.0,18.5,20.1,1137,34554.38,False,Software Deployment Bug,False,successful
+575,INC-000563,20250415,9,9,7.0,9.4,13.6,131,2005.52,False,Software Deployment Bug,False,successful
+576,INC-000564,20251113,2,2,2.0,3.3,9.7,343,12330.08,True,Third-Party/Vendor Outage,False,successful
+577,INC-000565,20250421,2,2,8.0,15.9,16.3,861,30297.02,False,Software Deployment Bug,False,successful
+578,INC-000566,20251124,8,8,5.0,46.7,0.0,1005,24308.65,True,Network/Telco Failure,False,self_resolved
+579,INC-000567,20240316,9,9,1.0,92.7,113.4,2931,36004.83,True,Internal Infrastructure Failure,True,duplicate_source
+580,INC-000567,20240316,9,9,1.0,92.7,113.0,2931,36004.83,True,Internal Infrastructure Failure,True,duplicate_source
+581,INC-000568,20250328,3,3,1.0,33.6,50.2,1775,18986.66,False,Internal Infrastructure Failure,False,successful
+582,INC-000569,20241219,5,5,8.0,20.3,23.0,2642,101039.23,True,Software Deployment Bug,False,successful
+583,INC-000570,20251016,1,1,5.0,25.4,26.5,1317,18661.98,False,Third-Party/Vendor Outage,False,successful
+584,INC-000571,20251207,9,9,7.0,35.4,37.9,672,9999.3,True,Software Deployment Bug,False,successful
+585,INC-000572,20250412,5,5,3.0,39.9,50.8,2015,60353.76,False,Software Deployment Bug,False,successful
+586,INC-000573,20240722,5,5,6.0,9.9,18.4,1354,45744.06,True,Third-Party/Vendor Outage,False,successful
+587,INC-000574,20250509,4,4,4.0,20.9,14.4,887,27677.95,False,Third-Party/Vendor Outage,True,logging_error
+588,INC-000575,20240830,1,1,8.0,16.3,0.0,1001,14131.91,False,Third-Party/Vendor Outage,False,self_resolved
+589,INC-000576,20250808,3,3,4.0,15.1,17.9,723,8520.99,False,Software Deployment Bug,False,successful
+590,INC-000577,20250811,6,6,4.0,5.2,35.0,297,11099.34,False,Software Deployment Bug,False,successful
+591,INC-000578,20251217,6,6,2.0,9.3,0.0,412,15792.05,False,Software Deployment Bug,False,self_resolved
+592,INC-000579,20240123,3,3,1.0,5.1,9.7,556,6315.36,True,Internal Infrastructure Failure,False,successful
+593,INC-000580,20251105,8,8,6.0,13.9,0.0,356,7368.5,True,Third-Party/Vendor Outage,False,self_resolved
+594,INC-000581,20241008,1,1,4.0,3.5,21.7,316,3521.35,True,Third-Party/Vendor Outage,False,successful
+595,INC-000582,20250802,5,5,8.0,0.0,0.0,341,10479.45,False,Third-Party/Vendor Outage,True,ghost_impact
+596,INC-000583,20250912,4,4,8.0,11.5,56.3,735,,False,Third-Party/Vendor Outage,True,missing_data
+597,INC-000584,20241020,8,8,2.0,40.5,40.8,742,15926.41,False,Network/Telco Failure,False,successful
+598,INC-000585,20250913,4,4,6.0,4.9,0.0,597,18983.38,True,Software Deployment Bug,False,self_resolved
+599,INC-000586,20240812,6,6,1.0,10.0,11.9,601,24511.78,False,Internal Infrastructure Failure,False,successful
+600,INC-000587,20251013,3,3,3.0,14.8,18.0,1117,16290.94,False,Network/Telco Failure,True,missing_data
+601,INC-000588,20250927,1,1,3.0,31.1,39.7,2348,32466.36,False,Software Deployment Bug,False,successful
+602,INC-000589,20251125,3,3,6.0,17.9,18.2,2312,31814.08,True,Network/Telco Failure,False,successful
+603,INC-000590,20251005,8,8,8.0,9.4,7.5,284,6929.67,True,Third-Party/Vendor Outage,True,logging_error
+604,INC-000591,20251004,5,5,2.0,39.6,50.2,1824,70562.96,False,Third-Party/Vendor Outage,False,successful
+605,INC-000592,20241112,8,8,3.0,30.0,0.0,395,8240.06,False,Third-Party/Vendor Outage,False,self_resolved
+606,INC-000593,20240204,9,9,2.0,29.9,0.0,445,5704.46,False,Software Deployment Bug,False,self_resolved
+607,INC-000594,20240514,7,7,2.0,51.0,64.3,707,14322.25,False,Third-Party/Vendor Outage,True,duplicate_source
+608,INC-000594,20240514,7,7,2.0,51.0,63.5,707,14322.25,False,Third-Party/Vendor Outage,True,duplicate_source
+609,INC-000595,20241029,2,2,7.0,12.0,0.0,1071,34917.5,True,Software Deployment Bug,False,self_resolved
+610,INC-000596,20250301,8,8,2.0,46.4,53.1,552,13173.37,False,Network/Telco Failure,False,successful
+611,INC-000597,20240724,5,5,8.0,19.5,36.9,1438,59170.14,False,Network/Telco Failure,False,successful
+612,INC-000598,20250706,1,1,8.0,34.0,42.2,2019,27197.3,False,Software Deployment Bug,False,successful
+613,INC-000599,20250627,1,1,2.0,27.3,0.0,1615,20918.62,False,Software Deployment Bug,False,self_resolved
+614,INC-000600,20240617,5,5,4.0,48.0,0.0,2607,102484.78,False,Software Deployment Bug,False,self_resolved
+615,INC-000601,20250508,8,8,6.0,4.2,26.4,64,1452.48,False,Software Deployment Bug,False,successful
+616,INC-000602,20241212,1,1,4.0,49.8,52.2,3769,49713.41,False,Third-Party/Vendor Outage,False,successful
+617,INC-000603,20250424,6,6,2.0,29.1,41.8,2212,77233.79,True,Third-Party/Vendor Outage,False,successful
+618,INC-000604,20240524,1,1,8.0,6.4,0.0,749,7548.18,True,Network/Telco Failure,False,self_resolved
+619,INC-000605,20251123,2,2,1.0,16.7,0.0,1186,36841.96,False,Internal Infrastructure Failure,False,self_resolved
+620,INC-000606,20251121,3,3,3.0,6.9,15.9,489,7186.11,False,Third-Party/Vendor Outage,False,successful
+621,INC-000607,20250724,4,4,3.0,6.0,0.0,618,19645.08,True,Software Deployment Bug,False,self_resolved
+622,INC-000608,20240402,2,2,1.0,30.5,39.1,2864,95885.28,True,Internal Infrastructure Failure,False,successful
+623,INC-000609,20250208,6,6,3.0,24.9,18.7,2588,107022.66,True,Third-Party/Vendor Outage,True,logging_error
+624,INC-000610,20240927,3,3,5.0,20.5,22.5,2416,31933.86,True,Third-Party/Vendor Outage,False,successful
+625,INC-000611,20250410,9,9,5.0,11.4,0.0,158,2509.73,False,Software Deployment Bug,False,self_resolved
+626,INC-000612,20251119,4,4,6.0,8.7,14.5,1187,48544.76,True,Software Deployment Bug,False,successful
+627,INC-000613,20250821,3,3,8.0,21.1,21.9,1200,13486.61,False,Third-Party/Vendor Outage,False,successful
+628,INC-000614,20251015,2,2,7.0,4.5,9.5,288,11542.36,False,Software Deployment Bug,False,successful
+629,INC-000615,20240420,1,1,5.0,6.2,13.0,408,5800.37,False,Network/Telco Failure,False,successful
+630,INC-000616,20250427,3,3,7.0,43.8,61.6,4831,60355.82,True,Third-Party/Vendor Outage,False,successful
+631,INC-000617,20250926,3,3,6.0,18.0,28.5,1368,16823.56,False,Software Deployment Bug,False,successful
+632,INC-000618,20250916,7,7,6.0,17.8,0.0,228,5785.88,False,Network/Telco Failure,False,self_resolved
+633,INC-000619,20251025,2,2,2.0,14.0,8.3,1857,63128.99,True,Third-Party/Vendor Outage,True,logging_error
+634,INC-000620,20251012,1,1,4.0,26.0,36.0,2099,30184.52,True,Third-Party/Vendor Outage,False,successful
+635,INC-000621,20251218,7,7,7.0,9.7,10.7,146,3252.22,False,Software Deployment Bug,False,successful
+636,INC-000622,20251026,4,4,8.0,24.6,35.0,1280,53275.69,False,Third-Party/Vendor Outage,False,successful
+637,INC-000623,20240429,5,5,1.0,22.4,10.2,3118,126907.02,True,Internal Infrastructure Failure,True,logging_error
+638,INC-000624,20240523,1,1,4.0,6.9,0.0,514,6338.11,False,Third-Party/Vendor Outage,False,self_resolved
+639,INC-000625,20240208,9,9,4.0,16.0,7.8,237,3218.31,False,Software Deployment Bug,True,logging_error
+640,INC-000626,20250519,3,3,,24.7,27.1,1664,18982.24,False,Internal Infrastructure Failure,True,missing_data
+641,INC-000627,20240428,10,10,5.0,27.6,42.4,388,8519.74,False,Third-Party/Vendor Outage,False,successful
+642,INC-000628,20240828,3,3,3.0,0.0,0.0,130,1501.4,False,Network/Telco Failure,True,ghost_impact
+643,INC-000629,20250201,2,2,5.0,37.8,38.6,4952,164162.55,True,Third-Party/Vendor Outage,False,successful
+644,INC-000630,20250114,10,10,1.0,-10.0,15.1,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+645,INC-000631,20251117,6,6,6.0,11.7,0.0,1536,45947.28,True,Third-Party/Vendor Outage,False,self_resolved
+646,INC-000632,20250824,3,3,7.0,9.1,10.2,404,4721.45,False,Network/Telco Failure,False,successful
+647,INC-000633,20250228,5,5,5.0,32.5,27.2,1889,67746.21,False,Third-Party/Vendor Outage,True,logging_error
+648,INC-000634,20250516,7,7,3.0,54.9,55.6,670,14708.53,False,Third-Party/Vendor Outage,False,successful
+649,INC-000635,20241013,6,6,5.0,15.3,17.1,1019,,False,Third-Party/Vendor Outage,True,missing_data
+650,INC-000636,20251207,6,6,5.0,0.0,0.0,396,14853.25,True,Software Deployment Bug,True,ghost_impact
+651,INC-000637,20240810,1,1,4.0,21.4,28.0,2714,28281.25,True,Third-Party/Vendor Outage,False,successful
+652,INC-000638,20250331,5,5,7.0,13.3,0.0,1013,28979.37,False,Network/Telco Failure,False,self_resolved
+653,INC-000639,20250106,9,9,4.0,663.6,11.0,21894,244644.67,True,Data/Logging Anomaly,True,outlier_downtime
+654,INC-000640,20251203,5,5,7.0,39.0,39.9,4513,168265.96,True,Software Deployment Bug,False,successful
+655,INC-000641,20250711,2,2,2.0,24.5,27.8,3425,121496.71,True,Software Deployment Bug,False,successful
+656,INC-000642,20240303,3,3,3.0,11.4,20.4,1288,12997.69,True,Third-Party/Vendor Outage,False,successful
+657,INC-000643,20241009,3,3,4.0,16.9,33.5,1306,18730.36,False,Network/Telco Failure,True,missing_data
+658,INC-000644,20240505,3,3,7.0,5.3,23.5,327,3799.71,False,Third-Party/Vendor Outage,False,successful
+659,INC-000645,20240403,5,5,3.0,29.7,42.3,2539,97284.25,True,Network/Telco Failure,False,successful
+660,INC-000646,20251019,1,1,2.0,38.2,2157.0,2950,29638.81,False,Third-Party/Vendor Outage,True,extended_mttr_outlier
+661,INC-000647,20240221,4,4,3.0,3.8,111.7,241,8891.21,False,Software Deployment Bug,True,extended_mttr_outlier
+662,INC-000648,20240906,6,6,8.0,6.9,0.0,298,9141.23,False,Network/Telco Failure,False,self_resolved
+663,INC-000649,20250801,2,2,5.0,4.7,10.4,314,9196.5,False,Network/Telco Failure,False,successful
+664,INC-000650,20240311,6,6,1.0,17.4,23.2,1456,53310.72,True,Internal Infrastructure Failure,False,successful
+665,INC-000651,20250721,10,10,4.0,23.4,27.4,555,13517.06,True,Network/Telco Failure,False,successful
+666,INC-000652,20250823,7,7,8.0,29.8,0.0,832,19856.17,True,Network/Telco Failure,False,self_resolved
+667,INC-000653,20240826,2,2,3.0,17.7,22.7,1266,39107.22,False,Software Deployment Bug,True,missing_data
+668,INC-000654,20240531,10,10,1.0,0.0,0.0,241,4236.42,False,Internal Infrastructure Failure,True,ghost_impact
+669,INC-000655,20250902,3,3,7.0,3.2,11.1,209,3094.4,False,Third-Party/Vendor Outage,False,successful
+670,INC-000656,20241010,4,4,6.0,13.8,15.3,865,29732.49,False,Network/Telco Failure,False,successful
+671,INC-000657,20240513,2,2,5.0,10.6,0.0,624,26187.94,False,Software Deployment Bug,False,self_resolved
+672,INC-000658,20240627,10,10,5.0,46.0,71.1,689,17519.45,False,Third-Party/Vendor Outage,False,successful
+673,INC-000659,20251107,4,4,3.0,12.3,59.1,1536,64007.02,True,Third-Party/Vendor Outage,False,successful
+674,INC-000660,20240514,3,3,7.0,6.1,9.1,850,9530.6,True,Third-Party/Vendor Outage,False,successful
+675,INC-000661,20250101,2,2,7.0,27.3,0.0,2190,84678.41,True,Network/Telco Failure,False,self_resolved
+676,INC-000662,20250825,4,4,7.0,10.2,28.3,1254,51614.12,True,Software Deployment Bug,False,successful
+677,INC-000663,20240117,6,6,8.0,25.4,49.9,1349,50311.26,False,Network/Telco Failure,False,successful
+678,INC-000664,20240928,1,1,7.0,36.5,37.9,2176,22973.11,False,Third-Party/Vendor Outage,False,successful
+679,INC-000665,20240509,3,3,7.0,-6.2,11.3,0,0.0,True,Data/Logging Anomaly,True,negative_downtime
+680,INC-000666,20250622,10,10,2.0,27.1,1249.0,476,8709.56,False,Third-Party/Vendor Outage,True,extended_mttr_outlier
+681,INC-000667,20240306,10,10,8.0,14.8,20.1,342,6729.55,True,Third-Party/Vendor Outage,False,successful
+682,INC-000668,20250404,4,4,4.0,25.2,0.0,1883,53928.3,False,Software Deployment Bug,False,self_resolved
+683,INC-000669,20250609,6,6,3.0,40.4,0.0,1882,76544.48,False,Third-Party/Vendor Outage,False,self_resolved
+684,INC-000670,20250407,3,3,2.0,14.7,0.0,1497,19499.34,True,Network/Telco Failure,False,self_resolved
+685,INC-000671,20250921,5,5,2.0,1834.0,37.7,136443,4716573.62,False,Data/Logging Anomaly,True,outlier_downtime
+686,INC-000672,20251105,3,3,1.0,7.2,0.0,705,7132.86,True,Internal Infrastructure Failure,False,self_resolved
+687,INC-000673,20250617,6,6,2.0,20.0,9.7,944,36770.31,False,Software Deployment Bug,True,logging_error
+688,INC-000674,20250414,5,5,2.0,14.9,0.0,1008,40658.83,False,Third-Party/Vendor Outage,False,self_resolved
+689,INC-000675,20240303,4,4,7.0,56.2,96.1,2831,119124.8,False,Third-Party/Vendor Outage,False,successful
+690,INC-000676,20250215,1,1,4.0,0.0,0.0,146,2005.92,False,Third-Party/Vendor Outage,True,ghost_impact
+691,INC-000677,20251203,6,6,4.0,-20.8,44.3,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+692,INC-000678,20250517,3,3,2.0,5.1,15.2,250,3000.85,False,Third-Party/Vendor Outage,False,successful
+693,INC-000679,20240316,5,5,7.0,1413.7,15.8,152494,5493894.14,True,Data/Logging Anomaly,True,outlier_downtime
+694,INC-000680,20241125,6,6,1.0,3.8,5.3,240,7313.52,False,Internal Infrastructure Failure,False,successful
+695,INC-000681,20250914,8,8,2.0,11.3,12.0,254,4736.55,True,Network/Telco Failure,False,successful
+696,INC-000682,20240308,5,5,6.0,56.9,61.2,3106,116223.8,False,Network/Telco Failure,False,successful
+697,INC-000683,20241008,5,5,1.0,39.1,0.0,3689,138594.93,True,Internal Infrastructure Failure,False,self_resolved
+698,INC-000684,20251001,8,8,3.0,33.8,35.8,473,11963.05,False,Software Deployment Bug,False,successful
+699,INC-000685,20250125,3,3,6.0,86.4,89.0,5022,53339.07,False,Software Deployment Bug,False,successful
+700,INC-000686,20250409,3,3,4.0,5.4,6.5,345,3752.32,False,Third-Party/Vendor Outage,False,successful
+701,INC-000687,20240411,2,2,1.0,32.4,33.4,1656,53103.38,False,Internal Infrastructure Failure,False,successful
+702,INC-000688,20251219,1,1,2.0,3.8,9.9,205,2160.75,False,Third-Party/Vendor Outage,False,successful
+703,INC-000689,20251101,6,6,3.0,17.0,22.5,767,29286.64,False,Network/Telco Failure,False,successful
+704,INC-000690,20250316,1,1,1.0,17.2,28.7,1020,15202.17,False,Internal Infrastructure Failure,False,successful
+705,INC-000691,20250407,7,7,7.0,5.0,5.3,80,1554.15,False,Network/Telco Failure,False,successful
+706,INC-000692,20250227,6,6,1.0,9.7,13.1,1186,42075.86,True,Internal Infrastructure Failure,False,successful
+707,INC-000693,20241213,1,1,3.0,3.2,3.9,280,3503.53,True,Third-Party/Vendor Outage,False,successful
+708,INC-000694,20250212,5,5,8.0,117.7,122.1,5387,187561.02,False,Third-Party/Vendor Outage,False,successful
+709,INC-000695,20240407,7,7,7.0,28.9,37.0,881,16181.19,True,Software Deployment Bug,False,successful
+710,INC-000696,20250313,9,9,4.0,22.4,27.1,242,3484.35,False,Software Deployment Bug,False,successful
+711,INC-000697,20251112,6,6,5.0,0.0,0.0,225,6463.43,True,Software Deployment Bug,True,ghost_impact
+712,INC-000698,20250118,4,4,7.0,24.7,32.8,1529,64749.87,False,Network/Telco Failure,False,successful
+713,INC-000699,20251204,6,6,3.0,5.6,0.0,409,16432.63,False,Third-Party/Vendor Outage,False,self_resolved
+714,INC-000700,20240309,4,4,5.0,31.6,32.5,2691,105895.89,True,Third-Party/Vendor Outage,False,successful
+715,INC-000701,20240328,6,6,7.0,-9.8,11.7,0,0.0,True,Data/Logging Anomaly,True,negative_downtime
+716,INC-000702,20250318,3,3,4.0,12.2,24.5,792,10565.6,False,Third-Party/Vendor Outage,False,successful
+717,INC-000703,20250116,6,6,4.0,4.8,9.3,258,9975.46,False,Network/Telco Failure,False,successful
+718,INC-000704,20250723,3,3,6.0,42.7,0.0,2851,35514.31,False,Third-Party/Vendor Outage,False,self_resolved
+719,INC-000705,20250823,5,5,1.0,13.3,8.5,581,16886.24,False,Internal Infrastructure Failure,True,logging_error
+720,INC-000706,20250729,6,6,8.0,22.1,24.8,994,29031.01,False,Software Deployment Bug,False,successful
+721,INC-000707,20251117,1,1,4.0,19.8,20.7,1193,16558.74,False,Third-Party/Vendor Outage,False,successful
+722,INC-000708,20250224,1,1,3.0,31.0,31.9,2123,23115.88,False,Software Deployment Bug,False,successful
+723,INC-000709,20251112,3,3,5.0,70.3,76.1,4337,44092.37,False,Third-Party/Vendor Outage,False,successful
+724,INC-000710,20240222,5,5,6.0,32.4,13.2,2322,75231.66,False,Software Deployment Bug,True,logging_error
+725,INC-000711,20250906,3,3,8.0,32.7,45.0,2224,24300.32,False,Software Deployment Bug,False,successful
+726,INC-000712,20241226,4,4,5.0,8.6,16.2,495,14586.09,False,Third-Party/Vendor Outage,True,duplicate_source
+727,INC-000712,20241226,4,4,5.0,8.6,17.0,495,14586.09,False,Third-Party/Vendor Outage,True,duplicate_source
+728,INC-000713,20250814,4,4,5.0,37.5,40.6,1757,57059.41,False,Network/Telco Failure,False,successful
+729,INC-000714,20240607,6,6,6.0,3.9,11.7,220,8255.38,False,Third-Party/Vendor Outage,False,successful
+730,INC-000715,20240817,2,2,4.0,14.8,22.2,1128,,False,Third-Party/Vendor Outage,True,missing_data
+731,INC-000716,20241224,6,6,8.0,17.4,25.1,855,35934.33,False,Software Deployment Bug,False,successful
+732,INC-000717,20240427,6,6,8.0,18.1,19.3,870,26589.86,False,Software Deployment Bug,False,successful
+733,INC-000718,20250810,5,5,7.0,8.4,13.9,514,17053.61,False,Network/Telco Failure,False,successful
+734,INC-000719,20250315,2,2,7.0,28.6,32.8,2373,89837.78,True,Third-Party/Vendor Outage,False,successful
+735,INC-000720,20250915,6,6,2.0,20.8,35.6,1027,41259.02,False,Software Deployment Bug,False,successful
+736,INC-000721,20240130,2,2,3.0,29.5,50.4,1495,54503.05,False,Network/Telco Failure,False,successful
+737,INC-000722,20241006,1,1,1.0,19.7,0.0,1105,12854.2,False,Internal Infrastructure Failure,False,self_resolved
+738,INC-000723,20251220,4,4,2.0,60.9,65.7,3362,96091.24,False,Software Deployment Bug,False,successful
+739,INC-000724,20241213,4,4,7.0,57.2,62.6,2812,91766.3,False,Software Deployment Bug,False,successful
+740,INC-000725,20240107,5,5,6.0,103.3,105.7,7210,248158.09,False,Network/Telco Failure,False,successful
+741,INC-000726,20240526,2,2,4.0,34.3,0.0,3092,91101.84,True,Third-Party/Vendor Outage,False,self_resolved
+742,INC-000727,20240312,10,10,3.0,44.2,54.7,707,17061.12,False,Network/Telco Failure,False,successful
+743,INC-000728,20251010,2,2,3.0,48.9,2497.0,3714,110170.94,False,Third-Party/Vendor Outage,True,extended_mttr_outlier
+744,INC-000729,20240403,4,4,7.0,12.4,22.4,924,34000.49,False,Network/Telco Failure,False,successful
+745,INC-000730,20250120,6,6,6.0,15.3,16.9,1058,33063.93,False,Third-Party/Vendor Outage,False,successful
+746,INC-000731,20250409,6,6,4.0,25.0,54.8,1464,55519.77,False,Software Deployment Bug,False,successful
+747,INC-000732,20240610,7,7,6.0,0.0,6.5,0,0.0,False,Software Deployment Bug,True,false_alert
+748,INC-000733,20241115,6,6,7.0,51.1,64.3,4675,172499.35,True,Software Deployment Bug,False,successful
+749,INC-000734,20250804,5,5,1.0,59.3,0.0,2611,75339.25,False,Internal Infrastructure Failure,False,self_resolved
+750,INC-000735,20250902,10,10,6.0,68.5,121.2,864,20523.76,False,Third-Party/Vendor Outage,False,successful
+751,INC-000736,20240223,1,1,7.0,43.5,43.6,1846,19547.89,False,Network/Telco Failure,False,successful
+752,INC-000737,20240610,1,1,3.0,16.9,17.5,870,11027.49,False,Third-Party/Vendor Outage,False,successful
+753,INC-000738,20251121,9,9,4.0,21.0,0.0,231,3321.11,False,Third-Party/Vendor Outage,False,self_resolved
+754,INC-000739,20241005,3,3,7.0,3.0,13.0,137,1544.88,False,Third-Party/Vendor Outage,False,successful
+755,INC-000740,20251108,4,4,3.0,24.7,26.0,3242,103012.17,True,Third-Party/Vendor Outage,False,successful
+756,INC-000741,20250512,8,8,3.0,39.9,64.6,751,18588.25,False,Third-Party/Vendor Outage,False,successful
+757,INC-000742,20250228,3,3,4.0,49.7,52.3,2276,24183.16,False,Software Deployment Bug,True,duplicate_source
+758,INC-000742,20250228,3,3,4.0,49.7,52.8,2276,24183.16,False,Software Deployment Bug,True,duplicate_source
+759,INC-000743,20240808,6,6,8.0,30.3,31.8,1896,69200.18,False,Third-Party/Vendor Outage,False,successful
+760,INC-000744,20241219,1,1,1.0,35.8,42.9,1583,23144.24,False,Internal Infrastructure Failure,False,successful
+761,INC-000745,20250316,3,3,6.0,14.1,17.2,1068,13934.28,False,Third-Party/Vendor Outage,False,successful
+762,INC-000746,20241017,4,4,,6.7,8.8,286,10894.92,False,Internal Infrastructure Failure,True,missing_data
+763,INC-000747,20251125,1,1,1.0,14.8,19.6,1212,16077.49,True,Internal Infrastructure Failure,False,successful
+764,INC-000748,20251125,3,3,4.0,22.4,0.0,1612,16757.2,False,Third-Party/Vendor Outage,False,self_resolved
+765,INC-000749,20250623,4,4,8.0,11.2,27.6,553,21072.32,False,Software Deployment Bug,False,successful
+766,INC-000750,20240216,6,6,8.0,6.4,7.6,817,25103.38,True,Network/Telco Failure,False,successful
+767,INC-000751,20250208,3,3,1.0,6.7,0.0,502,5084.11,False,Internal Infrastructure Failure,False,self_resolved
+768,INC-000752,20250905,2,2,3.0,40.0,23.8,1975,76984.06,False,Third-Party/Vendor Outage,True,logging_error
+769,INC-000753,20240108,2,2,5.0,7.0,27.4,364,12857.44,False,Network/Telco Failure,False,successful
+770,INC-000754,20241104,3,3,4.0,5.5,0.0,652,7264.68,True,Network/Telco Failure,False,self_resolved
+771,INC-000755,20240520,9,9,4.0,13.4,22.3,423,5537.03,True,Software Deployment Bug,False,successful
+772,INC-000756,20241023,2,2,6.0,7.8,16.0,484,,False,Software Deployment Bug,True,missing_data
+773,INC-000757,20240502,2,2,5.0,16.4,11.8,917,28138.21,False,Third-Party/Vendor Outage,True,logging_error
+774,INC-000758,20250524,5,5,8.0,11.3,25.0,657,21275.96,False,Third-Party/Vendor Outage,False,successful
+775,INC-000759,20240628,3,3,4.0,53.7,59.6,3030,33168.7,False,Network/Telco Failure,False,successful
+776,INC-000760,20250124,4,4,1.0,12.6,19.1,1654,52540.91,True,Internal Infrastructure Failure,False,successful
+777,INC-000761,20250629,4,4,1.0,6.1,3.7,427,13630.41,False,Internal Infrastructure Failure,True,logging_error
+778,INC-000762,20251221,3,3,6.0,43.1,47.6,2601,33807.18,False,Network/Telco Failure,False,successful
+779,INC-000763,20250527,6,6,2.0,37.6,0.0,3590,103772.05,True,Software Deployment Bug,False,self_resolved
+780,INC-000764,20240314,3,3,1.0,4.8,5.4,363,3647.26,False,Internal Infrastructure Failure,False,successful
+781,INC-000765,20250210,5,5,1.0,7.4,19.0,401,12402.92,False,Internal Infrastructure Failure,True,duplicate_source
+782,INC-000765,20250210,5,5,1.0,7.4,20.2,401,12402.92,False,Internal Infrastructure Failure,True,duplicate_source
+783,INC-000766,20240213,4,4,1.0,29.2,51.4,2034,60084.39,False,Internal Infrastructure Failure,False,successful
+784,INC-000767,20250322,4,4,5.0,21.7,42.5,2223,91949.69,True,Third-Party/Vendor Outage,False,successful
+785,INC-000768,20250415,2,2,3.0,22.8,22.9,2700,77201.39,True,Third-Party/Vendor Outage,False,successful
+786,INC-000769,20241116,3,3,8.0,31.1,0.0,4090,49837.06,True,Third-Party/Vendor Outage,False,self_resolved
+787,INC-000770,20250810,10,10,8.0,30.9,38.3,1042,17672.44,True,Third-Party/Vendor Outage,False,successful
+788,INC-000771,20251227,6,6,7.0,40.1,14.1,2583,73214.44,False,Third-Party/Vendor Outage,True,logging_error
+789,INC-000772,20241023,8,8,1.0,14.2,17.9,397,9025.96,True,Internal Infrastructure Failure,False,successful
+790,INC-000773,20240427,6,6,4.0,22.1,0.0,1916,61271.53,True,Third-Party/Vendor Outage,False,self_resolved
+791,INC-000774,20240122,4,4,5.0,4.2,13.2,297,,False,Software Deployment Bug,True,missing_data
+792,INC-000775,20240624,3,3,1.0,21.7,23.7,1491,,False,Internal Infrastructure Failure,True,missing_data
+793,INC-000776,20250924,4,4,3.0,7.1,7.3,530,15773.52,False,Third-Party/Vendor Outage,False,successful
+794,INC-000777,20251207,4,4,8.0,47.9,55.3,2929,87029.82,False,Software Deployment Bug,False,successful
+795,INC-000778,20240331,10,10,2.0,11.0,11.9,292,6659.26,True,Third-Party/Vendor Outage,False,successful
+796,INC-000779,20240418,6,6,6.0,18.8,23.4,2240,75260.53,True,Network/Telco Failure,False,successful
+797,INC-000780,20250322,2,2,5.0,37.0,48.8,2696,76385.24,False,Third-Party/Vendor Outage,True,duplicate_source
+798,INC-000780,20250322,2,2,5.0,37.0,49.8,2696,76385.24,False,Third-Party/Vendor Outage,True,duplicate_source
+799,INC-000781,20250620,5,5,,4.4,9.1,261,10917.3,False,Internal Infrastructure Failure,True,missing_data
+800,INC-000782,20240321,3,3,5.0,36.7,60.3,3928,56109.58,True,Third-Party/Vendor Outage,False,successful
+801,INC-000783,20241113,2,2,7.0,57.1,68.2,3049,126851.01,False,Software Deployment Bug,False,successful
+802,INC-000784,20240814,1,1,7.0,14.9,0.0,1667,20021.81,True,Software Deployment Bug,False,self_resolved
+803,INC-000785,20240621,5,5,1.0,3083.0,26.3,238794,9736163.53,False,Data/Logging Anomaly,True,outlier_downtime
+804,INC-000786,20240319,5,5,6.0,6.3,158.3,704,27434.95,True,Third-Party/Vendor Outage,True,extended_mttr_outlier
+805,INC-000787,20250627,2,2,5.0,16.8,0.0,1015,30760.84,False,Network/Telco Failure,False,self_resolved
+806,INC-000788,20241223,2,2,8.0,8.7,10.0,1041,40349.93,True,Software Deployment Bug,False,successful
+807,INC-000789,20251022,8,8,1.0,19.3,27.3,545,10578.29,True,Internal Infrastructure Failure,False,successful
+808,INC-000790,20240531,1,1,5.0,6.9,10.6,891,10395.99,True,Network/Telco Failure,False,successful
+809,INC-000791,20240415,6,6,6.0,8.2,13.5,504,19128.97,False,Network/Telco Failure,False,successful
+810,INC-000792,20240919,4,4,4.0,23.9,24.7,1838,58771.61,True,Network/Telco Failure,False,successful
+811,INC-000793,20240626,6,6,3.0,8.8,16.6,515,14839.63,False,Network/Telco Failure,True,duplicate_source
+812,INC-000793,20240626,6,6,3.0,8.8,15.1,515,14839.63,False,Network/Telco Failure,True,duplicate_source
+813,INC-000794,20251102,5,5,4.0,36.3,0.0,2549,91226.12,False,Third-Party/Vendor Outage,False,self_resolved
+814,INC-000795,20240630,3,3,3.0,54.0,68.4,6238,75426.0,True,Third-Party/Vendor Outage,False,successful
+815,INC-000796,20250420,9,9,3.0,18.8,21.0,228,2900.2,False,Third-Party/Vendor Outage,False,successful
+816,INC-000797,20251128,4,4,1.0,25.5,31.0,1873,57385.78,False,Internal Infrastructure Failure,False,successful
+817,INC-000798,20250801,5,5,5.0,27.2,29.4,1844,67620.17,False,Software Deployment Bug,True,duplicate_source
+818,INC-000798,20250801,5,5,5.0,27.2,30.8,1844,67620.17,False,Software Deployment Bug,True,duplicate_source
+819,INC-000799,20251004,4,4,2.0,21.6,40.5,2504,81773.24,True,Software Deployment Bug,False,successful
+820,INC-000800,20240603,1,1,8.0,17.1,0.0,1131,14588.35,False,Third-Party/Vendor Outage,False,self_resolved
+821,INC-000801,20240310,3,3,1.0,11.9,9.5,617,7782.69,False,Internal Infrastructure Failure,True,logging_error
+822,INC-000802,20250425,4,4,8.0,43.2,64.6,3254,128882.51,False,Third-Party/Vendor Outage,False,successful
+823,INC-000803,20251008,5,5,2.0,27.3,0.0,2072,82330.27,False,Software Deployment Bug,False,self_resolved
+824,INC-000804,20241008,4,4,8.0,30.9,18.5,1343,49090.43,False,Third-Party/Vendor Outage,True,logging_error
+825,INC-000805,20241226,5,5,5.0,107.7,0.0,7288,224988.62,False,Third-Party/Vendor Outage,False,self_resolved
+826,INC-000806,20241113,5,5,4.0,0.0,0.0,104,3277.44,False,Third-Party/Vendor Outage,True,ghost_impact
+827,INC-000807,20250407,6,6,8.0,3.1,11.4,294,12050.12,True,Third-Party/Vendor Outage,False,successful
+828,INC-000808,20240228,3,3,6.0,29.0,31.2,2970,32621.03,True,Software Deployment Bug,False,successful
+829,INC-000809,20241020,8,8,1.0,57.8,108.7,1823,34799.41,True,Internal Infrastructure Failure,False,successful
+830,INC-000810,20240319,6,6,3.0,3.2,8.6,157,5130.93,False,Third-Party/Vendor Outage,False,successful
+831,INC-000811,20250921,4,4,8.0,7448.7,67.3,313419,10708336.74,False,Data/Logging Anomaly,True,outlier_downtime
+832,INC-000812,20250418,3,3,8.0,134.9,140.3,8157,114822.35,False,Third-Party/Vendor Outage,False,successful
+833,INC-000813,20250405,6,6,7.0,84.7,100.9,11268,403595.44,True,Network/Telco Failure,False,successful
+834,INC-000814,20241125,4,4,5.0,10.4,0.0,799,29440.59,False,Third-Party/Vendor Outage,False,self_resolved
+835,INC-000815,20250528,5,5,1.0,0.0,14.4,0,0.0,True,Internal Infrastructure Failure,True,false_alert
+836,INC-000816,20240603,5,5,6.0,11.7,23.8,627,25123.53,False,Third-Party/Vendor Outage,False,successful
+837,INC-000817,20250406,7,7,8.0,10.4,16.0,151,3168.44,False,Third-Party/Vendor Outage,False,successful
+838,INC-000818,20241217,6,6,7.0,114.7,125.1,8265,339950.52,False,Third-Party/Vendor Outage,False,successful
+839,INC-000819,20250531,4,4,2.0,83.3,102.7,4604,158238.83,False,Network/Telco Failure,False,successful
+840,INC-000820,20240210,6,6,4.0,11.7,438.1,895,34660.11,False,Network/Telco Failure,True,extended_mttr_outlier
+841,INC-000821,20251225,2,2,6.0,11.5,0.0,585,16693.95,False,Third-Party/Vendor Outage,False,self_resolved
+842,INC-000822,20250325,2,2,4.0,8.3,2.8,507,14920.53,False,Network/Telco Failure,True,logging_error
+843,INC-000823,20250107,6,6,4.0,11.8,5.8,732,29565.51,False,Software Deployment Bug,True,logging_error
+844,INC-000824,20241016,9,9,5.0,0.0,11.3,0,0.0,False,Third-Party/Vendor Outage,True,false_alert
+845,INC-000825,20250222,7,7,8.0,17.3,18.2,498,11499.35,True,Software Deployment Bug,False,successful
+846,INC-000826,20251126,8,8,4.0,16.9,18.0,276,4990.59,False,Third-Party/Vendor Outage,False,successful
+847,INC-000827,20251008,6,6,6.0,4.0,13.8,414,17092.74,True,Software Deployment Bug,False,successful
+848,INC-000828,20240308,5,5,7.0,54.1,55.2,3876,132919.03,False,Software Deployment Bug,True,duplicate_source
+849,INC-000828,20240308,5,5,7.0,54.1,55.1,3876,132919.03,False,Software Deployment Bug,True,duplicate_source
+850,INC-000829,20240406,5,5,3.0,0.0,9.3,0,0.0,True,Third-Party/Vendor Outage,True,false_alert
+851,INC-000830,20241017,1,1,1.0,8.1,16.8,457,5095.79,False,Internal Infrastructure Failure,False,successful
+852,INC-000831,20240915,8,8,2.0,-14.1,16.0,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+853,INC-000832,20241207,1,1,5.0,22.0,29.7,2097,27797.06,True,Third-Party/Vendor Outage,False,successful
+854,INC-000833,20250819,6,6,2.0,9.5,15.5,634,22177.75,False,Network/Telco Failure,False,successful
+855,INC-000834,20241224,10,10,5.0,7.4,13.6,95,2340.3,False,Software Deployment Bug,False,successful
+856,INC-000835,20251102,6,6,7.0,53.2,55.1,4727,145184.43,True,Third-Party/Vendor Outage,False,successful
+857,INC-000836,20240512,6,6,,9.3,19.8,490,,False,Internal Infrastructure Failure,True,missing_data
+858,INC-000837,20250901,1,1,1.0,-49.4,50.0,0,0.0,True,Data/Logging Anomaly,True,negative_downtime
+859,INC-000838,20251226,1,1,8.0,24.7,30.9,2053,25726.03,True,Third-Party/Vendor Outage,False,successful
+860,INC-000839,20241113,9,9,6.0,8.8,0.0,238,3583.67,True,Third-Party/Vendor Outage,False,self_resolved
+861,INC-000840,20251020,3,3,2.0,6.5,19.3,694,9392.55,True,Software Deployment Bug,False,successful
+862,INC-000841,20240510,4,4,8.0,22.1,38.9,1287,36879.98,False,Third-Party/Vendor Outage,False,successful
+863,INC-000842,20251023,5,5,7.0,12.1,8.8,952,32486.73,True,Third-Party/Vendor Outage,True,logging_error
+864,INC-000843,20250604,2,2,8.0,17.1,26.7,842,26356.83,False,Software Deployment Bug,False,successful
+865,INC-000844,20240119,3,3,3.0,11.4,15.0,1329,14666.85,True,Software Deployment Bug,False,successful
+866,INC-000845,20241112,7,7,3.0,12.2,16.4,299,6823.21,True,Network/Telco Failure,False,successful
+867,INC-000846,20240807,3,3,1.0,36.0,39.1,3319,37312.61,True,Internal Infrastructure Failure,False,successful
+868,INC-000847,20241215,5,5,1.0,6.0,15.6,463,18654.24,True,Internal Infrastructure Failure,True,missing_data
+869,INC-000848,20250512,2,2,4.0,21.4,25.5,928,31951.27,False,Network/Telco Failure,False,successful
+870,INC-000849,20240819,4,4,,4.2,9.8,271,8774.02,False,Internal Infrastructure Failure,True,missing_data
+871,INC-000850,20240520,6,6,6.0,50.1,56.1,4984,145676.97,True,Network/Telco Failure,False,successful
+872,INC-000851,20240320,5,5,6.0,74.9,75.6,4644,157891.45,False,Software Deployment Bug,False,successful
+873,INC-000852,20240413,5,5,7.0,28.8,43.6,3168,102919.59,True,Third-Party/Vendor Outage,False,successful
+874,INC-000853,20251108,1,1,5.0,14.7,19.8,1063,11600.96,False,Software Deployment Bug,False,successful
+875,INC-000854,20250924,5,5,7.0,10.1,20.2,542,15709.43,False,Network/Telco Failure,False,successful
+876,INC-000855,20250903,2,2,4.0,10.7,17.7,1480,42920.69,True,Third-Party/Vendor Outage,False,successful
+877,INC-000856,20240606,7,7,8.0,68.5,3572.9,936,24467.84,False,Network/Telco Failure,True,extended_mttr_outlier
+878,INC-000857,20240704,3,3,2.0,6.9,230.1,496,6506.91,False,Network/Telco Failure,True,extended_mttr_outlier
+879,INC-000858,20250324,6,6,1.0,13.9,37.3,918,35580.62,False,Internal Infrastructure Failure,False,successful
+880,INC-000859,20240214,9,9,1.0,0.0,5.9,0,0.0,False,Internal Infrastructure Failure,True,false_alert
+881,INC-000860,20250224,8,8,2.0,0.0,14.0,0,0.0,False,Software Deployment Bug,True,false_alert
+882,INC-000861,20251123,4,4,6.0,47.8,56.8,2166,69711.36,False,Network/Telco Failure,False,successful
+883,INC-000862,20250330,3,3,3.0,3.9,0.0,291,3573.69,False,Software Deployment Bug,False,self_resolved
+884,INC-000863,20250404,5,5,4.0,36.9,39.4,2387,85161.69,False,Network/Telco Failure,False,successful
+885,INC-000864,20250630,10,10,7.0,35.6,37.1,1115,25539.09,True,Network/Telco Failure,False,successful
+886,INC-000865,20241112,8,8,4.0,5.5,7.8,128,2875.14,True,Third-Party/Vendor Outage,False,successful
+887,INC-000866,20240717,5,5,7.0,41.0,47.1,2324,74731.35,False,Software Deployment Bug,False,successful
+888,INC-000867,20251125,7,7,8.0,21.1,744.1,344,8861.74,False,Third-Party/Vendor Outage,True,extended_mttr_outlier
+889,INC-000868,20250417,1,1,1.0,42.1,70.0,4052,48170.15,True,Internal Infrastructure Failure,False,successful
+890,INC-000869,20241015,1,1,5.0,40.2,44.3,3063,32657.4,False,Third-Party/Vendor Outage,False,successful
+891,INC-000870,20250529,3,3,7.0,16.1,31.3,843,9918.49,False,Third-Party/Vendor Outage,False,successful
+892,INC-000871,20240614,5,5,1.0,5.9,2.2,291,8671.36,False,Internal Infrastructure Failure,True,logging_error
+893,INC-000872,20240723,2,2,7.0,24.4,26.0,1066,44571.91,False,Network/Telco Failure,False,successful
+894,INC-000873,20240913,5,5,1.0,4.5,12.4,289,9049.45,False,Internal Infrastructure Failure,False,successful
+895,INC-000874,20240223,5,5,7.0,54.9,0.0,6980,254237.05,True,Third-Party/Vendor Outage,False,self_resolved
+896,INC-000875,20250115,10,10,5.0,24.4,25.5,565,13380.84,True,Third-Party/Vendor Outage,False,successful
+897,INC-000876,20251229,4,4,3.0,3.2,7.8,163,4958.52,False,Third-Party/Vendor Outage,True,duplicate_source
+898,INC-000876,20251229,4,4,3.0,3.2,9.8,163,4958.52,False,Third-Party/Vendor Outage,True,duplicate_source
+899,INC-000877,20241018,2,2,7.0,62.1,64.8,5104,180193.63,True,Third-Party/Vendor Outage,False,successful
+900,INC-000878,20240613,2,2,1.0,5.6,13.5,338,12174.39,False,Internal Infrastructure Failure,False,successful
+901,INC-000879,20241006,4,4,4.0,17.1,8.7,1692,68056.49,True,Third-Party/Vendor Outage,True,logging_error
+902,INC-000880,20250609,6,6,3.0,3.8,17.6,205,6573.47,False,Network/Telco Failure,False,successful
+903,INC-000881,20250323,2,2,1.0,0.0,2.6,0,0.0,True,Internal Infrastructure Failure,True,false_alert
+904,INC-000882,20240403,2,2,1.0,15.8,25.6,844,30701.7,False,Internal Infrastructure Failure,False,successful
+905,INC-000883,20240815,1,1,2.0,5.7,6.0,371,4192.06,False,Third-Party/Vendor Outage,False,successful
+906,INC-000884,20241223,9,9,2.0,66.7,78.8,973,,False,Third-Party/Vendor Outage,True,missing_data
+907,INC-000885,20250228,9,9,6.0,15.9,16.9,286,3353.54,False,Third-Party/Vendor Outage,False,successful
+908,INC-000886,20250209,2,2,7.0,46.1,50.2,3992,134880.81,True,Software Deployment Bug,False,successful
+909,INC-000887,20240829,3,3,5.0,7.5,0.0,575,6870.32,False,Third-Party/Vendor Outage,False,self_resolved
+910,INC-000888,20240324,1,1,1.0,46.2,48.5,3909,42995.49,True,Internal Infrastructure Failure,False,successful
+911,INC-000889,20250118,1,1,3.0,8.7,10.5,602,7807.89,False,Network/Telco Failure,False,successful
+912,INC-000890,20240129,3,3,3.0,23.9,26.9,1386,17958.55,False,Software Deployment Bug,False,successful
+913,INC-000891,20240411,6,6,2.0,2009.4,22.1,98274,3606737.96,False,Data/Logging Anomaly,True,outlier_downtime
+914,INC-000892,20240529,3,3,7.0,13.4,658.0,1473,19407.11,True,Network/Telco Failure,True,extended_mttr_outlier
+915,INC-000893,20240209,9,9,7.0,17.2,18.9,277,4419.13,False,Software Deployment Bug,False,successful
+916,INC-000894,20250428,6,6,3.0,8.6,13.3,1113,45344.06,True,Network/Telco Failure,False,successful
+917,INC-000895,20251223,1,1,6.0,26.0,29.6,1531,19302.65,False,Third-Party/Vendor Outage,False,successful
+918,INC-000896,20250404,5,5,5.0,25.8,40.9,1854,56837.69,False,Third-Party/Vendor Outage,False,successful
+919,INC-000897,20240322,4,4,7.0,13.8,20.3,661,22560.37,False,Third-Party/Vendor Outage,False,successful
+920,INC-000898,20240919,3,3,6.0,6.2,3.2,475,5786.83,False,Network/Telco Failure,True,logging_error
+921,INC-000899,20240602,4,4,6.0,5.5,29.3,330,12192.93,False,Third-Party/Vendor Outage,False,successful
+922,INC-000900,20240423,9,9,6.0,63.4,34.4,1070,15102.55,False,Software Deployment Bug,True,logging_error
+923,INC-000901,20240831,6,6,1.0,4.9,23.4,228,7816.13,False,Internal Infrastructure Failure,True,duplicate_source
+924,INC-000901,20240831,6,6,1.0,4.9,25.0,228,7816.13,False,Internal Infrastructure Failure,True,duplicate_source
+925,INC-000902,20241104,4,4,5.0,22.4,38.4,2515,96298.94,True,Third-Party/Vendor Outage,False,successful
+926,INC-000903,20240218,4,4,4.0,12.0,15.3,540,15684.8,False,Network/Telco Failure,False,successful
+927,INC-000904,20250305,3,3,6.0,36.5,37.8,4929,64690.35,True,Third-Party/Vendor Outage,False,successful
+928,INC-000905,20240305,1,1,4.0,36.8,45.9,2737,31514.31,False,Third-Party/Vendor Outage,False,successful
+929,INC-000906,20250526,8,8,7.0,6.0,175.9,118,2775.61,True,Third-Party/Vendor Outage,True,extended_mttr_outlier
+930,INC-000907,20251009,5,5,1.0,80.0,80.2,7713,223047.63,True,Internal Infrastructure Failure,False,successful
+931,INC-000908,20250611,2,2,6.0,34.4,39.7,3533,146170.81,True,Network/Telco Failure,False,successful
+932,INC-000909,20240527,6,6,8.0,0.0,0.0,226,9129.8,False,Software Deployment Bug,True,ghost_impact
+933,INC-000910,20250315,1,1,3.0,18.3,42.5,1892,19008.53,True,Third-Party/Vendor Outage,False,successful
+934,INC-000911,20250921,4,4,5.0,36.5,18.7,2287,91884.22,False,Software Deployment Bug,True,logging_error
+935,INC-000912,20240903,1,1,2.0,7.2,8.2,396,4221.92,False,Third-Party/Vendor Outage,False,successful
+936,INC-000913,20240710,2,2,7.0,11.8,0.0,1391,44738.19,True,Third-Party/Vendor Outage,False,self_resolved
+937,INC-000914,20250620,6,6,6.0,20.6,25.7,2871,103423.77,True,Software Deployment Bug,True,duplicate_source
+938,INC-000914,20250620,6,6,6.0,20.6,25.0,2871,103423.77,True,Software Deployment Bug,True,duplicate_source
+939,INC-000915,20240310,3,3,8.0,13.7,16.2,641,8217.84,False,Third-Party/Vendor Outage,False,successful
+940,INC-000916,20250203,2,2,1.0,7.7,18.6,352,13511.3,False,Internal Infrastructure Failure,False,successful
+941,INC-000917,20250426,3,3,6.0,0.0,0.0,319,3968.35,False,Third-Party/Vendor Outage,True,ghost_impact
+942,INC-000918,20251012,10,10,7.0,15.3,26.5,240,6198.25,False,Third-Party/Vendor Outage,False,successful
+943,INC-000919,20250117,3,3,8.0,9.3,13.8,857,8583.75,True,Software Deployment Bug,False,successful
+944,INC-000920,20240117,1,1,1.0,4.0,5.4,199,2359.51,False,Internal Infrastructure Failure,False,successful
+945,INC-000921,20241231,6,6,6.0,0.0,0.0,255,8745.02,False,Third-Party/Vendor Outage,True,ghost_impact
+946,INC-000922,20241219,1,1,3.0,112.7,154.8,7678,77391.41,False,Network/Telco Failure,False,successful
+947,INC-000923,20251103,1,1,1.0,43.6,50.7,5865,63142.8,True,Internal Infrastructure Failure,False,successful
+948,INC-000924,20251005,1,1,1.0,19.8,386.2,1251,17026.91,False,Internal Infrastructure Failure,True,extended_mttr_outlier
+949,INC-000925,20240416,2,2,5.0,80.1,100.8,4416,159643.77,False,Software Deployment Bug,False,successful
+950,INC-000926,20240516,8,8,1.0,3.3,169.7,62,1443.73,False,Internal Infrastructure Failure,True,extended_mttr_outlier
+951,INC-000927,20240215,1,1,1.0,16.9,17.2,803,11495.19,False,Internal Infrastructure Failure,False,successful
+952,INC-000928,20241226,2,2,3.0,5.6,0.0,511,16601.46,True,Software Deployment Bug,False,self_resolved
+953,INC-000929,20251020,3,3,2.0,17.4,24.0,2095,27269.9,True,Network/Telco Failure,False,successful
+954,INC-000930,20251202,1,1,4.0,60.4,67.8,4536,65865.9,False,Third-Party/Vendor Outage,False,successful
+955,INC-000931,20251213,8,8,3.0,88.4,91.2,2917,48140.78,True,Third-Party/Vendor Outage,False,successful
+956,INC-000932,20251008,4,4,7.0,29.7,30.5,1385,44509.73,False,Network/Telco Failure,False,successful
+957,INC-000933,20240518,9,9,6.0,4.1,13.6,73,1128.4,False,Third-Party/Vendor Outage,False,successful
+958,INC-000934,20250413,9,9,6.0,53.2,65.8,1476,18781.32,True,Third-Party/Vendor Outage,False,successful
+959,INC-000935,20241027,4,4,5.0,46.3,51.0,2724,87619.6,False,Network/Telco Failure,False,successful
+960,INC-000936,20240214,1,1,8.0,3.4,3.7,245,3269.76,False,Network/Telco Failure,False,successful
+961,INC-000937,20240212,1,1,5.0,35.7,41.7,3690,51766.31,True,Software Deployment Bug,False,successful
+962,INC-000938,20241113,10,10,4.0,42.9,44.4,477,10421.49,False,Third-Party/Vendor Outage,False,successful
+963,INC-000939,20250710,7,7,1.0,9.4,0.0,179,3273.34,False,Internal Infrastructure Failure,False,self_resolved
+964,INC-000940,20250429,2,2,1.0,25.6,30.5,1975,73029.52,True,Internal Infrastructure Failure,False,successful
+965,INC-000941,20240916,10,10,7.0,34.1,0.0,1058,22446.3,True,Third-Party/Vendor Outage,False,self_resolved
+966,INC-000942,20251024,4,4,4.0,61.7,0.0,3542,118042.07,False,Network/Telco Failure,False,self_resolved
+967,INC-000943,20241019,7,7,4.0,58.7,69.0,1738,35808.44,True,Software Deployment Bug,False,successful
+968,INC-000944,20240218,1,1,3.0,21.4,0.0,2466,30642.05,True,Software Deployment Bug,False,self_resolved
+969,INC-000945,20241006,2,2,8.0,0.0,10.6,0,0.0,True,Third-Party/Vendor Outage,True,false_alert
+970,INC-000946,20250111,6,6,8.0,70.8,82.7,4775,151181.66,False,Third-Party/Vendor Outage,True,missing_data
+971,INC-000947,20250213,6,6,5.0,83.2,86.4,4301,182626.28,False,Third-Party/Vendor Outage,False,successful
+972,INC-000948,20250130,4,4,5.0,0.0,0.0,331,12120.27,False,Software Deployment Bug,True,ghost_impact
+973,INC-000949,20240710,5,5,6.0,3.3,4.4,189,6642.65,False,Third-Party/Vendor Outage,False,successful
+974,INC-000950,20251209,5,5,7.0,14.3,37.7,1014,37429.9,False,Third-Party/Vendor Outage,False,successful
+975,INC-000951,20250111,1,1,7.0,43.0,44.6,4342,53898.46,True,Software Deployment Bug,False,successful
+976,INC-000952,20240325,5,5,8.0,29.7,0.0,3427,121204.97,True,Third-Party/Vendor Outage,False,self_resolved
+977,INC-000953,20240321,5,5,4.0,10.6,19.7,747,22641.39,False,Third-Party/Vendor Outage,False,successful
+978,INC-000954,20250908,1,1,6.0,9.8,0.0,630,7983.16,False,Network/Telco Failure,False,self_resolved
+979,INC-000955,20250712,4,4,3.0,16.8,17.6,1682,58508.37,True,Software Deployment Bug,False,successful
+980,INC-000956,20241124,2,2,2.0,17.1,44.8,2288,75434.15,True,Third-Party/Vendor Outage,False,successful
+981,INC-000957,20240322,1,1,2.0,24.1,24.2,1576,17325.35,False,Software Deployment Bug,False,successful
+982,INC-000958,20251107,1,1,8.0,9.1,0.0,525,7144.02,False,Software Deployment Bug,False,self_resolved
+983,INC-000959,20241109,1,1,5.0,0.0,0.0,77,1066.19,True,Third-Party/Vendor Outage,True,ghost_impact
+984,INC-000960,20250909,5,5,1.0,8.3,15.6,581,19228.57,False,Internal Infrastructure Failure,True,duplicate_source
+985,INC-000960,20250909,5,5,1.0,8.3,17.2,581,19228.57,False,Internal Infrastructure Failure,True,duplicate_source
+986,INC-000961,20250312,3,3,4.0,5.2,9.1,328,3850.52,False,Network/Telco Failure,False,successful
+987,INC-000962,20251207,9,9,8.0,0.0,0.0,181,2138.99,True,Third-Party/Vendor Outage,True,ghost_impact
+988,INC-000963,20241225,3,3,6.0,7.9,20.4,654,9298.49,True,Third-Party/Vendor Outage,False,successful
+989,INC-000964,20240213,5,5,6.0,18.3,30.9,2165,70858.24,True,Software Deployment Bug,False,successful
+990,INC-000965,20250921,5,5,7.0,55.6,1399.0,6174,256945.24,True,Third-Party/Vendor Outage,True,extended_mttr_outlier
+991,INC-000966,20241008,3,3,4.0,4.8,10.3,615,7309.38,True,Third-Party/Vendor Outage,False,successful
+992,INC-000967,20240317,9,9,6.0,4.5,3.3,68,1049.55,False,Third-Party/Vendor Outage,True,logging_error
+993,INC-000968,20250107,5,5,3.0,73.0,75.4,5538,209188.32,False,Network/Telco Failure,False,successful
+994,INC-000969,20240201,7,7,6.0,25.3,28.2,388,7294.79,False,Network/Telco Failure,False,successful
+995,INC-000970,20250914,5,5,2.0,52.1,62.1,6270,225226.73,True,Third-Party/Vendor Outage,False,successful
+996,INC-000971,20240205,9,9,6.0,25.8,59.9,282,4656.88,False,Network/Telco Failure,False,successful
+997,INC-000972,20240309,2,2,3.0,56.8,58.9,2398,86463.54,False,Network/Telco Failure,False,successful
+998,INC-000973,20251022,6,6,1.0,21.0,10.8,946,36927.35,False,Internal Infrastructure Failure,True,logging_error
+999,INC-000974,20250110,10,10,1.0,11.7,23.0,170,3243.11,False,Internal Infrastructure Failure,False,successful
+1000,INC-000975,20250105,7,7,2.0,5.0,19.2,90,1681.32,False,Third-Party/Vendor Outage,False,successful
+1001,INC-000976,20250803,6,6,4.0,-8.1,11.4,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+1002,INC-000977,20250911,5,5,1.0,26.4,30.2,3134,130250.49,True,Internal Infrastructure Failure,False,successful
+1003,INC-000978,20240606,8,8,2.0,36.6,37.2,671,15499.47,False,Third-Party/Vendor Outage,True,duplicate_source
+1004,INC-000978,20240606,8,8,2.0,36.6,36.6,671,15499.47,False,Third-Party/Vendor Outage,True,duplicate_source
+1005,INC-000979,20250114,4,4,6.0,7.6,9.3,601,19607.39,True,Software Deployment Bug,False,successful
+1006,INC-000980,20250330,5,5,2.0,24.6,27.4,1741,56873.79,False,Third-Party/Vendor Outage,False,successful
+1007,INC-000981,20250810,1,1,2.0,25.2,32.2,1324,18133.45,False,Network/Telco Failure,False,successful
+1008,INC-000982,20250626,4,4,8.0,6.1,272.5,677,23783.07,True,Software Deployment Bug,True,extended_mttr_outlier
+1009,INC-000983,20250211,4,4,4.0,38.6,58.3,2764,86602.67,False,Software Deployment Bug,False,successful
+1010,INC-000984,20251027,2,2,4.0,24.6,30.1,1452,57278.28,False,Software Deployment Bug,False,successful
+1011,INC-000985,20240912,5,5,7.0,52.7,68.8,2725,78769.04,False,Third-Party/Vendor Outage,False,successful
+1012,INC-000986,20240127,3,3,8.0,25.7,0.0,1602,21593.68,False,Network/Telco Failure,False,self_resolved
+1013,INC-000987,20250526,1,1,2.0,3.6,4.1,244,2713.57,False,Third-Party/Vendor Outage,False,successful
+1014,INC-000988,20250729,6,6,8.0,4.2,6.4,340,10837.59,True,Third-Party/Vendor Outage,False,successful
+1015,INC-000989,20240925,5,5,6.0,3.2,0.0,353,13876.09,True,Software Deployment Bug,False,self_resolved
+1016,INC-000990,20251221,5,5,6.0,17.6,19.6,1093,37062.73,False,Third-Party/Vendor Outage,False,successful
+1017,INC-000991,20240807,5,5,4.0,14.1,6.0,856,35446.99,False,Software Deployment Bug,True,logging_error
+1018,INC-000992,20251211,2,2,1.0,29.2,30.2,1373,46589.28,False,Internal Infrastructure Failure,False,successful
+1019,INC-000993,20250517,6,6,5.0,17.2,5.7,1100,37457.66,False,Network/Telco Failure,True,logging_error
+1020,INC-000994,20240505,5,5,4.0,30.4,10.2,3401,100402.62,True,Network/Telco Failure,True,logging_error
+1021,INC-000995,20240316,8,8,8.0,8.4,12.4,234,5354.59,True,Third-Party/Vendor Outage,False,successful
+1022,INC-000996,20240625,9,9,7.0,17.7,19.4,328,3846.0,False,Third-Party/Vendor Outage,False,successful
+1023,INC-000997,20240330,6,6,7.0,37.7,0.0,2494,94414.39,False,Software Deployment Bug,False,self_resolved
+1024,INC-000998,20251114,4,4,2.0,20.4,13.8,1543,50153.56,False,Software Deployment Bug,True,logging_error
+1025,INC-000999,20251227,6,6,4.0,34.6,1268.5,4140,168563.29,True,Third-Party/Vendor Outage,True,extended_mttr_outlier
+1026,INC-001000,20250717,2,2,4.0,10.6,12.1,809,27748.33,False,Software Deployment Bug,False,successful
+1027,INC-001001,20241103,7,7,6.0,4.2,0.0,134,3116.24,True,Network/Telco Failure,False,self_resolved
+1028,INC-001002,20251229,3,3,7.0,18.6,62.5,2590,29912.44,True,Network/Telco Failure,False,successful
+1029,INC-001003,20250105,4,4,2.0,3.5,1.8,289,9585.8,True,Network/Telco Failure,True,logging_error
+1030,INC-001004,20240504,3,3,1.0,9.9,25.3,577,6213.44,False,Internal Infrastructure Failure,False,successful
+1031,INC-001005,20240724,3,3,3.0,6.0,0.0,326,3835.03,False,Network/Telco Failure,False,self_resolved
+1032,INC-001006,20240830,3,3,7.0,6.3,5.1,355,4829.94,False,Third-Party/Vendor Outage,True,logging_error
+1033,INC-001007,20240127,7,7,2.0,15.6,23.4,432,,True,Software Deployment Bug,True,missing_data
+1034,INC-001008,20250721,6,6,3.0,11.2,35.8,1325,46917.23,True,Software Deployment Bug,False,successful
+1035,INC-001009,20250423,10,10,7.0,12.1,13.9,220,4234.42,False,Network/Telco Failure,False,successful
+1036,INC-001010,20250918,3,3,6.0,125.3,126.3,7517,,False,Third-Party/Vendor Outage,True,missing_data
+1037,INC-001011,20240308,5,5,3.0,37.5,40.6,2337,95580.26,False,Software Deployment Bug,False,successful
+1038,INC-001012,20250211,5,5,7.0,50.1,52.6,4794,170685.14,True,Third-Party/Vendor Outage,False,successful
+1039,INC-001013,20250622,8,8,2.0,31.5,38.2,867,18251.61,True,Third-Party/Vendor Outage,False,successful
+1040,INC-001014,20250223,1,1,1.0,50.3,73.6,2318,32829.0,False,Internal Infrastructure Failure,True,duplicate_source
+1041,INC-001014,20250223,1,1,1.0,50.3,74.1,2318,32829.0,False,Internal Infrastructure Failure,True,duplicate_source
+1042,INC-001015,20250811,6,6,2.0,18.8,19.6,1022,42335.65,False,Third-Party/Vendor Outage,False,successful
+1043,INC-001016,20240508,1,1,5.0,58.7,80.6,2536,37982.95,False,Software Deployment Bug,False,successful
+1044,INC-001017,20251019,5,5,1.0,89.7,0.0,12394,376709.09,True,Internal Infrastructure Failure,False,self_resolved
+1045,INC-001018,20240316,5,5,2.0,0.0,0.0,392,14170.68,False,Third-Party/Vendor Outage,True,ghost_impact
+1046,INC-001019,20250422,9,9,1.0,660.7,8.0,17577,209250.24,True,Data/Logging Anomaly,True,outlier_downtime
+1047,INC-001020,20251127,2,2,7.0,84.9,88.6,6352,196448.67,False,Software Deployment Bug,False,successful
+1048,INC-001021,20240511,2,2,4.0,4.0,11.1,172,6880.19,False,Network/Telco Failure,False,successful
+1049,INC-001022,20240512,6,6,3.0,13.6,19.3,830,34021.09,False,Third-Party/Vendor Outage,False,successful
+1050,INC-001023,20250529,1,1,1.0,7.7,23.2,730,10078.32,True,Internal Infrastructure Failure,False,successful
+1051,INC-001024,20240226,1,1,5.0,0.0,3.7,0,0.0,False,Third-Party/Vendor Outage,True,false_alert
+1052,INC-001025,20250614,1,1,3.0,25.2,0.0,1409,20663.23,False,Network/Telco Failure,False,self_resolved
+1053,INC-001026,20241107,2,2,8.0,21.4,0.0,1050,39713.12,False,Network/Telco Failure,False,self_resolved
+1054,INC-001027,20240614,9,9,5.0,7.1,13.8,215,2498.07,True,Software Deployment Bug,False,successful
+1055,INC-001028,20251227,2,2,4.0,39.4,41.6,2325,77724.93,False,Network/Telco Failure,False,successful
+1056,INC-001029,20241220,6,6,8.0,4.0,4.0,202,5910.19,False,Software Deployment Bug,False,successful
+1057,INC-001030,20240321,1,1,5.0,20.3,33.3,1516,15582.37,False,Software Deployment Bug,False,successful
+1058,INC-001031,20240720,5,5,6.0,24.7,31.1,2166,72024.34,True,Software Deployment Bug,False,successful
+1059,INC-001032,20240508,8,8,,73.2,87.7,816,19356.53,False,Internal Infrastructure Failure,True,missing_data
+1060,INC-001033,20251002,10,10,8.0,11.0,16.6,138,3031.66,False,Software Deployment Bug,False,successful
+1061,INC-001034,20250921,5,5,7.0,3.7,132.5,354,13341.29,True,Third-Party/Vendor Outage,True,extended_mttr_outlier
+1062,INC-001035,20250529,3,3,3.0,14.7,24.8,760,7845.52,False,Network/Telco Failure,False,successful
+1063,INC-001036,20250829,7,7,5.0,75.1,77.2,856,17156.01,False,Network/Telco Failure,True,duplicate_source
+1064,INC-001036,20250829,7,7,5.0,75.1,78.1,856,17156.01,False,Network/Telco Failure,True,duplicate_source
+1065,INC-001037,20240624,5,5,8.0,0.0,12.9,0,0.0,False,Software Deployment Bug,True,false_alert
+1066,INC-001038,20250731,1,1,4.0,32.5,58.0,1561,18062.02,False,Third-Party/Vendor Outage,False,successful
+1067,INC-001039,20240130,5,5,6.0,4.5,3.0,227,8302.94,False,Third-Party/Vendor Outage,True,logging_error
+1068,INC-001040,20240216,8,8,5.0,0.0,0.0,278,6475.35,False,Software Deployment Bug,True,ghost_impact
+1069,INC-001041,20251028,7,7,4.0,9.7,19.4,117,2456.92,False,Network/Telco Failure,False,successful
+1070,INC-001042,20250808,2,2,6.0,17.4,34.9,2083,68720.31,True,Third-Party/Vendor Outage,False,successful
+1071,INC-001043,20250924,4,4,7.0,7.4,10.4,973,,True,Third-Party/Vendor Outage,True,missing_data
+1072,INC-001044,20250524,6,6,3.0,11.1,20.2,640,22979.27,False,Software Deployment Bug,False,successful
+1073,INC-001045,20251019,4,4,5.0,6.1,15.1,429,15690.25,False,Software Deployment Bug,False,successful
+1074,INC-001046,20250509,4,4,3.0,0.0,0.0,348,10948.09,True,Network/Telco Failure,True,ghost_impact
+1075,INC-001047,20251202,5,5,5.0,4.9,1.9,335,11531.23,False,Third-Party/Vendor Outage,True,logging_error
+1076,INC-001048,20241031,3,3,5.0,28.5,34.9,3043,30315.2,True,Third-Party/Vendor Outage,False,successful
+1077,INC-001049,20240315,10,10,5.0,35.1,0.0,651,13623.89,False,Third-Party/Vendor Outage,False,self_resolved
+1078,INC-001050,20240610,5,5,3.0,73.7,90.6,5572,175834.37,False,Third-Party/Vendor Outage,False,successful
+1079,INC-001051,20250301,6,6,4.0,5.5,27.4,601,20335.16,True,Third-Party/Vendor Outage,False,successful
+1080,INC-001052,20250420,3,3,4.0,33.9,855.0,2507,29728.06,False,Network/Telco Failure,True,extended_mttr_outlier
+1081,INC-001053,20241214,7,7,1.0,29.9,36.2,455,9236.18,False,Internal Infrastructure Failure,False,successful
+1082,INC-001054,20250913,1,1,4.0,0.0,0.0,104,1295.89,False,Network/Telco Failure,True,ghost_impact
+1083,INC-001055,20241116,3,3,4.0,3.8,3.4,500,6258.71,True,Software Deployment Bug,True,logging_error
+1084,INC-001056,20241219,2,2,4.0,16.0,26.0,2171,64047.25,True,Third-Party/Vendor Outage,False,successful
+1085,INC-001057,20240513,6,6,6.0,38.0,41.2,2273,95019.47,False,Software Deployment Bug,False,successful
+1086,INC-001058,20250611,6,6,5.0,14.7,16.9,1928,69590.05,True,Third-Party/Vendor Outage,False,successful
+1087,INC-001059,20241122,7,7,5.0,10.9,15.8,139,3022.32,False,Network/Telco Failure,False,successful
+1088,INC-001060,20250422,7,7,3.0,28.0,35.0,433,10395.92,False,Third-Party/Vendor Outage,False,successful
+1089,INC-001061,20240930,3,3,7.0,32.9,39.9,4060,46028.66,True,Third-Party/Vendor Outage,False,successful
+1090,INC-001062,20240910,6,6,8.0,19.5,25.7,1871,,True,Network/Telco Failure,True,missing_data
+1091,INC-001063,20240409,10,10,1.0,66.5,68.0,1267,24063.8,True,Internal Infrastructure Failure,False,successful
+1092,INC-001064,20240221,4,4,5.0,4.2,26.6,206,7245.19,False,Software Deployment Bug,False,successful
+1093,INC-001065,20250128,1,1,6.0,51.3,54.5,3058,41227.87,False,Third-Party/Vendor Outage,False,successful
+1094,INC-001066,20240911,4,4,7.0,16.3,20.5,708,29324.68,False,Network/Telco Failure,False,successful
+1095,INC-001067,20241201,2,2,2.0,8.5,17.5,495,17483.36,False,Software Deployment Bug,False,successful
+1096,INC-001068,20240713,2,2,5.0,48.4,51.1,2985,108456.14,False,Network/Telco Failure,False,successful
+1097,INC-001069,20250525,3,3,6.0,49.0,53.7,3638,50905.73,False,Third-Party/Vendor Outage,False,successful
+1098,INC-001070,20250525,1,1,7.0,4.3,0.0,571,6941.65,True,Software Deployment Bug,False,self_resolved
+1099,INC-001071,20250524,1,1,1.0,10.6,23.3,632,6549.15,False,Internal Infrastructure Failure,True,duplicate_source
+1100,INC-001071,20250524,1,1,1.0,10.6,22.0,632,6549.15,False,Internal Infrastructure Failure,True,duplicate_source
+1101,INC-001072,20240124,5,5,,30.4,41.2,3233,,True,Internal Infrastructure Failure,True,missing_data
+1102,INC-001073,20240402,5,5,8.0,8.7,11.8,1168,47557.57,True,Third-Party/Vendor Outage,False,successful
+1103,INC-001074,20250601,2,2,3.0,38.5,45.0,1963,61341.66,False,Third-Party/Vendor Outage,False,successful
+1104,INC-001075,20240903,4,4,4.0,26.3,0.0,2150,70844.71,True,Network/Telco Failure,False,self_resolved
+1105,INC-001076,20250820,5,5,6.0,36.9,42.4,2638,103886.51,False,Software Deployment Bug,False,successful
+1106,INC-001077,20240219,2,2,3.0,19.7,37.6,997,32051.66,False,Third-Party/Vendor Outage,False,successful
+1107,INC-001078,20241015,1,1,6.0,10.3,12.7,1251,12864.03,True,Third-Party/Vendor Outage,False,successful
+1108,INC-001079,20250903,6,6,3.0,7.9,10.3,1097,40138.28,True,Third-Party/Vendor Outage,False,successful
+1109,INC-001080,20241019,1,1,5.0,19.5,22.1,2061,24688.44,True,Third-Party/Vendor Outage,False,successful
+1110,INC-001081,20240420,3,3,6.0,9.2,38.3,1052,11569.7,True,Third-Party/Vendor Outage,False,successful
+1111,INC-001082,20240517,1,1,2.0,5.7,6.6,284,2989.8,False,Software Deployment Bug,False,successful
+1112,INC-001083,20250109,10,10,6.0,6.3,13.3,122,2185.44,False,Third-Party/Vendor Outage,False,successful
+1113,INC-001084,20250109,8,8,6.0,42.4,1120.4,571,12073.06,False,Third-Party/Vendor Outage,True,extended_mttr_outlier
+1114,INC-001085,20250214,8,8,4.0,7.9,26.9,101,2043.09,False,Third-Party/Vendor Outage,False,successful
+1115,INC-001086,20250806,2,2,3.0,15.8,18.1,1935,78973.96,True,Network/Telco Failure,False,successful
+1116,INC-001087,20250106,1,1,6.0,29.6,0.0,1723,21686.34,False,Software Deployment Bug,False,self_resolved
+1117,INC-001088,20240316,6,6,4.0,19.4,30.8,1943,80208.96,True,Third-Party/Vendor Outage,False,successful
+1118,INC-001089,20250531,1,1,7.0,4.4,0.0,302,3071.58,False,Third-Party/Vendor Outage,False,self_resolved
+1119,INC-001090,20250717,2,2,7.0,46.5,47.8,2109,66253.4,False,Software Deployment Bug,False,successful
+1120,INC-001091,20250930,9,9,6.0,37.0,63.4,624,7156.08,False,Third-Party/Vendor Outage,True,duplicate_source
+1121,INC-001091,20250930,9,9,6.0,37.0,64.0,624,7156.08,False,Third-Party/Vendor Outage,True,duplicate_source
+1122,INC-001092,20240511,3,3,5.0,8.5,17.0,566,5825.48,False,Third-Party/Vendor Outage,False,successful
+1123,INC-001093,20250207,3,3,5.0,3.2,5.0,231,2575.01,False,Software Deployment Bug,False,successful
+1124,INC-001094,20241213,10,10,2.0,9.9,10.5,243,4226.29,True,Software Deployment Bug,False,successful
+1125,INC-001095,20240527,2,2,5.0,4.7,4.9,320,12729.53,False,Network/Telco Failure,False,successful
+1126,INC-001096,20250908,9,9,4.0,69.9,74.6,1168,15793.7,False,Third-Party/Vendor Outage,False,successful
+1127,INC-001097,20250527,5,5,1.0,5.3,9.6,705,22311.89,True,Internal Infrastructure Failure,False,successful
+1128,INC-001098,20240211,6,6,8.0,24.7,25.3,2408,70538.03,True,Third-Party/Vendor Outage,False,successful
+1129,INC-001099,20240209,9,9,2.0,44.3,49.7,793,10913.29,False,Network/Telco Failure,False,successful
+1130,INC-001100,20251231,6,6,1.0,7.4,12.1,451,14636.91,False,Internal Infrastructure Failure,False,successful
+1131,INC-001101,20241207,5,5,7.0,15.8,0.0,1021,31306.3,False,Third-Party/Vendor Outage,False,self_resolved
+1132,INC-001102,20250615,6,6,2.0,39.4,45.8,3301,115906.08,True,Third-Party/Vendor Outage,False,successful
+1133,INC-001103,20240601,6,6,3.0,11.0,23.2,684,21929.47,False,Network/Telco Failure,False,successful
+1134,INC-001104,20241201,1,1,1.0,12.5,13.0,970,12700.09,True,Internal Infrastructure Failure,False,successful
+1135,INC-001105,20250919,5,5,5.0,3.6,7.9,211,8071.85,False,Software Deployment Bug,False,successful
+1136,INC-001106,20240615,3,3,1.0,16.9,22.6,1111,12519.52,False,Internal Infrastructure Failure,False,successful
+1137,INC-001107,20250206,2,2,5.0,43.4,57.7,2863,109609.83,False,Software Deployment Bug,False,successful
+1138,INC-001108,20250830,3,3,4.0,0.0,6.6,0,0.0,True,Software Deployment Bug,True,false_alert
+1139,INC-001109,20250603,6,6,3.0,23.3,54.2,2312,80349.07,True,Third-Party/Vendor Outage,True,duplicate_source
+1140,INC-001109,20250603,6,6,3.0,23.3,55.4,2312,80349.07,True,Third-Party/Vendor Outage,True,duplicate_source
+1141,INC-001110,20251226,2,2,2.0,23.1,34.7,2830,102242.9,True,Software Deployment Bug,False,successful
+1142,INC-001111,20250501,8,8,1.0,3.9,0.0,74,1355.82,False,Internal Infrastructure Failure,False,self_resolved
+1143,INC-001112,20240118,8,8,2.0,97.5,0.0,1411,31159.7,False,Software Deployment Bug,False,self_resolved
+1144,INC-001113,20241205,4,4,4.0,22.8,25.8,2849,103441.57,True,Third-Party/Vendor Outage,False,successful
+1145,INC-001114,20250302,7,7,1.0,15.8,24.8,343,7301.29,True,Internal Infrastructure Failure,False,successful
+1146,INC-001115,20250820,8,8,7.0,10.2,8.2,208,3895.98,True,Software Deployment Bug,True,logging_error
+1147,INC-001116,20251205,4,4,2.0,18.3,22.7,1004,31191.66,False,Third-Party/Vendor Outage,False,successful
+1148,INC-001117,20250903,2,2,6.0,16.1,0.0,1075,31736.69,False,Third-Party/Vendor Outage,False,self_resolved
+1149,INC-001118,20240928,6,6,8.0,-3.1,8.7,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+1150,INC-001119,20240222,1,1,1.0,3692.8,34.6,224920,2998188.69,False,Data/Logging Anomaly,True,outlier_downtime
+1151,INC-001120,20250820,6,6,6.0,13.2,27.9,612,20307.94,False,Third-Party/Vendor Outage,True,missing_data
+1152,INC-001121,20240623,4,4,8.0,99.6,103.3,5347,165257.08,False,Third-Party/Vendor Outage,False,successful
+1153,INC-001122,20240531,9,9,8.0,6.0,10.9,139,1673.34,True,Network/Telco Failure,False,successful
+1154,INC-001123,20240202,4,4,8.0,0.0,0.0,380,11560.97,True,Third-Party/Vendor Outage,True,ghost_impact
+1155,INC-001124,20240714,6,6,1.0,0.0,0.0,324,11133.99,True,Internal Infrastructure Failure,True,ghost_impact
+1156,INC-001125,20240120,2,2,6.0,13.0,0.0,688,19812.32,False,Third-Party/Vendor Outage,False,self_resolved
+1157,INC-001126,20241117,1,1,8.0,50.8,56.8,2186,22950.65,False,Third-Party/Vendor Outage,False,successful
+1158,INC-001127,20240604,6,6,2.0,20.3,21.0,1314,47410.21,False,Third-Party/Vendor Outage,False,successful
+1159,INC-001128,20251208,3,3,4.0,20.4,21.1,1515,15441.21,False,Network/Telco Failure,False,successful
+1160,INC-001129,20250224,9,9,4.0,1242.8,14.2,16112,275156.6,False,Data/Logging Anomaly,True,outlier_downtime
+1161,INC-001130,20240304,10,10,8.0,13.2,14.9,152,3784.32,False,Network/Telco Failure,False,successful
+1162,INC-001131,20250615,10,10,7.0,55.0,62.0,1230,30619.58,True,Network/Telco Failure,False,successful
+1163,INC-001132,20250728,1,1,5.0,14.9,31.9,829,8624.13,False,Software Deployment Bug,False,successful
+1164,INC-001133,20251109,10,10,3.0,0.0,4.8,0,0.0,True,Third-Party/Vendor Outage,True,false_alert
+1165,INC-001134,20250622,6,6,8.0,55.2,0.0,7602,217801.34,True,Third-Party/Vendor Outage,False,self_resolved
+1166,INC-001135,20241117,3,3,5.0,18.0,23.1,1037,14559.6,False,Network/Telco Failure,False,successful
+1167,INC-001136,20250415,8,8,4.0,0.0,0.0,393,6476.57,False,Software Deployment Bug,True,ghost_impact
+1168,INC-001137,20250713,6,6,3.0,23.1,24.7,2370,78743.32,True,Software Deployment Bug,False,successful
+1169,INC-001138,20251123,5,5,8.0,14.5,20.0,953,27718.11,False,Software Deployment Bug,False,successful
+1170,INC-001139,20250916,1,1,4.0,13.8,25.4,1668,19104.25,True,Third-Party/Vendor Outage,False,successful
+1171,INC-001140,20240715,2,2,6.0,25.5,62.7,2003,68877.73,True,Network/Telco Failure,False,successful
+1172,INC-001141,20241012,1,1,6.0,42.6,64.6,2397,35217.36,False,Software Deployment Bug,False,successful
+1173,INC-001142,20240818,2,2,6.0,19.2,19.3,1385,43495.49,False,Software Deployment Bug,False,successful
+1174,INC-001143,20241022,1,1,7.0,51.7,52.1,3387,38645.17,False,Network/Telco Failure,False,successful
+1175,INC-001144,20251207,5,5,2.0,40.4,44.2,2979,124380.77,False,Third-Party/Vendor Outage,False,successful
+1176,INC-001145,20241120,4,4,7.0,0.0,0.0,126,5264.22,False,Third-Party/Vendor Outage,True,ghost_impact
+1177,INC-001146,20241223,6,6,7.0,13.9,0.0,833,33782.1,False,Software Deployment Bug,False,self_resolved
+1178,INC-001147,20241021,6,6,1.0,0.0,2.3,0,0.0,False,Internal Infrastructure Failure,True,false_alert
+1179,INC-001148,20240504,2,2,5.0,39.2,47.8,2073,62831.56,False,Third-Party/Vendor Outage,False,successful
+1180,INC-001149,20250208,2,2,6.0,18.5,730.1,1091,34958.66,False,Software Deployment Bug,True,extended_mttr_outlier
+1181,INC-001150,20240529,3,3,,52.5,54.2,6056,,True,Internal Infrastructure Failure,True,missing_data
+1182,INC-001151,20241024,3,3,,62.3,90.2,2976,37267.14,False,Internal Infrastructure Failure,True,missing_data
+1183,INC-001152,20240213,1,1,5.0,9.3,497.4,698,10083.73,False,Software Deployment Bug,True,extended_mttr_outlier
+1184,INC-001153,20240321,7,7,2.0,41.6,53.1,1121,21729.76,True,Software Deployment Bug,False,successful
+1185,INC-001154,20250328,1,1,2.0,7.9,8.4,576,8142.47,False,Software Deployment Bug,True,duplicate_source
+1186,INC-001154,20250328,1,1,2.0,7.9,8.5,576,8142.47,False,Software Deployment Bug,True,duplicate_source
+1187,INC-001155,20250505,7,7,,79.4,87.3,928,,False,Internal Infrastructure Failure,True,missing_data
+1188,INC-001156,20240807,9,9,7.0,14.3,0.0,174,2417.18,False,Network/Telco Failure,False,self_resolved
+1189,INC-001157,20250705,10,10,3.0,4.6,11.1,60,1503.74,False,Software Deployment Bug,False,successful
+1190,INC-001158,20250729,10,10,1.0,55.0,57.8,950,18375.1,False,Internal Infrastructure Failure,False,successful
+1191,INC-001159,20251213,7,7,7.0,51.7,54.5,976,20777.01,False,Software Deployment Bug,False,successful
+1192,INC-001160,20240520,2,2,6.0,8.6,12.2,973,38414.8,True,Third-Party/Vendor Outage,False,successful
+1193,INC-001161,20250922,3,3,2.0,7.8,4.5,569,7089.3,False,Network/Telco Failure,True,logging_error
+1194,INC-001162,20240905,5,5,2.0,59.6,70.4,7453,212672.65,True,Third-Party/Vendor Outage,False,successful
+1195,INC-001163,20251116,2,2,8.0,40.6,42.4,2387,82378.23,False,Network/Telco Failure,False,successful
+1196,INC-001164,20251015,4,4,5.0,30.7,32.1,1297,44564.71,False,Network/Telco Failure,False,successful
+1197,INC-001165,20240223,2,2,6.0,5.7,28.6,771,25301.98,True,Third-Party/Vendor Outage,False,successful
+1198,INC-001166,20250227,2,2,3.0,25.0,27.1,1274,45963.86,False,Software Deployment Bug,False,successful
+1199,INC-001167,20250428,8,8,1.0,0.0,0.0,219,3856.3,False,Internal Infrastructure Failure,True,ghost_impact
+1200,INC-001168,20240412,3,3,3.0,21.6,22.9,1165,15201.23,False,Network/Telco Failure,False,successful
+1201,INC-001169,20240106,8,8,1.0,64.5,72.0,769,17751.59,False,Internal Infrastructure Failure,False,successful
+1202,INC-001170,20250717,5,5,8.0,4.0,10.5,355,13529.9,True,Network/Telco Failure,False,successful
+1203,INC-001171,20250220,2,2,2.0,35.2,24.7,2561,106421.13,False,Third-Party/Vendor Outage,True,logging_error
+1204,INC-001172,20250503,2,2,4.0,14.1,5.5,1854,57586.66,True,Network/Telco Failure,True,logging_error
+1205,INC-001173,20241021,4,4,4.0,23.4,20.9,1206,35190.37,False,Software Deployment Bug,True,logging_error
+1206,INC-001174,20241019,6,6,7.0,59.9,60.8,3192,103370.63,False,Third-Party/Vendor Outage,False,successful
+1207,INC-001175,20240401,2,2,2.0,39.2,43.1,2872,98208.17,False,Network/Telco Failure,False,successful
+1208,INC-001176,20250701,1,1,4.0,26.9,38.5,3132,38617.64,True,Third-Party/Vendor Outage,False,successful
+1209,INC-001177,20240628,6,6,7.0,39.8,40.6,4793,137364.29,True,Third-Party/Vendor Outage,False,successful
+1210,INC-001178,20240629,2,2,5.0,8.6,11.2,640,19753.41,False,Third-Party/Vendor Outage,False,successful
+1211,INC-001179,20250210,5,5,1.0,22.9,26.3,1488,51756.86,False,Internal Infrastructure Failure,False,successful
+1212,INC-001180,20250522,5,5,1.0,14.3,15.7,1833,57519.31,True,Internal Infrastructure Failure,True,duplicate_source
+1213,INC-001180,20250522,5,5,1.0,14.3,14.2,1833,57519.31,True,Internal Infrastructure Failure,True,duplicate_source
+1214,INC-001181,20240709,4,4,4.0,41.6,50.5,3299,121159.19,True,Software Deployment Bug,False,successful
+1215,INC-001182,20240208,1,1,5.0,0.0,5.5,0,0.0,False,Third-Party/Vendor Outage,True,false_alert
+1216,INC-001183,20241101,6,6,7.0,48.8,50.9,2111,62058.23,False,Third-Party/Vendor Outage,False,successful
+1217,INC-001184,20241209,1,1,3.0,9.3,0.0,591,6621.33,False,Software Deployment Bug,False,self_resolved
+1218,INC-001185,20250410,4,4,3.0,7.8,14.8,675,20188.96,True,Third-Party/Vendor Outage,False,successful
+1219,INC-001186,20240517,3,3,6.0,7.0,9.6,363,3971.55,False,Third-Party/Vendor Outage,False,successful
+1220,INC-001187,20241006,2,2,4.0,41.1,53.4,2559,85504.72,False,Network/Telco Failure,False,successful
+1221,INC-001188,20240425,1,1,8.0,120.0,121.6,10003,143560.87,True,Software Deployment Bug,False,successful
+1222,INC-001189,20240615,8,8,1.0,0.0,0.0,390,7690.37,True,Internal Infrastructure Failure,True,ghost_impact
+1223,INC-001190,20250414,2,2,2.0,16.7,328.3,976,32954.53,False,Software Deployment Bug,True,extended_mttr_outlier
+1224,INC-001191,20240709,4,4,6.0,15.1,0.0,669,26901.78,False,Third-Party/Vendor Outage,False,self_resolved
+1225,INC-001192,20241211,3,3,2.0,27.4,31.0,1708,,False,Software Deployment Bug,True,missing_data
+1226,INC-001193,20250804,4,4,6.0,20.0,27.5,1981,76820.18,True,Network/Telco Failure,False,successful
+1227,INC-001194,20240628,4,4,3.0,34.8,38.9,2063,86725.32,False,Third-Party/Vendor Outage,False,successful
+1228,INC-001195,20250313,5,5,7.0,8.4,362.4,471,19939.64,False,Software Deployment Bug,True,extended_mttr_outlier
+1229,INC-001196,20240329,2,2,3.0,0.0,14.9,0,0.0,False,Third-Party/Vendor Outage,True,false_alert
+1230,INC-001197,20251116,2,2,7.0,27.3,31.0,2016,84559.99,False,Third-Party/Vendor Outage,False,successful
+1231,INC-001198,20240708,5,5,5.0,19.4,0.0,1397,40185.19,False,Network/Telco Failure,False,self_resolved
+1232,INC-001199,20250503,4,4,1.0,0.0,0.0,129,4735.69,False,Internal Infrastructure Failure,True,ghost_impact
+1233,INC-001200,20241127,4,4,7.0,51.0,51.4,2293,92048.04,False,Network/Telco Failure,False,successful
+1234,INC-001201,20240107,7,7,2.0,17.7,0.0,192,4717.92,False,Software Deployment Bug,False,self_resolved
+1235,INC-001202,20250127,6,6,5.0,22.3,0.0,1661,66522.74,False,Network/Telco Failure,False,self_resolved
+1236,INC-001203,20250402,1,1,2.0,10.4,12.5,1315,15915.62,True,Software Deployment Bug,False,successful
+1237,INC-001204,20241203,1,1,1.0,10.4,0.0,1000,11438.46,True,Internal Infrastructure Failure,False,self_resolved
+1238,INC-001205,20241105,5,5,2.0,12.7,15.8,632,24460.07,False,Third-Party/Vendor Outage,False,successful
+1239,INC-001206,20240924,5,5,3.0,615.4,8.5,61095,2198886.63,True,Data/Logging Anomaly,True,outlier_downtime
+1240,INC-001207,20251210,8,8,3.0,73.4,97.3,1400,27580.7,True,Network/Telco Failure,False,successful
+1241,INC-001208,20240304,4,4,5.0,7.1,20.7,373,14988.31,False,Third-Party/Vendor Outage,False,successful
+1242,INC-001209,20250421,8,8,3.0,19.4,0.0,424,10234.08,True,Software Deployment Bug,False,self_resolved
+1243,INC-001210,20240612,3,3,3.0,31.2,0.0,2225,31004.19,False,Third-Party/Vendor Outage,False,self_resolved
+1244,INC-001211,20251203,3,3,2.0,16.5,0.0,808,9437.69,False,Software Deployment Bug,False,self_resolved
+1245,INC-001212,20251207,4,4,6.0,0.0,0.0,217,6641.47,False,Third-Party/Vendor Outage,True,ghost_impact
+1246,INC-001213,20251016,6,6,5.0,40.1,42.8,2862,109166.36,False,Software Deployment Bug,False,successful
+1247,INC-001214,20250111,8,8,6.0,5.0,13.5,93,1665.31,False,Network/Telco Failure,False,successful
+1248,INC-001215,20240812,8,8,3.0,33.2,23.3,973,17981.64,True,Network/Telco Failure,True,logging_error
+1249,INC-001216,20250504,6,6,2.0,17.0,8.1,1166,46019.06,False,Network/Telco Failure,True,logging_error
+1250,INC-001217,20250410,3,3,7.0,6.7,11.5,419,5922.22,False,Software Deployment Bug,False,successful
+1251,INC-001218,20250301,2,2,5.0,14.2,16.0,653,,False,Third-Party/Vendor Outage,True,missing_data
+1252,INC-001219,20250704,2,2,6.0,26.8,0.0,1235,40101.54,False,Network/Telco Failure,False,self_resolved
+1253,INC-001220,20240910,7,7,1.0,4.0,10.1,121,2186.24,True,Internal Infrastructure Failure,False,successful
+1254,INC-001221,20251127,4,4,8.0,20.4,30.1,1176,40711.84,False,Third-Party/Vendor Outage,False,successful
+1255,INC-001222,20250622,6,6,6.0,510.6,10.5,39415,1490603.59,False,Data/Logging Anomaly,True,outlier_downtime
+1256,INC-001223,20250624,1,1,7.0,26.9,28.7,1653,21258.07,False,Software Deployment Bug,False,successful
+1257,INC-001224,20240320,5,5,2.0,31.7,34.0,2453,77865.1,False,Third-Party/Vendor Outage,False,successful
+1258,INC-001225,20240304,3,3,5.0,16.6,0.0,2261,26374.94,True,Network/Telco Failure,False,self_resolved
+1259,INC-001226,20250809,5,5,6.0,50.2,61.7,3534,145866.98,False,Network/Telco Failure,False,successful
+1260,INC-001227,20240617,2,2,5.0,22.4,29.8,1383,39571.83,False,Software Deployment Bug,False,successful
+1261,INC-001228,20250616,6,6,4.0,20.6,21.3,1690,67854.54,True,Third-Party/Vendor Outage,False,successful
+1262,INC-001229,20240429,8,8,7.0,8.8,0.0,162,3609.46,False,Network/Telco Failure,False,self_resolved
+1263,INC-001230,20250820,2,2,7.0,17.2,24.5,746,29394.35,False,Third-Party/Vendor Outage,False,successful
+1264,INC-001231,20240403,3,3,1.0,42.9,47.3,1935,23752.76,False,Internal Infrastructure Failure,False,successful
+1265,INC-001232,20250606,5,5,5.0,3.4,4.3,378,10985.27,True,Third-Party/Vendor Outage,False,successful
+1266,INC-001233,20240226,2,2,8.0,30.8,50.1,1406,44846.65,False,Third-Party/Vendor Outage,False,successful
+1267,INC-001234,20240515,9,9,8.0,9.3,12.6,126,2114.98,False,Third-Party/Vendor Outage,False,successful
+1268,INC-001235,20250412,4,4,7.0,0.0,5.2,0,0.0,False,Third-Party/Vendor Outage,True,false_alert
+1269,INC-001236,20250726,2,2,1.0,5.6,6.0,379,12769.28,False,Internal Infrastructure Failure,False,successful
+1270,INC-001237,20250418,6,6,4.0,21.8,7.6,1130,36982.53,False,Software Deployment Bug,True,logging_error
+1271,INC-001238,20240123,2,2,6.0,-21.3,39.8,0,0.0,True,Data/Logging Anomaly,True,negative_downtime
+1272,INC-001239,20240917,5,5,2.0,10.2,16.2,1097,37228.28,True,Third-Party/Vendor Outage,False,successful
+1273,INC-001240,20240811,3,3,7.0,14.0,18.6,1143,,True,Third-Party/Vendor Outage,True,missing_data
+1274,INC-001241,20240216,10,10,3.0,26.2,32.3,690,16553.08,True,Third-Party/Vendor Outage,False,successful
+1275,INC-001242,20241218,1,1,2.0,10.4,13.8,592,6259.64,False,Third-Party/Vendor Outage,False,successful
+1276,INC-001243,20250708,3,3,2.0,51.7,0.0,2247,23538.42,False,Third-Party/Vendor Outage,False,self_resolved
+1277,INC-001244,20240311,2,2,5.0,9.1,34.3,391,13077.77,False,Third-Party/Vendor Outage,False,successful
+1278,INC-001245,20240202,3,3,8.0,14.7,21.1,1385,20066.97,True,Software Deployment Bug,False,successful
+1279,INC-001246,20250222,10,10,7.0,82.9,86.7,2326,53103.21,True,Network/Telco Failure,False,successful
+1280,INC-001247,20240518,6,6,1.0,38.5,39.7,3612,112943.24,True,Internal Infrastructure Failure,False,successful
+1281,INC-001248,20251018,1,1,3.0,7.6,9.6,529,5923.65,False,Third-Party/Vendor Outage,False,successful
+1282,INC-001249,20250118,5,5,3.0,10.6,313.0,470,17591.06,False,Third-Party/Vendor Outage,True,extended_mttr_outlier
+1283,INC-001250,20250404,3,3,3.0,11.5,22.4,1265,16124.51,True,Third-Party/Vendor Outage,True,duplicate_source
+1284,INC-001250,20250404,3,3,3.0,11.5,24.3,1265,16124.51,True,Third-Party/Vendor Outage,True,duplicate_source
+1285,INC-001251,20250119,5,5,7.0,73.8,75.8,4509,,False,Third-Party/Vendor Outage,True,missing_data
+1286,INC-001252,20251130,2,2,6.0,10.6,0.0,619,21126.6,False,Network/Telco Failure,False,self_resolved
+1287,INC-001253,20251031,7,7,1.0,-18.5,28.2,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+1288,INC-001254,20241222,4,4,3.0,-22.3,26.3,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+1289,INC-001255,20240701,7,7,8.0,38.1,41.4,708,12879.95,False,Third-Party/Vendor Outage,True,duplicate_source
+1290,INC-001255,20240701,7,7,8.0,38.1,39.5,708,12879.95,False,Third-Party/Vendor Outage,True,duplicate_source
+1291,INC-001256,20250625,2,2,8.0,10.3,10.7,828,25718.95,True,Network/Telco Failure,False,successful
+1292,INC-001257,20240816,1,1,6.0,9.8,10.4,436,5558.38,False,Third-Party/Vendor Outage,False,successful
+1293,INC-001258,20240124,2,2,3.0,69.4,83.0,4268,141317.86,False,Software Deployment Bug,False,successful
+1294,INC-001259,20250419,4,4,1.0,21.6,23.1,1241,50239.12,False,Internal Infrastructure Failure,False,successful
+1295,INC-001260,20251120,6,6,,12.2,15.0,876,27722.4,False,Internal Infrastructure Failure,True,missing_data
+1296,INC-001261,20250711,4,4,7.0,10.6,0.0,1470,50640.69,True,Third-Party/Vendor Outage,False,self_resolved
+1297,INC-001262,20250628,6,6,4.0,15.9,16.0,1154,48414.41,False,Third-Party/Vendor Outage,False,successful
+1298,INC-001263,20240823,4,4,5.0,25.1,26.9,2779,101978.95,True,Network/Telco Failure,False,successful
+1299,INC-001264,20250416,3,3,4.0,-20.0,22.9,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+1300,INC-001265,20240607,5,5,5.0,3.8,16.4,456,14547.58,True,Software Deployment Bug,False,successful
+1301,INC-001266,20240712,3,3,6.0,53.8,0.0,3760,46843.59,False,Third-Party/Vendor Outage,False,self_resolved
+1302,INC-001267,20240202,3,3,7.0,8.8,12.9,542,6167.95,False,Third-Party/Vendor Outage,False,successful
+1303,INC-001268,20250921,1,1,3.0,0.0,6.2,0,0.0,False,Third-Party/Vendor Outage,True,false_alert
+1304,INC-001269,20240903,2,2,1.0,10.2,0.0,1243,44644.34,True,Internal Infrastructure Failure,False,self_resolved
+1305,INC-001270,20240730,9,9,6.0,36.8,0.0,1280,15298.21,True,Third-Party/Vendor Outage,False,self_resolved
+1306,INC-001271,20240413,7,7,8.0,4.2,48.9,129,2219.37,True,Third-Party/Vendor Outage,False,successful
+1307,INC-001272,20250402,6,6,,22.1,31.3,1231,51136.22,False,Internal Infrastructure Failure,True,missing_data
+1308,INC-001273,20250904,6,6,4.0,30.6,1417.2,1931,72254.05,False,Third-Party/Vendor Outage,True,extended_mttr_outlier
+1309,INC-001274,20240907,10,10,5.0,8.8,7.4,100,2080.75,False,Third-Party/Vendor Outage,True,logging_error
+1310,INC-001275,20250215,5,5,5.0,521.0,17.7,54266,2143672.57,True,Data/Logging Anomaly,True,outlier_downtime
+1311,INC-001276,20240827,7,7,8.0,22.9,40.1,428,10917.07,False,Network/Telco Failure,False,successful
+1312,INC-001277,20240227,8,8,8.0,25.3,36.3,476,11072.45,False,Network/Telco Failure,False,successful
+1313,INC-001278,20250530,3,3,4.0,96.1,101.1,4649,47375.35,False,Software Deployment Bug,False,successful
+1314,INC-001279,20240827,5,5,7.0,9.9,10.7,709,20419.78,False,Software Deployment Bug,False,successful
+1315,INC-001280,20250814,6,6,6.0,22.5,33.8,1285,38019.29,False,Software Deployment Bug,False,successful
+1316,INC-001281,20240830,2,2,4.0,6.1,12.0,679,21488.51,True,Software Deployment Bug,False,successful
+1317,INC-001282,20240526,5,5,4.0,54.0,61.0,3814,131195.93,False,Network/Telco Failure,False,successful
+1318,INC-001283,20250227,8,8,8.0,10.6,18.1,264,5623.58,True,Software Deployment Bug,False,successful
+1319,INC-001284,20241008,10,10,8.0,9.9,0.0,157,3365.83,False,Third-Party/Vendor Outage,False,self_resolved
+1320,INC-001285,20250724,3,3,,31.4,52.2,1669,,False,Internal Infrastructure Failure,True,missing_data
+1321,INC-001286,20250828,4,4,6.0,12.3,26.0,786,27939.22,False,Network/Telco Failure,False,successful
+1322,INC-001287,20251003,2,2,3.0,22.5,11.9,2186,88227.17,True,Third-Party/Vendor Outage,True,logging_error
+1323,INC-001288,20250723,5,5,1.0,3.4,18.2,251,8860.59,False,Internal Infrastructure Failure,False,successful
+1324,INC-001289,20250522,3,3,,18.7,53.4,806,,False,Internal Infrastructure Failure,True,missing_data
+1325,INC-001290,20240218,3,3,5.0,50.9,53.8,5866,69409.31,True,Software Deployment Bug,False,successful
+1326,INC-001291,20251020,3,3,7.0,8.3,13.4,534,6037.06,False,Third-Party/Vendor Outage,False,successful
+1327,INC-001292,20250621,2,2,4.0,25.0,29.6,1147,48396.07,False,Software Deployment Bug,False,successful
+1328,INC-001293,20251214,5,5,4.0,17.1,21.1,1730,59072.97,True,Third-Party/Vendor Outage,True,duplicate_source
+1329,INC-001293,20251214,5,5,4.0,17.1,20.4,1730,59072.97,True,Third-Party/Vendor Outage,True,duplicate_source
+1330,INC-001294,20250222,10,10,7.0,5.7,6.8,171,4180.0,True,Network/Telco Failure,False,successful
+1331,INC-001295,20241103,1,1,6.0,3.0,7.8,205,2921.36,False,Third-Party/Vendor Outage,False,successful
+1332,INC-001296,20240707,3,3,4.0,31.4,32.8,2921,40143.76,True,Third-Party/Vendor Outage,False,successful
+1333,INC-001297,20240903,2,2,4.0,25.5,0.0,1944,81966.96,False,Network/Telco Failure,False,self_resolved
+1334,INC-001298,20241103,4,4,2.0,4.0,5.8,409,12805.3,True,Network/Telco Failure,False,successful
+1335,INC-001299,20250419,2,2,7.0,12.0,13.6,945,39388.7,True,Third-Party/Vendor Outage,False,successful
+1336,INC-001300,20250729,6,6,1.0,46.7,0.0,4417,152482.93,True,Internal Infrastructure Failure,False,self_resolved
+1337,INC-001301,20250226,3,3,7.0,-46.3,56.4,0,0.0,True,Data/Logging Anomaly,True,negative_downtime
+1338,INC-001302,20250724,5,5,2.0,3.5,7.5,462,16345.97,True,Network/Telco Failure,False,successful
+1339,INC-001303,20250201,1,1,8.0,8.7,0.0,414,5548.05,False,Network/Telco Failure,False,self_resolved
+1340,INC-001304,20240918,6,6,8.0,15.1,22.8,649,22339.53,False,Network/Telco Failure,False,successful
+1341,INC-001305,20241204,5,5,6.0,0.0,0.0,278,10029.34,False,Third-Party/Vendor Outage,True,ghost_impact
+1342,INC-001306,20250405,2,2,7.0,45.0,45.5,2824,109066.15,False,Software Deployment Bug,False,successful
+1343,INC-001307,20240404,9,9,1.0,60.5,65.4,780,10970.69,False,Internal Infrastructure Failure,False,successful
+1344,INC-001308,20250702,7,7,6.0,4.1,16.6,62,1345.65,False,Network/Telco Failure,False,successful
+1345,INC-001309,20240222,2,2,2.0,0.0,0.0,366,14295.62,False,Software Deployment Bug,True,ghost_impact
+1346,INC-001310,20250121,2,2,6.0,-23.8,25.5,0,0.0,True,Data/Logging Anomaly,True,negative_downtime
+1347,INC-001311,20240315,4,4,4.0,15.7,0.0,859,33486.26,False,Network/Telco Failure,False,self_resolved
+1348,INC-001312,20250824,6,6,4.0,31.4,0.0,1939,65707.47,False,Network/Telco Failure,False,self_resolved
+1349,INC-001313,20250505,8,8,2.0,12.9,15.7,205,3917.37,False,Network/Telco Failure,False,successful
+1350,INC-001314,20241206,7,7,3.0,6.5,7.7,78,1520.54,False,Software Deployment Bug,False,successful
+1351,INC-001315,20240116,4,4,6.0,0.0,0.0,243,10018.96,False,Network/Telco Failure,True,ghost_impact
+1352,INC-001316,20240713,7,7,2.0,19.2,32.8,427,9019.66,True,Third-Party/Vendor Outage,False,successful
+1353,INC-001317,20250505,1,1,1.0,10.3,571.1,1294,18043.22,True,Internal Infrastructure Failure,True,extended_mttr_outlier
+1354,INC-001318,20240905,5,5,7.0,4.6,146.9,371,14467.27,True,Network/Telco Failure,True,extended_mttr_outlier
+1355,INC-001319,20250210,8,8,5.0,29.9,70.7,323,6685.41,False,Network/Telco Failure,True,missing_data
+1356,INC-001320,20250719,3,3,5.0,4.0,0.0,248,2551.18,False,Software Deployment Bug,False,self_resolved
+1357,INC-001321,20241016,5,5,4.0,64.3,0.0,4986,194768.3,False,Third-Party/Vendor Outage,False,self_resolved
+1358,INC-001322,20250422,6,6,1.0,51.6,61.3,6113,178291.44,True,Internal Infrastructure Failure,False,successful
+1359,INC-001323,20250630,9,9,2.0,9.7,14.8,321,3549.48,True,Software Deployment Bug,True,duplicate_source
+1360,INC-001323,20250630,9,9,2.0,9.7,15.1,321,3549.48,True,Software Deployment Bug,True,duplicate_source
+1361,INC-001324,20241111,1,1,1.0,7.8,5.2,550,7836.84,False,Internal Infrastructure Failure,True,logging_error
+1362,INC-001325,20240924,8,8,1.0,7.0,9.7,216,4451.79,True,Internal Infrastructure Failure,False,successful
+1363,INC-001326,20250103,3,3,4.0,13.0,18.2,602,8794.35,False,Third-Party/Vendor Outage,False,successful
+1364,INC-001327,20250422,1,1,8.0,45.4,50.6,2036,25879.52,False,Third-Party/Vendor Outage,False,successful
+1365,INC-001328,20250425,5,5,1.0,10.7,23.7,810,24890.27,False,Internal Infrastructure Failure,False,successful
+1366,INC-001329,20241123,2,2,,44.8,47.6,2360,,False,Internal Infrastructure Failure,True,missing_data
+1367,INC-001330,20240727,8,8,7.0,11.4,17.5,337,7498.57,True,Software Deployment Bug,False,successful
+1368,INC-001331,20241116,6,6,7.0,30.6,51.7,1956,,False,Third-Party/Vendor Outage,True,missing_data
+1369,INC-001332,20240216,3,3,1.0,34.1,0.0,1665,19246.36,False,Internal Infrastructure Failure,False,self_resolved
+1370,INC-001333,20250730,5,5,1.0,12.1,27.2,870,25865.72,False,Internal Infrastructure Failure,False,successful
+1371,INC-001334,20240814,10,10,4.0,29.2,30.8,330,6588.9,False,Network/Telco Failure,False,successful
+1372,INC-001335,20240117,5,5,3.0,46.8,51.4,2006,82844.02,False,Software Deployment Bug,False,successful
+1373,INC-001336,20250720,5,5,3.0,11.5,18.3,542,18398.73,False,Third-Party/Vendor Outage,False,successful
+1374,INC-001337,20241029,9,9,3.0,27.2,0.0,289,4469.96,False,Network/Telco Failure,False,self_resolved
+1375,INC-001338,20240719,1,1,6.0,25.8,31.3,1211,12325.64,False,Software Deployment Bug,False,successful
+1376,INC-001339,20240823,3,3,1.0,0.0,0.0,199,2772.1,False,Internal Infrastructure Failure,True,ghost_impact
+1377,INC-001340,20250123,3,3,7.0,-17.6,24.4,0,0.0,True,Data/Logging Anomaly,True,negative_downtime
+1378,INC-001341,20250526,6,6,2.0,29.4,42.3,1975,82683.41,False,Software Deployment Bug,False,successful
+1379,INC-001342,20240920,5,5,2.0,18.5,23.4,1184,46620.09,False,Third-Party/Vendor Outage,False,successful
+1380,INC-001343,20251019,7,7,,24.7,26.0,694,,True,Internal Infrastructure Failure,True,missing_data
+1381,INC-001344,20250517,6,6,6.0,31.0,35.4,3873,154803.96,True,Third-Party/Vendor Outage,False,successful
+1382,INC-001345,20240621,5,5,1.0,36.1,38.9,3421,102329.37,True,Internal Infrastructure Failure,False,successful
+1383,INC-001346,20241226,3,3,3.0,24.9,50.2,2879,40427.76,True,Network/Telco Failure,False,successful
+1384,INC-001347,20240523,1,1,2.0,6.1,21.9,334,3429.1,False,Third-Party/Vendor Outage,False,successful
+1385,INC-001348,20240707,9,9,1.0,5.1,12.1,81,1234.48,False,Internal Infrastructure Failure,False,successful
+1386,INC-001349,20250709,6,6,1.0,6.7,8.6,459,14705.04,False,Internal Infrastructure Failure,False,successful
+1387,INC-001350,20251019,4,4,5.0,39.5,50.6,3982,134537.64,True,Third-Party/Vendor Outage,True,missing_data
+1388,INC-001351,20250620,2,2,6.0,9.3,13.5,640,19195.62,False,Third-Party/Vendor Outage,False,successful
+1389,INC-001352,20240317,3,3,7.0,30.9,37.2,2198,24815.53,False,Third-Party/Vendor Outage,False,successful
+1390,INC-001353,20240107,5,5,3.0,15.5,25.8,815,23939.87,False,Third-Party/Vendor Outage,False,successful
+1391,INC-001354,20240520,3,3,7.0,21.4,27.7,1011,13493.93,False,Network/Telco Failure,False,successful
+1392,INC-001355,20240310,1,1,1.0,17.5,0.0,956,11776.14,False,Internal Infrastructure Failure,False,self_resolved
+1393,INC-001356,20251225,3,3,7.0,24.2,0.0,2918,31793.62,True,Network/Telco Failure,False,self_resolved
+1394,INC-001357,20240110,5,5,6.0,31.1,21.6,2663,85327.64,True,Network/Telco Failure,True,logging_error
+1395,INC-001358,20250601,3,3,7.0,28.2,28.4,1928,21492.54,False,Third-Party/Vendor Outage,False,successful
+1396,INC-001359,20250117,7,7,8.0,12.0,13.2,278,4924.28,True,Third-Party/Vendor Outage,False,successful
+1397,INC-001360,20250924,2,2,6.0,33.8,49.8,2373,81335.67,False,Third-Party/Vendor Outage,False,successful
+1398,INC-001361,20251106,3,3,8.0,20.1,0.0,1204,12306.35,False,Third-Party/Vendor Outage,False,self_resolved
+1399,INC-001362,20240117,8,8,6.0,58.5,64.5,1481,31831.4,True,Third-Party/Vendor Outage,False,successful
+1400,INC-001363,20250628,9,9,5.0,3.6,40.4,84,1322.4,True,Third-Party/Vendor Outage,False,successful
+1401,INC-001364,20240113,5,5,1.0,72.3,42.8,4791,191360.01,False,Internal Infrastructure Failure,True,logging_error
+1402,INC-001365,20240118,4,4,7.0,5.3,8.4,725,24359.07,True,Software Deployment Bug,False,successful
+1403,INC-001366,20250702,3,3,7.0,13.4,0.0,1847,21148.75,True,Software Deployment Bug,False,self_resolved
+1404,INC-001367,20240118,2,2,7.0,51.5,60.9,5866,239195.36,True,Third-Party/Vendor Outage,False,successful
+1405,INC-001368,20240702,2,2,6.0,61.4,61.5,2699,,False,Third-Party/Vendor Outage,True,missing_data
+1406,INC-001369,20240408,4,4,4.0,58.8,59.4,7042,248918.87,True,Network/Telco Failure,False,successful
+1407,INC-001370,20240903,2,2,7.0,22.8,26.8,2757,79582.38,True,Network/Telco Failure,False,successful
+1408,INC-001371,20250926,6,6,8.0,30.4,13.4,1970,73666.68,False,Software Deployment Bug,True,logging_error
+1409,INC-001372,20241228,4,4,2.0,21.2,19.0,1238,47776.13,False,Software Deployment Bug,True,logging_error
+1410,INC-001373,20250210,4,4,4.0,58.9,0.0,3007,100260.91,False,Third-Party/Vendor Outage,False,self_resolved
+1411,INC-001374,20250117,6,6,8.0,23.3,0.0,2760,112816.22,True,Third-Party/Vendor Outage,False,self_resolved
+1412,INC-001375,20250415,6,6,2.0,5.3,15.7,596,18841.47,True,Network/Telco Failure,False,successful
+1413,INC-001376,20251214,7,7,1.0,48.2,50.5,721,17143.23,False,Internal Infrastructure Failure,True,missing_data
+1414,INC-001377,20240819,3,3,8.0,36.8,39.0,2148,31875.07,False,Software Deployment Bug,False,successful
+1415,INC-001378,20251201,5,5,7.0,0.0,0.0,263,10375.8,False,Third-Party/Vendor Outage,True,ghost_impact
+1416,INC-001379,20251031,9,9,7.0,15.9,0.0,191,2735.94,False,Third-Party/Vendor Outage,False,self_resolved
+1417,INC-001380,20240405,3,3,1.0,0.0,9.5,0,0.0,True,Internal Infrastructure Failure,True,false_alert
+1418,INC-001381,20250219,2,2,5.0,31.2,32.5,1953,82240.57,False,Third-Party/Vendor Outage,False,successful
+1419,INC-001382,20250121,3,3,4.0,46.5,52.7,2206,30735.46,False,Third-Party/Vendor Outage,False,successful
+1420,INC-001383,20240227,4,4,3.0,17.6,43.5,899,30244.08,False,Third-Party/Vendor Outage,False,successful
+1421,INC-001384,20251220,10,10,3.0,49.3,62.5,1385,35139.99,True,Network/Telco Failure,False,successful
+1422,INC-001385,20240325,5,5,6.0,52.6,53.5,2475,96676.6,False,Third-Party/Vendor Outage,False,successful
+1423,INC-001386,20250320,4,4,2.0,5.2,6.4,299,9046.43,False,Software Deployment Bug,False,successful
+1424,INC-001387,20250802,4,4,2.0,17.4,26.0,1156,40076.2,False,Third-Party/Vendor Outage,False,successful
+1425,INC-001388,20250624,3,3,7.0,67.1,3201.5,8221,91498.27,True,Third-Party/Vendor Outage,True,extended_mttr_outlier
+1426,INC-001389,20240823,10,10,2.0,3.3,0.0,57,1367.47,False,Network/Telco Failure,False,self_resolved
+1427,INC-001390,20251209,7,7,5.0,5.4,10.0,86,1690.95,False,Third-Party/Vendor Outage,False,successful
+1428,INC-001391,20241004,6,6,5.0,15.3,15.4,1439,43016.59,True,Third-Party/Vendor Outage,False,successful
+1429,INC-001392,20240317,2,2,1.0,16.1,23.6,1123,47338.79,False,Internal Infrastructure Failure,False,successful
+1430,INC-001393,20251201,2,2,5.0,27.5,40.7,3528,147581.22,True,Software Deployment Bug,False,successful
+1431,INC-001394,20250710,3,3,3.0,26.9,33.3,3421,36700.43,True,Third-Party/Vendor Outage,False,successful
+1432,INC-001395,20240702,9,9,6.0,8.0,14.5,99,1277.45,False,Software Deployment Bug,False,successful
+1433,INC-001396,20240117,3,3,4.0,12.6,16.1,1561,22801.85,True,Network/Telco Failure,False,successful
+1434,INC-001397,20250824,4,4,5.0,45.4,0.0,3538,109580.66,False,Network/Telco Failure,False,self_resolved
+1435,INC-001398,20251230,8,8,6.0,70.2,72.8,1984,,True,Third-Party/Vendor Outage,True,missing_data
+1436,INC-001399,20240319,2,2,6.0,19.4,31.5,1062,40806.04,False,Software Deployment Bug,False,successful
+1437,INC-001400,20240615,5,5,8.0,24.0,34.1,1084,36062.79,False,Network/Telco Failure,False,successful
+1438,INC-001401,20250803,9,9,3.0,58.8,59.7,1312,16997.61,True,Third-Party/Vendor Outage,False,successful
+1439,INC-001402,20251124,2,2,2.0,29.8,30.9,3835,128657.84,True,Software Deployment Bug,False,successful
+1440,INC-001403,20250128,1,1,8.0,7.4,0.0,606,8295.57,True,Network/Telco Failure,False,self_resolved
+1441,INC-001404,20251206,6,6,4.0,4.5,8.2,311,10288.46,False,Third-Party/Vendor Outage,False,successful
+1442,INC-001405,20250527,1,1,8.0,4.8,7.2,220,2510.4,False,Software Deployment Bug,False,successful
+1443,INC-001406,20240224,2,2,2.0,15.7,28.6,743,28642.07,False,Third-Party/Vendor Outage,False,successful
+1444,INC-001407,20250323,6,6,2.0,13.1,22.9,878,36372.3,False,Network/Telco Failure,False,successful
+1445,INC-001408,20240318,2,2,7.0,0.0,6.4,0,0.0,False,Software Deployment Bug,True,false_alert
+1446,INC-001409,20250911,5,5,7.0,10.7,28.9,1020,30159.19,True,Third-Party/Vendor Outage,True,duplicate_source
+1447,INC-001409,20250911,5,5,7.0,10.7,28.0,1020,30159.19,True,Third-Party/Vendor Outage,True,duplicate_source
+1448,INC-001410,20241130,10,10,1.0,27.1,0.0,349,7531.48,False,Internal Infrastructure Failure,False,self_resolved
+1449,INC-001411,20240131,1,1,1.0,903.4,31.0,59862,835379.23,False,Data/Logging Anomaly,True,outlier_downtime
+1450,INC-001412,20251011,1,1,1.0,0.0,0.0,123,1509.82,True,Internal Infrastructure Failure,True,ghost_impact
+1451,INC-001413,20241006,2,2,7.0,37.8,0.0,2072,81762.09,False,Third-Party/Vendor Outage,False,self_resolved
+1452,INC-001414,20250517,6,6,5.0,4.3,13.4,253,9661.2,False,Network/Telco Failure,False,successful
+1453,INC-001415,20241230,7,7,2.0,21.8,22.9,536,11539.13,True,Third-Party/Vendor Outage,True,duplicate_source
+1454,INC-001415,20241230,7,7,2.0,21.8,21.0,536,11539.13,True,Third-Party/Vendor Outage,True,duplicate_source
+1455,INC-001416,20250318,9,9,6.0,13.5,21.3,279,3441.5,True,Network/Telco Failure,False,successful
+1456,INC-001417,20251127,2,2,1.0,-12.9,28.5,0,0.0,False,Data/Logging Anomaly,True,negative_downtime
+1457,INC-001418,20250822,5,5,7.0,31.3,36.8,1776,63031.58,False,Third-Party/Vendor Outage,False,successful
+1458,INC-001419,20240328,6,6,1.0,0.0,0.0,238,9030.56,True,Internal Infrastructure Failure,True,ghost_impact
+1459,INC-001420,20250925,2,2,3.0,0.0,7.5,0,0.0,True,Software Deployment Bug,True,false_alert
+1460,INC-001421,20240909,5,5,3.0,4.5,9.0,280,9683.79,False,Third-Party/Vendor Outage,False,successful
+1461,INC-001422,20240325,6,6,8.0,50.1,51.5,6754,225500.01,True,Software Deployment Bug,False,successful
+1462,INC-001423,20240606,2,2,2.0,6.1,7.0,642,24043.7,True,Third-Party/Vendor Outage,True,duplicate_source
+1463,INC-001423,20240606,2,2,2.0,6.1,5.8,642,24043.7,True,Third-Party/Vendor Outage,True,duplicate_source
+1464,INC-001424,20251229,7,7,6.0,4.2,11.0,126,2472.19,True,Network/Telco Failure,False,successful
+1465,INC-001425,20250202,1,1,8.0,14.2,16.1,782,8396.2,False,Software Deployment Bug,False,successful
+1466,INC-001426,20250104,2,2,5.0,3.3,20.3,462,15862.27,True,Third-Party/Vendor Outage,False,successful
+1467,INC-001427,20240403,6,6,7.0,7.2,7.8,760,30248.21,True,Third-Party/Vendor Outage,False,successful
+1468,INC-001428,20241111,2,2,8.0,64.7,71.1,7651,270427.39,True,Third-Party/Vendor Outage,False,successful
+1469,INC-001429,20250103,5,5,3.0,6.6,0.0,359,10485.39,False,Software Deployment Bug,False,self_resolved
+1470,INC-001430,20240414,9,9,7.0,83.5,97.6,975,15867.33,False,Network/Telco Failure,False,successful
+1471,INC-001431,20240330,3,3,4.0,20.6,0.0,2641,32583.98,True,Network/Telco Failure,False,self_resolved
+1472,INC-001432,20250317,2,2,3.0,12.9,28.6,640,26744.47,False,Third-Party/Vendor Outage,False,successful
+1473,INC-001433,20250724,1,1,7.0,8.5,10.3,1131,12255.36,True,Third-Party/Vendor Outage,False,successful
+1474,INC-001434,20240415,3,3,6.0,10.8,41.4,532,5755.2,False,Third-Party/Vendor Outage,True,duplicate_source
+1475,INC-001434,20240415,3,3,6.0,10.8,42.2,532,5755.2,False,Third-Party/Vendor Outage,True,duplicate_source
+1476,INC-001435,20240401,6,6,2.0,71.9,33.1,3712,152599.65,False,Software Deployment Bug,True,logging_error
+1477,INC-001436,20250721,9,9,2.0,17.5,26.4,471,7113.96,True,Third-Party/Vendor Outage,False,successful
+1478,INC-001437,20250903,1,1,8.0,30.2,0.0,1959,28312.96,False,Software Deployment Bug,False,self_resolved
+1479,INC-001438,20250129,10,10,6.0,5.3,13.9,148,2486.97,True,Third-Party/Vendor Outage,False,successful
+1480,INC-001439,20241025,6,6,7.0,5.7,13.1,561,22289.94,True,Third-Party/Vendor Outage,False,successful
+1481,INC-001440,20250201,6,6,6.0,3679.6,51.2,394914,16547425.66,True,Data/Logging Anomaly,True,outlier_downtime
+1482,INC-001441,20250726,10,10,3.0,34.8,44.6,1005,23931.28,True,Network/Telco Failure,False,successful
+1483,INC-001442,20250808,8,8,6.0,6.9,4.3,187,3308.25,True,Network/Telco Failure,True,logging_error
+1484,INC-001443,20251202,1,1,8.0,9.1,19.2,772,8867.45,True,Third-Party/Vendor Outage,True,duplicate_source
+1485,INC-001443,20251202,1,1,8.0,9.1,18.0,772,8867.45,True,Third-Party/Vendor Outage,True,duplicate_source
+1486,INC-001444,20240622,4,4,5.0,69.0,78.7,3715,142630.17,False,Network/Telco Failure,False,successful
+1487,INC-001445,20241002,3,3,6.0,9.1,14.9,945,11380.11,True,Software Deployment Bug,False,successful
+1488,INC-001446,20241001,5,5,2.0,3475.1,38.5,169085,5577484.97,False,Data/Logging Anomaly,True,outlier_downtime
+1489,INC-001447,20240529,4,4,1.0,6367.7,104.5,297318,11315113.71,False,Data/Logging Anomaly,True,outlier_downtime
+1490,INC-001448,20240305,6,6,8.0,14.6,20.9,1086,44709.89,False,Network/Telco Failure,False,successful
+1491,INC-001449,20250321,3,3,3.0,16.6,41.5,2225,24132.46,True,Software Deployment Bug,False,successful
+1492,INC-001450,20250307,4,4,4.0,7.8,22.7,604,,False,Software Deployment Bug,True,missing_data
+1493,INC-001451,20250510,3,3,,27.1,27.5,2383,,True,Internal Infrastructure Failure,True,missing_data
+1494,INC-001452,20240319,6,6,2.0,28.2,50.0,3308,98720.29,True,Software Deployment Bug,False,successful
+1495,INC-001453,20240914,2,2,8.0,47.4,55.3,2043,66458.27,False,Network/Telco Failure,False,successful
+1496,INC-001454,20251002,5,5,4.0,41.9,53.4,2844,107661.68,False,Third-Party/Vendor Outage,False,successful
+1497,INC-001455,20250831,2,2,2.0,8.3,20.5,705,23255.6,True,Network/Telco Failure,False,successful
+1498,INC-001456,20250413,6,6,2.0,59.4,61.3,3358,132212.51,False,Third-Party/Vendor Outage,False,successful
+1499,INC-001457,20240518,4,4,4.0,73.6,84.2,3653,154617.64,False,Software Deployment Bug,False,successful
+1500,INC-001458,20240107,9,9,4.0,41.6,55.9,755,11291.21,False,Third-Party/Vendor Outage,False,successful
+1501,INC-001459,20241206,3,3,6.0,12.0,0.0,1109,16151.15,True,Third-Party/Vendor Outage,False,self_resolved
+1502,INC-001460,20241203,6,6,2.0,35.6,43.0,3447,124831.38,True,Third-Party/Vendor Outage,False,successful
+1503,INC-001461,20241208,6,6,7.0,5.8,4.4,603,24300.69,True,Third-Party/Vendor Outage,True,logging_error
+1504,INC-001462,20251028,3,3,2.0,16.9,20.4,1139,15149.22,False,Network/Telco Failure,False,successful
+1505,INC-001463,20241103,4,4,8.0,16.0,11.3,2093,74677.22,True,Software Deployment Bug,True,logging_error
+1506,INC-001464,20250909,6,6,8.0,78.3,0.0,5574,164688.83,False,Network/Telco Failure,False,self_resolved
+1507,INC-001465,20250505,4,4,7.0,33.4,21.6,2405,74563.57,False,Software Deployment Bug,True,logging_error
+1508,INC-001466,20240630,6,6,7.0,51.4,56.2,3854,130261.3,False,Third-Party/Vendor Outage,False,successful
+1509,INC-001467,20241122,3,3,2.0,28.2,33.2,1243,18469.29,False,Software Deployment Bug,False,successful
+1510,INC-001468,20251212,1,1,5.0,3.4,0.0,172,2086.23,False,Third-Party/Vendor Outage,False,self_resolved
+1511,INC-001469,20250812,8,8,2.0,36.8,47.9,575,11874.16,False,Network/Telco Failure,False,successful
+1512,INC-001470,20241129,2,2,7.0,5.9,10.6,741,23299.85,True,Third-Party/Vendor Outage,False,successful
+1513,INC-001471,20241014,3,3,5.0,4.8,6.5,249,3240.22,False,Third-Party/Vendor Outage,False,successful
+1514,INC-001472,20250108,1,1,1.0,3.9,9.3,289,4097.95,False,Internal Infrastructure Failure,False,successful
+1515,INC-001473,20240426,4,4,7.0,15.9,34.2,1021,39241.28,False,Network/Telco Failure,False,successful
+1516,INC-001474,20250829,8,8,3.0,27.3,29.7,465,8012.78,False,Network/Telco Failure,False,successful
+1517,INC-001475,20251129,2,2,2.0,24.9,22.1,1660,69559.43,False,Third-Party/Vendor Outage,True,logging_error
+1518,INC-001476,20250417,2,2,8.0,15.3,17.9,674,20799.12,False,Network/Telco Failure,False,successful
+1519,INC-001477,20250324,2,2,5.0,29.4,30.2,3955,117722.51,True,Software Deployment Bug,False,successful
+1520,INC-001478,20251210,3,3,1.0,9.4,10.2,533,5626.79,False,Internal Infrastructure Failure,False,successful
+1521,INC-001479,20240311,4,4,5.0,0.0,0.0,323,11279.16,False,Third-Party/Vendor Outage,True,ghost_impact
+1522,INC-001480,20251120,1,1,6.0,200.1,208.4,11944,142054.01,False,Third-Party/Vendor Outage,False,successful
+1523,INC-001481,20240522,4,4,6.0,12.6,23.4,975,36038.6,True,Software Deployment Bug,False,successful
+1524,INC-001482,20240904,9,9,6.0,3.8,133.5,63,729.58,False,Software Deployment Bug,True,extended_mttr_outlier
+1525,INC-001483,20251105,9,9,6.0,16.6,18.3,471,6081.52,True,Network/Telco Failure,False,successful
+1526,INC-001484,20250309,1,1,5.0,35.0,0.0,1866,20834.35,False,Third-Party/Vendor Outage,False,self_resolved
+1527,INC-001485,20240316,1,1,7.0,29.8,0.0,2944,41641.19,True,Third-Party/Vendor Outage,False,self_resolved
+1528,INC-001486,20250904,6,6,1.0,9.2,13.4,459,19222.6,False,Internal Infrastructure Failure,False,successful
+1529,INC-001487,20250505,4,4,6.0,9.6,13.5,966,29975.33,True,Third-Party/Vendor Outage,False,successful
+1530,INC-001488,20250701,1,1,7.0,813.6,15.5,76330,1107407.55,True,Data/Logging Anomaly,True,outlier_downtime
+1531,INC-001489,20250710,5,5,,12.3,21.3,790,,False,Internal Infrastructure Failure,True,missing_data
+1532,INC-001490,20240207,1,1,5.0,29.9,36.6,2309,30710.9,True,Software Deployment Bug,False,successful
+1533,INC-001491,20251219,2,2,7.0,6.5,6.5,493,17401.35,False,Third-Party/Vendor Outage,False,successful
+1534,INC-001492,20240421,5,5,5.0,3.7,31.7,224,7243.64,False,Network/Telco Failure,False,successful
+1535,INC-001493,20251104,3,3,4.0,5.3,20.6,368,4102.65,False,Software Deployment Bug,False,successful
+1536,INC-001494,20240619,9,9,7.0,6.3,2.7,177,2122.99,True,Third-Party/Vendor Outage,True,logging_error
+1537,INC-001495,20250730,5,5,1.0,16.5,19.2,710,30141.85,False,Internal Infrastructure Failure,False,successful
+1538,INC-001496,20251022,4,4,4.0,7.4,13.9,351,10145.52,False,Third-Party/Vendor Outage,False,successful
+1539,INC-001497,20241205,10,10,3.0,9.0,17.1,125,2829.99,False,Third-Party/Vendor Outage,False,successful
+1540,INC-001498,20240418,5,5,4.0,28.3,0.0,1758,52882.08,False,Third-Party/Vendor Outage,False,self_resolved
+1541,INC-001499,20240410,3,3,8.0,19.5,0.0,2323,32002.99,True,Software Deployment Bug,False,self_resolved
+1542,INC-001500,20240815,5,5,6.0,5.9,18.9,252,8507.68,False,Network/Telco Failure,False,successful

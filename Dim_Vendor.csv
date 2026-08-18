@@ -1,0 +1,9 @@
+Vendor_Key,Vendor_Name,SLA_Tier,Contract_Status
+1,Internal / In-house,N/A,Active
+2,CloudCore Hosting,Platinum,Active
+3,PayGate Solutions,Gold,Active
+4,SecureAuth ID,Gold,Active
+5,NetLink Telco,Silver,Active
+6,OTP Verify Co,Silver,Under Review
+7,DataStream Analytics,Gold,Active
+8,LegacySys Partners,Bronze,Expired
