@@ -1,4 +1,4 @@
-# Operational Resilience Analytics
+# Incident-Management-Downtime-Analysis
 **CPS 230–Aligned Incident & Vendor Risk Dashboard | Power BI | Synthetic Data**
 
 A portfolio project simulating an operational resilience monitoring system for a bank — tracking service incidents, tolerance-limit breaches, and third-party vendor risk.
